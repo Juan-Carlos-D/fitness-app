@@ -8,11 +8,21 @@
 </head>
 <body style="background: url('{{ url_for('static', filename='Images/gym_s2.png') }}') no-repeat center center fixed; background-size: cover;">
 
+    <div class="frames">
+        <div class="frame">
+            <img src="{{ url_for('static', filename='Images/forest.jpg') }}" alt="Frame One">
+        </div>
+        <div class="frame">
+            <img src="{{ url_for('static', filename='Images/joshuatree.jpg') }}" alt="Frame Two">
+        </div>
+    </div>
+
+
     <div class="exercise-container">
-        <h1>{{ exercise['Name'] }}</h1>
+        <h1 class="exercise-name">{{ exercise['Name'] }}</h1>
         <img src="{{ url_for('static', filename=exercise['image_path']) }}" alt="{{ exercise['Name'] }}">
-        <p>{{ exercise['Description'] }}</p>
-        <ul>
+        <p class="exercise-description">{{ exercise['Description'] }}</p>
+        <ul class="exercise-instructions">
             {% for instruction in exercise['Instructions'] %}
                 <li>{{ instruction }}</li>
             {% endfor %}

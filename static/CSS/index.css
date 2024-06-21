@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    position: relative;
 }
 
 .container {
@@ -37,7 +38,11 @@ body {
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
-    margin: 20px;
+    margin: 20px auto; /* Center horizontally with auto margins */
+    position: absolute; /* Positioning relative to the nearest positioned ancestor */
+    top: 50%; /* Position 50% from the top */
+    left: 50%; /* Position 50% from the left */
+    transform: translate(-50%, -50%); /* Center the element exactly */
 }
 
 .exercise-container img {
@@ -47,7 +52,6 @@ body {
     border-radius: 10px; /* Optional: rounded corners */
     margin: 10px 0; /* Optional: add some margin */
 }
-
 
 .navigation {
     margin-top: 20px;
@@ -68,4 +72,44 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+/* Specific styles for exercise sections */
+.exercise-name {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.exercise-description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.exercise-instructions {
+    text-align: left; /* Align instructions to the left */
+    padding-left: 20px; /* Add padding to the left */
+}
+
+.exercise-instructions li {
+    margin-bottom: 10px; /* Add margin to each instruction item */
+}
+
+/* Styles for frames */
+.frames {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.frame {
+    margin: 0 10px;
+}
+
+.frame img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
 }
