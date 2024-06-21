@@ -65,3 +65,7 @@ body {
 .navigation a:hover {
     background-color: #45a049;
 }
+
+ul {
+    list-style-type: none;
+}
