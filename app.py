@@ -141,7 +141,117 @@ exercises = [
     },
     
     {
-        
+        "Name": "OverHead Press",
+        "Description": "Upper Body Strengthening Movement",
+        "Duration": 30,
+        "Difficulty": "Easy",
+        "Muscle Groups": ["Shoulders", "Triceps"],
+        "Instructions": [
+            "1. Stand or sit with your feet slightly more than shoulder-width apart.",
+            "2. You can use light weights or no weights for this exercise.",
+            "3. Push your arms up towards the sky.",
+            "4. Lower your arms back down and repeat."
+        ],
+        "image_path": "Images/shoulder press.png"
+    },
+    
+    {
+        "Name": "Gripping",
+        "Description": "Grip Strength",
+        "Duration": 30,
+        "Difficulty": "Easy",
+        "Muscle Groups": ["Fingers, Hand", "Arm"],
+        "Instructions": [
+            "1. You can use a ball, putty, or anything that can be squeezed.",
+            "2. Grab the object with your hand.",
+            "3. Give the object a firm squeeze and release.",
+            "4. Repeat until time is up."
+        ],
+        "image_path": "Images/ball_squeeze.png"
+    },
+    
+    {
+        "Name": "Sit to Stand",
+        "Description": "Lower Body Strengthening Movement",
+        "Duration": 30,
+        "Difficulty": "Medium",
+        "Muscle Groups": ["Quads", "Glutes"],
+        "Instructions": [
+            "1. Start off in a seated position on a sturdy chair.",
+            "2. Have both arms crossed over your body or out in front of you.",
+            "3. Lean your chest forward while keeping your back strength to stand up.",
+            "4. Push your hips back down into the chair to sit back down.",
+            "5. Use the handles of the chair for support if needed."
+        ],
+        "image_path": "Images/sit_to_stand.png"
+    },
+    
+    {
+        "Name": "Side Leg Raise",
+        "Description": "Lower Body Strengthening Movement",
+        "Duration": 30,
+        "Difficulty": "Easy",
+        "Muscle Groups": ["Glutes", "Hip"],
+        "Instructions": [
+            "1. Position yourself next to a counter or behind a stable chair you can hold.",
+            "2. Hold the surface for support and shift your weight to your left side.",
+            "3. Try to keep your body upright without leaning.",
+            "4. Lift your right leg out to the side, keeping your hips and feet pointing forward.",
+            "5. Hold briefly before slowly relaxing your leg back to the starting position.",
+            "6. Repeat and do the same on the left leg."
+        ],
+        "image_path": "Images/side_lr.png"
+    },
+    
+    {
+        "Name": "Wrist Stretch",
+        "Description": "Upper Body Mobility Movement",
+        "Duration": 30,
+        "Difficulty": "Easy",
+        "Muscle Groups": ["Arms", "Wrist"],
+        "Instructions": [
+            "1. Position yourself in a standing or sitting position.",
+            "2. Extend your left arm in front of you with your palm facing away.",
+            "3. With your right arm, pull the fingers on your left hand gently, while keeping it straight.",
+            "4. Hold the stretch for about 30 seconds.",
+            "5. Now position your left hand pointing down so your fingers are pointing towards the ground.",
+            "6. Use your right hand to push your fingers towards you gently to feel a stretch at the top of your left wrist.",
+            "7. Hold for 30 seconds.",
+            "8. Repeat the same steps for the right arm now."
+        ],
+        "image_path": "Images/wrist_strx.png"
+    },
+    
+    {
+        "Name": "Wrist Circles",
+        "Description": "Upper Body Mobility Movement",
+        "Duration": 30,
+        "Difficulty": "Easy",
+        "Muscle Groups": ["Wrist"],
+        "Instructions": [
+            "1. Start in a standing or sitting position.",
+            "2. Extend both arms out in front of you or to the side.",
+            "3. Keeping your arms straight, draw little circles by moving your wrists/hands in a circle.",
+            "4. Gradually make the circles bigger.",
+            "5. Reverse the direction after doing 30."
+        ],
+        "image_path": "Images/wrist_circ.png"
+    },
+    {
+        "Name": "Seated Hamstring Stretch",
+        "Description": "Lower Body Mobility Movement",
+        "Duration": 30,
+        "Difficulty": "Easy",
+        "Muscle Groups": ["Hamstrings"],
+        "Instructions": [
+            "1. Start in a seated position.",
+            "2. Sit a little closer to the edge of the chair.",
+            "3. Extend your right leg straight while keeping the other leg bent.",
+            "4. Lean your chest forward until you feel a stretch behind the leg.",
+            "5. Hold for 30 seconds.",
+            "6. Repeat on the other leg."
+        ],
+        "image_path": "Images/hamstring_strx.png"
     }
 ]
 
