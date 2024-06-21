@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Exercise</title>
-    <link rel="stylesheet"
+    <title>{{ exercise['Name'] }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
 </head>
-<body>
-    
+<body style="background: url('{{ url_for('static', filename='Images/gym_s2.png') }}') no-repeat center center fixed; background-size: cover;">
+
+    <div class="exercise-container">
+        <h1>{{ exercise['Name'] }}</h1>
+        <img src="{{ url_for('static', filename=exercise['image_path']) }}" alt="{{ exercise['Name'] }}">
+        <p>{{ exercise['Description'] }}</p>
+        <ul>
+            {% for instruction in exercise['Instructions'] %}
+                <li>{{ instruction }}</li>
+            {% endfor %}
+        </ul>
+        <div class="navigation">
+            {% if previous_id %}
+                <a href="{{ url_for('exercise', exercise_id=previous_id) }}">Previous</a>
+            {% endif %}
+            {% if next_id %}
+                <a href="{{ url_for('exercise', exercise_id=next_id) }}">Next</a>
+            {% endif %}
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
 </body>
 </html>
+

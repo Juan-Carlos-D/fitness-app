@@ -15,7 +15,7 @@ exercises = [
             "3. Bend your elbows to lower your chest towards the ground.",
             "4. Then push back up."        
         ],
-        "image_path": "static/Images/push-up.png"
+        "image_path": "Images/push-up.png"
     },
     
     {
@@ -30,7 +30,7 @@ exercises = [
             "3. Keep your chest upright and your back straight.",
             "4. Return to the starting position by pushing through your heels."      
         ],
-        "image_path": "static/Images/squat.png"        
+        "image_path": "Images/squat.png"        
     },
     
     {
@@ -47,7 +47,7 @@ exercises = [
             "5. Slowly pull your body upwards, using your back and arm muscles, until your chin is just above the bar.",
             "6. Lower yourself back down in a controlled manner until your arms are straight again."     
         ],
-        "image_path": "static/Images/pull-up.png"      
+        "image_path": "Images/pull-up.png"      
     }
 ]
 
