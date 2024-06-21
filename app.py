@@ -94,6 +94,54 @@ exercises = [
             "4. Repeat with the other leg."
         ],
         "image_path": "Images/leg extension.png"            
+    },
+    
+    {
+        "Name": "Arm Circles",
+        "Description": "Upper Body Mobility Movement",
+        "Duration": 30,
+        "Difficulty": "Easy",
+        "Muscle Groups": ["Shoulders", "Upper Back"],
+        "Instructions": [
+            "1. Stand or sit with your feet shoulder-width apart.",
+            "2. Extend your arms out to the sides at shoulder height.",
+            "3. Make small circles with your arms.",
+            "4. Gradually make the circles larger."
+        ],
+        "image_path": "Images/arm_circles.png"         
+    },
+    
+    {
+        "Name": "Marching in Place",
+        "Description": "Cardiovascular Movement",
+        "Duration": 30,
+        "Difficulty": "Easy",
+        "Muscle Groups": ["Quads", "Hip Flexors", "Core"],
+        "Instructions": [
+            "1. Stand or sit with your feet shoulder-width apart.",
+            "2. Lift one knee up towards your chest.",
+            "3. Lower it back down and lift the other knee.",
+            "4. Ensure you keep your body upright throughout."
+        ],
+        "image_path": "Images/marching.png"         
+    },
+    
+    {
+        "Name": "Heel Raises",
+        "Description": "Cardiovascular Movement",
+        "Duration": 30,
+        "Difficulty": "Easy",
+        "Muscle Groups": ["Calves"],
+        "Instructions": [
+            "1. Stand or sit with your feet shoulder-width apart.",
+            "2. Raise your heels off the ground as high as possible.",
+            "3. Lower them back down and repeat"
+        ],
+        "image_path": "Images/heel raise.png"          
+    },
+    
+    {
+        
     }
 ]
 
