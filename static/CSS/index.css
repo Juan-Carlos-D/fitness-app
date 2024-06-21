@@ -103,13 +103,13 @@ ul {
     flex-direction: column; /* Stack frames vertically */
     position: absolute;
     top: 50%;
-    right: 25vw; /* Use viewport width units for relative positioning */
+    right: 30vw; /* Use viewport width units for relative positioning */
     transform: translateY(-50%); /* Center vertically */
     transition: all 0.5s ease; /* Define a transition for the frames */
 }
 
 .frame {
-    width: 10rem; /* Adjust width to fit better on the screen */
+    width: 25rem; /* Adjust width to fit better on the screen */
     height: 14rem; /* Adjust height to fit better on the screen */
     border: 0.4rem solid #121E2F;
     box-shadow: 0 0 4rem rgba(0, 0, 0, 0.5);
@@ -128,8 +128,8 @@ ul {
 
 .frame:nth-child(2) {
     transform: rotate(20deg);
-    top: -2rem;
-    left: 2rem;
+    top: 3rem;
+    left: -2rem;
 }
 
 .frames:hover .frame {
