@@ -33,7 +33,21 @@ body {
 
 .exercise-container {
     text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px;
 }
+
+.exercise-container img {
+    width: 300px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    object-fit: contain; /* Ensure the image covers the area without distortion */
+    border-radius: 10px; /* Optional: rounded corners */
+    margin: 10px 0; /* Optional: add some margin */
+}
+
 
 .navigation {
     margin-top: 20px;

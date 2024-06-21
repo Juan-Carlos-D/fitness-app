@@ -6,7 +6,7 @@
     <title>{{ exercise['Name'] }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
 </head>
-<body style="background: url('{{ url_for('static', filename='Images/gym_s2.png') }}') no-repeat center center fixed; background-size: cover;">
+<body>
 
     <div class="exercise-container">
         <h1>{{ exercise['Name'] }}</h1>
@@ -30,4 +30,3 @@
     <script src="{{ url_for('static', filename='js/index.js') }}"></script>
 </body>
 </html>
-

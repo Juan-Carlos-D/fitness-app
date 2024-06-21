@@ -48,6 +48,52 @@ exercises = [
             "6. Lower yourself back down in a controlled manner until your arms are straight again."     
         ],
         "image_path": "Images/pull-up.png"      
+    },
+    
+    {
+        "Name": "Hip Hinge",
+        "Description": "Lower Body Mobility Movement",
+        "Duration": 30,
+        "Difficulty": "Easy",
+        "Muscle Groups": ["Core", "Hamstrings", "Glutes"],
+        "Instructions": [
+            "1. Stand with your feet shoulder-width apart.",
+            "2. Push your hips back while letting your chest come forward (Like you're about to see in a chair).",
+            "3. Keep your chest upright and your back straight.", 
+            "4. Return to the starting position by pushing with your hips."
+        ],
+        "image_path": "Images/hip_hinge.png"    
+    },
+    
+    {
+        "Name": "Trunk Rotation",
+        "Description": "Upper Body Mobility Movement",
+        "Duration": 30,
+        "Difficulty": "Easy",
+        "Muscle Groups": ["Core"],
+        "Instructions": [
+            "1. Sit or stand with your back straight and your feet shoulder-width apart.",
+            "2. Place your hands on your shoulders or extend your arms out in front of you.",
+            "3. Slowly rotate your upper body to the right, keeping your hips facing forward.",
+            "4. Hold the position for a moment, then rotate back to the center.",
+            "5. Repeat the movement to the left side."
+        ],
+        "image_path": "Images/rotation.png"    
+    },
+    
+    {
+        "Name": "Seated Leg Kick",
+        "Description": "Lower Body Strengthening Movement",
+        "Duration": 30,
+        "Difficulty": "Easy",
+        "Muscle Groups": ["Quads, Hip Flexors"],
+        "Instructions": [
+            "1. Sit on a chair with your feet flat on the ground.",
+            "2. Lift one leg straight out in front of you.",
+            "3. Hold for 2-3 seconds, and the lower it back down.",
+            "4. Repeat with the other leg."
+        ],
+        "image_path": "Images/leg extension.png"            
     }
 ]
 
