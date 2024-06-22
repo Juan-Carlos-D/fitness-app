@@ -102,8 +102,8 @@ ul {
     display: flex;
     flex-direction: column; /* Stack frames vertically */
     position: absolute;
-    top: 50%;
-    right: 30vw; /* Use viewport width units for relative positioning */
+    top: 20%;
+    left: 5vw; /* Use viewport width units for relative positioning */
     transform: translateY(-50%); /* Center vertically */
     transition: all 0.5s ease; /* Define a transition for the frames */
 }
