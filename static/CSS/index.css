@@ -13,6 +13,7 @@ body {
     color: white;
     position: relative;
     overflow: hidden; /* Prevent scrolling */
+    padding-top: 50px; /* Adjust this value based on your navbar height */
 }
 
 .container {
@@ -139,4 +140,35 @@ ul {
 .frames:hover .frame:nth-child(2) {
     top: 0;
     left: 11rem; /* Adjust to fit within the viewport */
+}
+
+/* NAV STYLE */
+
+.navbar {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the navbar is above other elements */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #45a049;
+    border-radius: 5px;
 }

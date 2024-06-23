@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Fitness App</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
-</head>
-<body style="background: url('{{ url_for('static', filename='Images/gym_s2.png') }}') no-repeat center center fixed; background-size: cover;">
+{% extends "base.html" %}
 
-    <div class="container">
-        <h1>Ready to begin? Click the button below!</h1>
-        <a href="{{ url_for('exercise', exercise_id=1) }}" class="start-button">Start Exercises</a>
-    </div>
+{% block title %}Home - My Fitness App{% endblock %}
 
-    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
-</body>
-</html>
+{% block content %}
+<div class="container">
+    <h1>Ready to begin? Click the button below!</h1>
+    <a href="{{ url_for('exercise', exercise_id=1) }}" class="start-button">Start Exercises</a>
+</div>
+{% endblock %}
