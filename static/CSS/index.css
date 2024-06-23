@@ -194,9 +194,13 @@ ul {
     font-size: 1.2em;
     padding: 10px 20px;
     transition: background-color 0.3s ease;
+    display: block; /* Ensure the anchor tag takes up full width by default */
 }
 
 .nav-link:hover {
-    background-color: #45a049;
+    background-color: #767D27;
     border-radius: 5px;
+    padding-top: 40px; /* Increase top padding to extend the hover effect */
+    padding-bottom: 40px; /* Increase bottom padding to extend the hover effect */
 }
+
