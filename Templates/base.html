@@ -9,9 +9,16 @@
 <body style="background: url('{{ url_for('static', filename='Images/gym_s2.png') }}') no-repeat center center fixed; background-size: cover;">
 
     <nav class="navbar">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='Images/devcal.png') }}" alt="Logo">
+        </div>
         <ul class="nav-list">
             <li class="nav-item"><a href="{{ url_for('home') }}" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="{{ url_for('exercise', exercise_id=1) }}" class="nav-link">Start Exercises</a></li>
+            <li class="nav-item"><a href="{{ url_for('exercise', exercise_id=1) }}" class="nav-link">Exercises</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Start Exercises</a></li>
+        </ul>
+        <ul class="nav-list-right">
+            <li class="nav-item"><a href="#" class="nav-link">AI Agent</a></li>
         </ul>
     </nav>
 
