@@ -147,7 +147,8 @@ ul {
 .navbar {
     width: 100%;
     height: 100px;
-    background: rgba(0, 0, 0, 0.8);
+    background: linear-gradient(90deg,#777E27, rgba(0,0,0,0.6));
+    /* background: rgba(0, 0, 0, 0.8); */
     padding: 10px 20px;
     position: fixed;
     top: 0;
