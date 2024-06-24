@@ -219,13 +219,10 @@ ul {
     left: 0;
     background-color: rgba(0, 0, 0, 0.9);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
     z-index: 1000; /* Ensure dropdown is above other elements */
     transition: opacity 0.3s ease; /* Smooth transition for opacity */
     opacity: 0; /* Initially hide items */
     visibility: hidden; /* Hide visibility by default */
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
 }
 
 .dropdown-item {
@@ -242,9 +239,9 @@ ul {
     visibility: visible; /* Ensure visibility */
 }
 
-.dropdown-item:last-child {
-    border-bottom-left-radius: 5px; /* Adjust radius as needed */
-    border-bottom-right-radius: 5px; /* Adjust radius as needed */
+.dropdown-menu .dropdown-item:last-child {
+    border-bottom-left-radius: 10px; /* Adjust radius as needed */
+    border-bottom-right-radius: 10px; /* Adjust radius as needed */
 }
 
 .dropdown-item:hover {
