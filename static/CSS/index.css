@@ -187,6 +187,17 @@ ul {
     height: 100%;
 }
 
+.nav-list-right .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 36px 20px; /* Adjust padding to reduce the total width */
+    transition: background-color 0.3s ease;
+    display: block; /* Ensure the anchor tag takes up full width by default */
+    white-space: nowrap; /* Prevent wrapping of text */
+}
+
+
 .nav-item {
     position: relative; /* Needed for dropdown positioning */
 
@@ -205,8 +216,6 @@ ul {
 .nav-link:hover {
     background-color: #767D27;
 }
-
-/* DROPDOWN */
 
 /* DROPDOWN */
 
@@ -241,11 +250,6 @@ ul {
     opacity: 1; /* Make dropdown items visible */
     visibility: visible; /* Ensure visibility */
     min-width: 100%; /* Match dropdown menu width with parent nav item */
-}
-
-.dropdown-menu .dropdown-item:last-child {
-    border-bottom-left-radius: 10px; /* Adjust radius as needed */
-    border-bottom-right-radius: 10px; /* Adjust radius as needed */
 }
 
 .dropdown-item:hover {
