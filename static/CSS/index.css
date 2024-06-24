@@ -179,33 +179,38 @@ ul {
 .nav-list {
     flex: 1; /* Allow the nav list to take available space */
     justify-content: center; /* Center items horizontally */
+    height: 100%;
 }
 
 .nav-list-right {
     justify-content: flex-end; /* Align the right nav items to the right */
+    height: 100%;
 }
 
 .nav-item {
     position: relative; /* Needed for dropdown positioning */
-    margin: 0 10px; /* Adjust spacing between items */
+
 }
 
 .nav-link {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
-    padding: 10px 46px;
+    padding: 36px 46px;
     transition: background-color 0.3s ease;
     display: block; /* Ensure the anchor tag takes up full width by default */
+
 }
 
 .nav-link:hover {
     background-color: #767D27;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 /* DROPDOWN */
+
+.dropdown {
+    position: relative;
+}
 
 .dropdown-menu {
     display: none; /* Hide dropdown by default */
@@ -219,6 +224,8 @@ ul {
     transition: opacity 0.3s ease; /* Smooth transition for opacity */
     opacity: 0; /* Initially hide items */
     visibility: hidden; /* Hide visibility by default */
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 .dropdown-item {
@@ -233,6 +240,11 @@ ul {
     display: block; /* Show dropdown on hover */
     opacity: 1; /* Make dropdown items visible */
     visibility: visible; /* Ensure visibility */
+}
+
+.dropdown-item:last-child {
+    border-bottom-left-radius: 5px; /* Adjust radius as needed */
+    border-bottom-right-radius: 5px; /* Adjust radius as needed */
 }
 
 .dropdown-item:hover {
