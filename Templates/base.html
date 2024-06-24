@@ -15,7 +15,17 @@
         <ul class="nav-list">
             <li class="nav-item"><a href="{{ url_for('home') }}" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="{{ url_for('exercise', exercise_id=1) }}" class="nav-link">Exercises</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Programs</a></li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link">Programs</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Beginner Program</a></li>
+                    <li><a href="#" class="dropdown-item">Intermediate Program</a></li>
+                    <li><a href="#" class="dropdown-item">Advanced Program</a></li>
+                    <li><a href="#" class="dropdown-item">Handstand Program</a></li>
+                    <li><a href="#" class="dropdown-item">Muscle-Up Program</a></li>
+                    <li><a href="#" class="dropdown-item">Pull-Up Program</a></li>
+                </ul>
+            </li>
             <li class="nav-item"><a href="#" class="nav-link">Nutrition</a></li>
         </ul>
         <ul class="nav-list-right">
