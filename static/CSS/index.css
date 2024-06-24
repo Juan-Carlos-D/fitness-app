@@ -208,6 +208,8 @@ ul {
 
 /* DROPDOWN */
 
+/* DROPDOWN */
+
 .dropdown {
     position: relative;
 }
@@ -223,6 +225,7 @@ ul {
     transition: opacity 0.3s ease; /* Smooth transition for opacity */
     opacity: 0; /* Initially hide items */
     visibility: hidden; /* Hide visibility by default */
+    white-space: nowrap; /* Prevent wrapping of dropdown items */
 }
 
 .dropdown-item {
@@ -237,6 +240,7 @@ ul {
     display: block; /* Show dropdown on hover */
     opacity: 1; /* Make dropdown items visible */
     visibility: visible; /* Ensure visibility */
+    min-width: 100%; /* Match dropdown menu width with parent nav item */
 }
 
 .dropdown-menu .dropdown-item:last-child {
@@ -247,3 +251,4 @@ ul {
 .dropdown-item:hover {
     background-color: #767D27;
 }
+
