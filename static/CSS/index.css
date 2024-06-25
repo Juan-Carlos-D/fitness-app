@@ -13,23 +13,24 @@ body {
     color: white;
     position: relative;
     overflow: hidden; /* Prevent scrolling */
-    padding-top: 50px; /* Adjust this value based on your navbar height */
+    padding-top: 10px; /* Adjust this value based on your navbar height */
 }
 
 .container {
     text-align: center; /* Align content to the left */
     padding: 20px; /* Add padding to create space around the content */
-    background: rgba(0, 0, 0, 0.7);
+    /* background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px; */
 }
 
 .container h1 {
-    font-size: 5em; /* Adjust font size as desired */
+    font-size: 4em; /* Adjust font size as desired */
     color: #fff; /* Text color */
     margin-bottom: 10px; /* Optional: Add margin at the bottom */
 }
 
 .container p {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #fff
 }
 
