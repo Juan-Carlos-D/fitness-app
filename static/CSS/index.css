@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Copperplate, Fantasy;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -13,7 +13,6 @@ body {
     color: white;
     position: relative;
     overflow: hidden; /* Prevent scrolling */
-    padding-top: 10px; /* Adjust this value based on your navbar height */
 }
 
 .container {
@@ -212,9 +211,10 @@ ul {
 }
 
 
+/* Other existing styles */
+
 .nav-item {
     position: relative; /* Needed for dropdown positioning */
-
 }
 
 .nav-link {
@@ -224,7 +224,6 @@ ul {
     padding: 36px 46px;
     transition: background-color 0.3s ease;
     display: block; /* Ensure the anchor tag takes up full width by default */
-
 }
 
 .nav-link:hover {
@@ -249,6 +248,9 @@ ul {
     opacity: 0; /* Initially hide items */
     visibility: hidden; /* Hide visibility by default */
     white-space: nowrap; /* Prevent wrapping of dropdown items */
+    border: 2px solid #8d9731;
+    min-width: 100%; /* Match dropdown menu width with parent nav item */
+    width: 100%; /* Adjust to fit content width */
 }
 
 .dropdown-item {
@@ -257,16 +259,19 @@ ul {
     text-decoration: none;
     display: block; /* Ensure dropdown items take full width */
     transition: background-color 0.3s ease; /* Smooth transition for background color */
+    border: 2px solid #8d9731; /* Add border around each dropdown item */
+    margin-bottom: -2px; /* Compensate for the border width to avoid double borders between items */
+    width: 100%; /* Ensure the dropdown item takes up full width of the dropdown menu */
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+}
+
+.dropdown-item:hover {
+    background-color: #767D27;
 }
 
 .nav-item:hover .dropdown-menu {
     display: block; /* Show dropdown on hover */
     opacity: 1; /* Make dropdown items visible */
     visibility: visible; /* Ensure visibility */
-    min-width: 100%; /* Match dropdown menu width with parent nav item */
-}
-
-.dropdown-item:hover {
-    background-color: #767D27;
 }
 
