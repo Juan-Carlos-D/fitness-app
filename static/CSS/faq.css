@@ -1,0 +1,21 @@
+/* faq.css */
+
+.container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    color: #333;
+    margin-bottom: 500px; /* Add top margin to match the height of the navbar */
+}
+
+.container h1 {
+    font-size: 3em;
+    color: #007bff;
+}
+
+.container p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Add more styles specific to the FAQ page as needed */

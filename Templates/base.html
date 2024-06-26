@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}DevCalisthenics{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
+    {% block stylesheets %}{% endblock %}
 </head>
-<body style="background: url('{{ url_for('static', filename='Images/ringggs.png') }}') no-repeat center center fixed; background-size: cover;">
+<body {% block body_style %} style="background: url('{{ url_for('static', filename='Images/ringggs.png') }}') no-repeat center center fixed; background-size: cover;" {% endblock %}>
 
     <nav class="navbar">
         <div class="logo">
             <a href="{{ url_for('home') }}">
                 <img src="{{ url_for('static', filename='Images/devcal.png') }}" alt="Logo">
             </a>
-            </div>
+        </div>
         <ul class="nav-list">
             <li class="nav-item"><a href="{{ url_for('home') }}" class="nav-link">Home</a></li>
             <li class="nav-item dropdown">
