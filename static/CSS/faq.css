@@ -5,7 +5,10 @@
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     color: #333;
-    margin-bottom: 500px; /* Add top margin to match the height of the navbar */
+    position: absolute;
+    top: 115px; /* Adjust this value to match the height of your navbar */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
 }
 
 .container h1 {
