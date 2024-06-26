@@ -162,7 +162,7 @@ ul {
     height: 102px;
     background: rgba(0, 0, 0, 0.9);
     /* background: linear-gradient(90deg,#777E27, rgba(0,0,0,0.6)); */
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     position: fixed;
     top: 0;
     left: 0;
@@ -204,7 +204,7 @@ ul {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
-    padding: 36px 20px; /* Adjust padding to reduce the total width */
+    padding: 36px 50px; /* Adjust padding to reduce the total width */
     transition: background-color 0.3s ease;
     display: block; /* Ensure the anchor tag takes up full width by default */
     white-space: nowrap; /* Prevent wrapping of text */
