@@ -3,5 +3,12 @@
 {% block title %}FAQ{% endblock %}
 
 {% block content %}
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p>Here you can find answers to the most common questions.</p>
+    </div>
+{% endblock %}
 
+{% block body_style %}
+    style="background: url('{{ url_for('static', filename='Images/gym_s2.png') }}') no-repeat center center fixed; background-size: cover;"
 {% endblock %}

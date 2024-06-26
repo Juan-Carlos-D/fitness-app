@@ -280,6 +280,10 @@ def exercise(exercise_id):
                            exercise=exercise_data,
                            previous_id=previous_id,
                            next_id=next_id)
+    
+@app.route('/faq')
+def faq():
+    return render_template('FAQ.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
