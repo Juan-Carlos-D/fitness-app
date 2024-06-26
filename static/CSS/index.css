@@ -173,7 +173,10 @@ ul {
 }
 
 .logo {
-    margin-left: 20px; /* Adjust margin as needed */
+    margin-left: 20px;
+    display: flex;
+    align-items: center; /* Center the logo vertically */
+    height: 100%; /* Make the height equal to the navbar */
 }
 
 .logo img {
