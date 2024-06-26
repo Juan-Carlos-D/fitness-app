@@ -1,4 +1,6 @@
 from flask import Flask, render_template
+from faq import faq_data 
+
 app = Flask(__name__)
 
 # Exercise Data
@@ -283,7 +285,7 @@ def exercise(exercise_id):
     
 @app.route('/faq')
 def faq():
-    return render_template('FAQ.html')
+    return render_template('FAQ.html', faq_data=faq_data)
 
 if __name__ == '__main__':
     app.run(debug=True)
