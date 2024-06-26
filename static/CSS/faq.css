@@ -9,6 +9,8 @@
     top: 115px; /* Adjust this value to match the height of your navbar */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Limit maximum width for responsiveness */
 }
 
 .container h1 {
@@ -21,4 +23,27 @@
     color: #555;
 }
 
-/* Add more styles specific to the FAQ page as needed */
+.questions-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    color: #333;
+    position: absolute;
+    top: calc(250px + 20px + 10px); /* Adjust top position based on .container height and spacing */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Limit maximum width for responsiveness */
+}
+
+.questions-container h2 {
+    font-size: 2em;
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+.questions-container p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px; /* Space below each answer */
+}
