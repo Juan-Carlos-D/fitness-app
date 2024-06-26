@@ -15,6 +15,10 @@ faq_data = [
     },
     {
         "question": "How will I receive my program?",
-        "answer": ""
+        "answer": "We will email you a PDF that includes everything you need to be successful in your program."
+    },
+    {
+        "question": "What do I do if I lose access to my program?",
+        "answer": "You can talk to our AI agent, 'Nova', or email us and we'll gladly help you out :)"
     }
 ]
