@@ -9,16 +9,12 @@
     </div>
 
     <div class="questions-container">
-        <h2>1. What is Calisthenics?</h2>
-        <p>Calisthenics is...</p>
-        <h2>2. What program is right for me?</h2>
-        <p>Choose a program that...</p>
-        <h2>3. What equipment do I need? Can I work out at home?</h2>
-        <p>You are perfectly capable of performing most of these...</p>
-        <h2>4. How will I receive my programs?</h2>
-        <p>You will get a PDF emailed to that includes structured program with...</p>
-        <h2>5. What do I do if I lose access to my program?</h2>
-        <p>Email us right away and we'll gladly help you out (:</p>
+        {% for item in faq_data %}
+            <div class="question">
+                <h2 class="question-title">{{ loop.index }}. {{ item.question }}</h2>
+                <p class="answer">{{ item.answer }}</p>
+            </div>
+        {% endfor %}
     </div>
 {% endblock %}
 
