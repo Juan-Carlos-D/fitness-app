@@ -1,9 +1,4 @@
-/* faq.css */
-
-body{
-    overflow-y: scroll
-}
-
+/* General container styling */
 .container {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -27,6 +22,7 @@ body{
     color: #555;
 }
 
+/* Questions container styling with scrollbar */
 .questions-container {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -38,6 +34,8 @@ body{
     transform: translateX(-50%); /* Center horizontally */
     width: 80%; /* Adjust width as needed */
     max-width: 600px; /* Limit maximum width for responsiveness */
+    height: calc(100vh - 310px); /* Adjust height to fit within the viewport */
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
 .questions-container h2 {
@@ -50,4 +48,29 @@ body{
     font-size: 1.2em;
     color: #555;
     margin-bottom: 20px; /* Space below each answer */
+}
+
+/* Scrollbar styling for Webkit-based browsers */
+.questions-container::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.questions-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.questions-container::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.questions-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+/* Styling the scrollbar for Firefox */
+.questions-container {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #888 #f1f1f1; /* Thumb and track colors */
 }
