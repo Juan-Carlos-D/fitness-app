@@ -1,4 +1,4 @@
-/* Macronutrients CSS *//* CSS for the Macronutrients page */
+/* CSS for the Macronutrients page */
 .macronutrients-container {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -11,6 +11,7 @@
     width: 80%; /* Adjust width as needed */
     max-width: 600px; /* Limit maximum width for responsiveness */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Enable vertical scrolling if needed */
 }
 
 .macronutrients-container h1 {
@@ -34,4 +35,46 @@
     font-size: 1.2em;
     line-height: 1.6;
     color: #555;
+}
+
+/* MEDIA QUERIES FOR MEDIUM DEVICES */
+@media screen and (max-width: 1024px) {
+    .macronutrients-container {
+        top: 100px; /* Adjust the top value for medium devices */
+    }
+}
+
+/* MEDIA QUERIES FOR SMALL DEVICES */
+@media screen and (max-width: 600px) {
+    .macronutrients-container {
+        top: 135px; /* Adjust the top value for small devices */
+        width: 90%; /* Make container a bit wider */
+        padding: 10px; /* Reduce padding for small devices */
+        max-height: calc(100vh - 100px); /* Ensure the container fits within the viewport */
+    }
+
+    /* Scrollbar styling for Webkit-based browsers */
+    .macronutrients-container::-webkit-scrollbar {
+        width: 12px; /* Width of the scrollbar */
+    }
+
+    .macronutrients-container::-webkit-scrollbar-track {
+        background: #f1f1f1; /* Background of the scrollbar track */
+        border-radius: 10px; /* Rounded corners */
+    }
+
+    .macronutrients-container::-webkit-scrollbar-thumb {
+        background: #888; /* Color of the scrollbar thumb */
+        border-radius: 10px; /* Rounded corners */
+    }
+
+    .macronutrients-container::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Color of the scrollbar thumb on hover */
+    }
+
+    /* Styling the scrollbar for Firefox */
+    .macronutrients-container {
+        scrollbar-width: thin; /* Thin scrollbar */
+        scrollbar-color: #888 #f1f1f1; /* Thumb and track colors */
+    }
 }
