@@ -282,6 +282,11 @@ def exercise(exercise_id):
                            exercise=exercise_data,
                            previous_id=previous_id,
                            next_id=next_id)
+
+@app.route('/nutrition')
+def macronutrients():
+    return render_template('macronutrients.html')   
+    
     
 @app.route('/faq')
 def faq():
