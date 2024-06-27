@@ -1,10 +1,15 @@
 /* Macronutrients CSS *//* CSS for the Macronutrients page */
 .macronutrients-container {
-    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
-    max-width: 800px;
-    margin: 50px auto;
+    color: #333;
+    position: absolute;
+    top: 135px; /* Adjust this value to match the height of your navbar */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Limit maximum width for responsiveness */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
