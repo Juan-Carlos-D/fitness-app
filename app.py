@@ -298,11 +298,14 @@ def macrocalculator():
         gender = request.form['gender']
         activity_level = request.form['activity_level']
         goal = request.form['goal']
+        weight_unit = request.form['weight_unit']
+        height_unit = request.form['height_unit']
 
-        macros = calculate_macros(weight, height, age, gender, activity_level, goal)
+        macros = calculate_macros(weight, height, age, gender, activity_level, goal, weight_unit, height_unit)
         return render_template('macroscalc.html', macros=macros)
 
     return render_template('macroscalc.html')
+
 
 @app.route('/faq')
 def faq():

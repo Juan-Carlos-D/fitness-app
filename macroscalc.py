@@ -1,5 +1,9 @@
-# macroscalc.py
-def calculate_macros(weight, height, age, gender, activity_level, goal):
+def calculate_macros(weight, height, age, gender, activity_level, goal, weight_unit, height_unit):
+    if weight_unit == 'lbs':
+        weight = weight * 0.453592  # Convert lbs to kg
+    if height_unit == 'inches':
+        height = height * 2.54  # Convert inches to cm
+
     if gender == 'male':
         bmr = 10 * weight + 6.25 * height - 5 * age + 5
     elif gender == 'female':
