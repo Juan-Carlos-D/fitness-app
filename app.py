@@ -1,6 +1,7 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from faq import faq_data 
 from macronutrients import macronutrients_data
+from macroscalc import calculate_macros
 
 app = Flask(__name__)
 
@@ -288,7 +289,20 @@ def exercise(exercise_id):
 def macronutrients():
     return render_template('macronutrients.html', macronutrients=macronutrients_data)   
     
-    
+@app.route('/macrocalculator', methods=['GET', 'POST'])
+def macrocalculator():
+    if request.method == 'POST':
+        weight = float(request.form['weight'])
+        height = float(request.form['height'])
+        age = int(request.form['age'])
+        gender = request.form['gender']
+        activity_level = request.form['activity_level']
+
+        macros = calculate_macros(weight, height, age, gender, activity_level)
+        return render_template('macroscalc.html', macros=macros)
+
+    return render_template('macroscalc.html')    
+
 @app.route('/faq')
 def faq():
     return render_template('FAQ.html', faq_data=faq_data)

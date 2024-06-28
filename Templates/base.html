@@ -33,7 +33,7 @@
                 <a href="{{ url_for('macronutrients')}}" class="nav-link">Nutrition</a>
                 <ul class="dropdown-menu">
                     <li><a href="{{ url_for('macronutrients')}}" class="dropdown-item">Macronutrients</a></li>
-                    <li><a href="#" class="dropdown-item">Macros Calculator</a></li>
+                    <li><a href="{{ url_for('macrocalculator')}}" class="dropdown-item">Macros Calculator</a></li>
                 </ul>
             </li>
             <li class="nav-item"><a href="{{ url_for('exercise', exercise_id=1) }}" class="nav-link">Exercises</a></li>

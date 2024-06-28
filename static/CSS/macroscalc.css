@@ -1,0 +1,68 @@
+/* macroscalc.css */
+
+.container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    color: #333;
+    position: absolute;
+    top: 115px; /* Adjust this value to match the height of your navbar */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Limit maximum width for responsiveness */
+}
+
+.container h1 {
+    font-size: 3em;
+    color: #007bff;
+}
+
+.container form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container label {
+    margin-bottom: 10px;
+}
+
+.container input, .container select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result h2 {
+    font-size: 2em;
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+.result p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
