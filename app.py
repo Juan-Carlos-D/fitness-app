@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from faq import faq_data 
+from macronutrients import macronutrients_data
 
 app = Flask(__name__)
 
@@ -285,7 +286,7 @@ def exercise(exercise_id):
 
 @app.route('/nutrition')
 def macronutrients():
-    return render_template('macronutrients.html')   
+    return render_template('macronutrients.html', macronutrients=macronutrients_data)   
     
     
 @app.route('/faq')

@@ -1,22 +1,16 @@
 {% extends "base.html" %}
 
-{% block title %}MacroNutrients{% endblock %}
+{% block title %}Macronutrients{% endblock %}
 
 {% block content %}
 <div class="macronutrients-container">
     <h1>Understanding Macronutrients</h1>
+    {% for macronutrient in macronutrients %}
     <div class="macronutrient-section">
-        <h2>Carbohydrates</h2>
-        <p>Carbohydrates are your body's main source of energy. They can be found in foods such as bread, pasta, rice, fruits, and vegetables. It's important to choose whole grain options for a healthier diet.</p>
+        <h2>{{ macronutrient.name }}</h2>
+        <p>{{ macronutrient.description }}</p>
     </div>
-    <div class="macronutrient-section">
-        <h2>Proteins</h2>
-        <p>Proteins are essential for building and repairing tissues. Good sources of protein include meat, fish, eggs, dairy products, legumes, and nuts. Including a variety of protein sources in your diet is crucial.</p>
-    </div>
-    <div class="macronutrient-section">
-        <h2>Fats</h2>
-        <p>Fats are necessary for your body to function properly. They help in the absorption of vitamins and provide energy. Healthy fats can be found in avocados, nuts, seeds, and olive oil. It's important to limit saturated and trans fats.</p>
-    </div>
+    {% endfor %}
 </div>
 {% endblock %}
 
@@ -25,5 +19,5 @@
 {% endblock %}
 
 {% block stylesheets %}
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/macronutrients.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/macronutrients.css') }}">
 {% endblock %}
