@@ -39,12 +39,12 @@ def calculate_macros(weight, height, age, gender, activity_level, goal, weight_u
     # Adjust macronutrients based on goal
     if goal in ['maintain', 'gain_slow', 'gain_fast']:
         protein = 2.0 * weight  # grams per kg of body weight
-        fats = 0.3 * calories / 9  # grams of fat
-        carbohydrates = (calories - (protein * 4 + fats * 9)) / 4  # grams of carbohydrates
+        fats = 0.35 * calories / 9
+        carbohydrates = (calories - (protein * 4 + fats * 9)) / 4
     else:  # For weight loss
         protein = 2.2 * weight  # grams per kg of body weight
-        fats = 0.25 * calories / 9  # grams of fat
-        carbohydrates = (calories - (protein * 4 + fats * 9)) / 4  # grams of carbohydrates
+        fats = 0.25 * calories / 9
+        carbohydrates = (calories - (protein * 4 + fats * 9)) / 4
 
     return {
         'calories': round(calories),
