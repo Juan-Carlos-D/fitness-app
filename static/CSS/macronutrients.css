@@ -39,6 +39,30 @@
     color: #555;
 }
 
+/* Scrollbar styling for Webkit-based browsers */
+.macronutrients-container::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.macronutrients-container::-webkit-scrollbar-track {
+    background: transparent; /* Set scrollbar track to transparent */
+}
+
+.macronutrients-container::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.macronutrients-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+/* Styling the scrollbar for Firefox */
+.macronutrients-container {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #888 transparent; /* Thumb and track colors */
+}
+
 /* MEDIA QUERIES FOR MEDIUM DEVICES */
 @media screen and (max-width: 1024px) {
     .macronutrients-container {
@@ -61,8 +85,7 @@
     }
 
     .macronutrients-container::-webkit-scrollbar-track {
-        background: #f1f1f1; /* Background of the scrollbar track */
-        border-radius: 10px; /* Rounded corners */
+        background: transparent; /* Set scrollbar track to transparent */
     }
 
     .macronutrients-container::-webkit-scrollbar-thumb {
@@ -77,6 +100,6 @@
     /* Styling the scrollbar for Firefox */
     .macronutrients-container {
         scrollbar-width: thin; /* Thin scrollbar */
-        scrollbar-color: #888 #f1f1f1; /* Thumb and track colors */
+        scrollbar-color: #888 transparent; /* Thumb and track colors */
     }
 }
