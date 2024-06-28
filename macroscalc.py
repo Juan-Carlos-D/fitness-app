@@ -1,7 +1,5 @@
 # macroscalc.py
-
-def calculate_macros(weight, height, age, gender, activity_level):
-    # Example calculation logic (you should adjust this based on your specific formula)
+def calculate_macros(weight, height, age, gender, activity_level, goal):
     if gender == 'male':
         bmr = 10 * weight + 6.25 * height - 5 * age + 5
     elif gender == 'female':
@@ -15,10 +13,33 @@ def calculate_macros(weight, height, age, gender, activity_level):
         'extra_active': 1.9
     }
 
-    calories = bmr * activity_factors[activity_level]
-    protein = 1.5 * weight  # Example protein calculation
-    carbohydrates = 3.5 * weight  # Example carbs calculation
-    fats = 0.3 * calories / 9  # Example fats calculation
+    maintenance_calories = bmr * activity_factors[activity_level]
+
+    if goal == 'maintain':
+        calories = maintenance_calories
+        protein = 1.5 * weight
+        carbohydrates = 3.5 * weight
+        fats = 0.3 * calories / 9
+    elif goal == 'gain_slow':
+        calories = maintenance_calories + 250  # Gain ~0.5 lb per week
+        protein = 1.8 * weight
+        carbohydrates = 4.0 * weight
+        fats = 0.35 * calories / 9
+    elif goal == 'gain_fast':
+        calories = maintenance_calories + 500  # Gain ~1 lb per week
+        protein = 2.0 * weight
+        carbohydrates = 4.5 * weight
+        fats = 0.4 * calories / 9
+    elif goal == 'lose_slow':
+        calories = maintenance_calories - 250  # Lose ~0.5 lb per week
+        protein = 1.8 * weight
+        carbohydrates = 3.0 * weight
+        fats = 0.25 * calories / 9
+    elif goal == 'lose_fast':
+        calories = maintenance_calories - 500  # Lose ~1 lb per week
+        protein = 2.0 * weight
+        carbohydrates = 2.5 * weight
+        fats = 0.2 * calories / 9
 
     return {
         'calories': round(calories),
