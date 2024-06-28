@@ -13,6 +13,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow-y: auto; /* Enable vertical scrolling if needed */
     margin-bottom: 20px; /* Add margin at the bottom */
+    max-height: calc(100vh - 150px); /* Ensure the container fits within the viewport */
 }
 
 .macronutrients-container h1 {
@@ -41,7 +42,7 @@
 /* MEDIA QUERIES FOR MEDIUM DEVICES */
 @media screen and (max-width: 1024px) {
     .macronutrients-container {
-        top: 100px; /* Adjust the top value for medium devices */
+        top: 130px; /* Adjust the top value for medium devices */
     }
 }
 
@@ -52,7 +53,6 @@
         width: 90%; /* Make container a bit wider */
         padding: 10px; /* Reduce padding for small devices */
         max-height: calc(100vh - 150px); /* Ensure the container fits within the viewport */
-        margin-bottom: 20px; /* Add margin at the bottom */
     }
 
     /* Scrollbar styling for Webkit-based browsers */
