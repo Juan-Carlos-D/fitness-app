@@ -5,13 +5,14 @@
     border-radius: 10px;
     color: #333;
     position: absolute;
-    top: 135px; /* Adjust this value to match the height of your navbar */
+    top: 125px; /* Adjust this value to match the height of your navbar */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
     width: 80%; /* Adjust width as needed */
     max-width: 600px; /* Limit maximum width for responsiveness */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow-y: auto; /* Enable vertical scrolling if needed */
+    margin-bottom: 20px; /* Add margin at the bottom */
 }
 
 .macronutrients-container h1 {
@@ -50,7 +51,8 @@
         top: 135px; /* Adjust the top value for small devices */
         width: 90%; /* Make container a bit wider */
         padding: 10px; /* Reduce padding for small devices */
-        max-height: calc(100vh - 100px); /* Ensure the container fits within the viewport */
+        max-height: calc(100vh - 150px); /* Ensure the container fits within the viewport */
+        margin-bottom: 20px; /* Add margin at the bottom */
     }
 
     /* Scrollbar styling for Webkit-based browsers */
