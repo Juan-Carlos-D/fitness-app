@@ -16,7 +16,7 @@ def calculate_macros(weight, height, age, gender, activity_level):
     }
 
     calories = bmr * activity_factors[activity_level]
-    protein = 1.2 * weight  # Example protein calculation
+    protein = 1.5 * weight  # Example protein calculation
     carbohydrates = 3.5 * weight  # Example carbs calculation
     fats = 0.3 * calories / 9  # Example fats calculation
 
