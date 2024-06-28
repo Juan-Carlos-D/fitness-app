@@ -56,8 +56,7 @@
 }
 
 .questions-container::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Background of the scrollbar track */
-    border-radius: 10px; /* Rounded corners */
+    background: transparent; /* Set scrollbar track to transparent */
 }
 
 .questions-container::-webkit-scrollbar-thumb {
@@ -72,18 +71,18 @@
 /* Styling the scrollbar for Firefox */
 .questions-container {
     scrollbar-width: thin; /* Thin scrollbar */
-    scrollbar-color: #888 #f1f1f1; /* Thumb and track colors */
+    scrollbar-color: #888 transparent; /* Thumb and track colors */
 }
 
-  /* MEDIA QUERIES FOR MEDIUM DEVICES */
-  @media screen and (max-width: 1024px) {
+/* MEDIA QUERIES FOR MEDIUM DEVICES */
+@media screen and (max-width: 1024px) {
 
-  }
-  
-  /* MEDIA QUERIES FOR SMALL DEVICES */
-  @media screen and (max-width: 600px) {
+}
+
+/* MEDIA QUERIES FOR SMALL DEVICES */
+@media screen and (max-width: 600px) {
     .questions-container {
         top: calc(400px + 20px + 10px);
         height: calc(100vh - 410px); /* Adjust height to fit within the viewport */
     }
-  }
+}
