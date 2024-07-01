@@ -51,6 +51,10 @@
     background-color: #0056b3;
 }
 
+.result .calories {
+    margin-bottom: 10px;
+}
+
 .result {
     margin-top: 20px;
 }
@@ -64,9 +68,14 @@
 .result p {
     font-size: 1.2em;
     color: #555;
-    margin-bottom: 10px;
+
 }
 
+.result .range {
+    font-size: 0.8em;
+    color: rgb(83, 80, 80);
+    margin-bottom: 10px;
+}
 
 /* Scrollbar styling for Webkit-based browsers */
 .container::-webkit-scrollbar {

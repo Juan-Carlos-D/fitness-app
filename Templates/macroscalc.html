@@ -53,10 +53,13 @@
     {% if macros %}
     <div class="result">
         <h2>Your Macronutrient Needs:</h2>
-        <p>Calories: {{ macros.calories }}</p>
-        <p>Protein: {{ macros.protein }} grams ({{ macros.protein_range[0] }} - {{ macros.protein_range[1] }} grams)</p>
-        <p>Carbohydrates: {{ macros.carbohydrates }} grams ({{ macros.carbohydrates_range[0] }} - {{ macros.carbohydrates_range[1] }} grams)</p>
-        <p>Fats: {{ macros.fats }} grams ({{ macros.fats_range[0] }} - {{ macros.fats_range[1] }} grams)</p>
+        <p class="calories">Calories: {{ macros.calories }}</p>
+        <p>Protein: {{ macros.protein }} grams</p>
+        <p class="range">Range: {{ macros.protein_range[0] }} - {{ macros.protein_range[1] }} grams</p>
+        <p>Carbohydrates: {{ macros.carbohydrates }} grams</p>
+        <p class="range">Range: {{ macros.carbohydrates_range[0] }} - {{ macros.carbohydrates_range[1] }} grams</p>
+        <p>Fats: {{ macros.fats }} grams</p>
+        <p class="range">Range: {{ macros.fats_range[0] }} - {{ macros.fats_range[1] }} grams</p>
     </div>
     {% endif %}
 </div>
