@@ -324,7 +324,6 @@ ul {
         transition: 0.3s;
         height: calc(100vh - 70px); /* Make the height of the nav-list fit within the viewport */
         overflow-y: auto; /* Add scroll if the content overflows */
-
     }
 
     .nav-item {
