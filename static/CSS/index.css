@@ -312,7 +312,7 @@ ul {
     .nav-list {
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 100px;
         gap: 0;
         flex-direction: column;
         background-color: #767D27;
@@ -338,6 +338,14 @@ ul {
 
     .nav-list.active {
         left: 0;
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+
+    .dropdown.active .dropdown-menu {
+        display: block;
     }
 }
 
