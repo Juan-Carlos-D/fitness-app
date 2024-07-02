@@ -51,8 +51,6 @@ def macrocalculator():
 
     return render_template('macroscalc.html')
 
-
-
 @app.route('/faq')
 def faq():
     return render_template('FAQ.html', faq_data=faq_data)
