@@ -293,7 +293,7 @@ ul {
     background-color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .hamburger {
         display: block;
         margin-right: 30px;
@@ -315,7 +315,10 @@ ul {
         top: 100px;
         gap: 0;
         flex-direction: column;
-        background-color: #767D27;
+        /* Add background image with transparency */
+        background: url('../Images/ringggs.png') no-repeat center center;
+        background-size: cover;
+        background-color: rgba(209, 219, 94, 0.7); /* Use rgba for transparency */
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -330,7 +333,7 @@ ul {
     .nav-link, .dropdown .nav-link {
         display: block; /* Ensure the nav-link takes the full width */
         padding: 10px 20px; /* Adjust padding to reduce height */
-        font-size: 1.2em; /* Adjust font size if needed */
+        font-size: 1.5em; /* Adjust font size if needed */
         border-bottom: 1px solid #2e3023; /* Add border between items */
         width: 100%;
         box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
