@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 from faq import faq_data 
 from macronutrients import macronutrients_data
 from macroscalc import calculate_macros
+from exercises import exercises
 
 app = Flask(__name__)
 
