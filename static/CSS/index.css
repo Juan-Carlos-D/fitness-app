@@ -328,10 +328,4 @@ ul {
     .nav-list.active {
        left: 0;
     }
-
-    .nav-list-right {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }
