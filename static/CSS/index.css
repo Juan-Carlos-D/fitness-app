@@ -293,7 +293,7 @@ ul {
     background-color: white;
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
     .hamburger {
         display: block;
         margin-right: 30px;
@@ -315,17 +315,29 @@ ul {
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: #121E2F;
+        background-color: #767D27;
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        height: calc(100vh - 70px); /* Make the height of the nav-list fit within the viewport */
+        overflow-y: auto; /* Add scroll if the content overflows */
     }
 
     .nav-item {
-        margin: 16px 0;
+        width: 100%; /* Ensure the nav-item takes the full width */
+    }
+
+    .nav-link, .dropdown .nav-link {
+        display: block; /* Ensure the nav-link takes the full width */
+        padding: 10px 20px; /* Adjust padding to reduce height */
+        font-size: 1.2em; /* Adjust font size if needed */
+        border-bottom: 1px solid #2e3023; /* Add border between items */
+        width: 100%;
+        box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     }
 
     .nav-list.active {
-       left: 0;
+        left: 0;
     }
 }
+
