@@ -316,7 +316,7 @@ ul {
         gap: 0;
         flex-direction: column;
         /* Add background image with transparency */
-        background: url('../Images/ringggs.png') no-repeat center center;
+        background: url('../Images/chalk.png') no-repeat center center;
         background-size: cover;
         background-color: rgba(209, 219, 94, 0.7); /* Use rgba for transparency */
         width: 100%;
@@ -324,6 +324,7 @@ ul {
         transition: 0.3s;
         height: calc(100vh - 70px); /* Make the height of the nav-list fit within the viewport */
         overflow-y: auto; /* Add scroll if the content overflows */
+
     }
 
     .nav-item {
@@ -333,10 +334,14 @@ ul {
     .nav-link, .dropdown .nav-link {
         display: block; /* Ensure the nav-link takes the full width */
         padding: 10px 20px; /* Adjust padding to reduce height */
-        font-size: 1.5em; /* Adjust font size if needed */
+        font-size: 2.8em; /* Adjust font size if needed */
         border-bottom: 1px solid #2e3023; /* Add border between items */
         width: 100%;
         box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+    }
+
+    .dropdown-menu {
+        font-size: 1.8em;
     }
 
     .nav-list.active {
@@ -352,4 +357,12 @@ ul {
     }
 }
 
+@media (max-width: 600px) {
+    .nav-link, .dropdown .nav-link {
+        font-size: 1.8em; /* Adjust font size if needed */
+    }
 
+    .dropdown-menu {
+        font-size: 1.2em;
+    }
+}
