@@ -8,16 +8,25 @@ document.addEventListener("DOMContentLoaded", function() {
         navMenu.classList.toggle("active");
     });
 
-    document.querySelectorAll(".nav-link").forEach(link => {
+    document.querySelectorAll(".dropdown > .nav-link").forEach(link => {
         link.addEventListener("click", (e) => {
-            const parentItem = e.target.parentElement;
-            
-            if (parentItem.classList.contains("dropdown")) {
-                e.preventDefault(); // Prevent the default link action
-                parentItem.classList.toggle("active");
+            e.preventDefault(); // Prevent the default link action
+            const parentItem = link.parentElement;
+            const dropdownMenu = parentItem.querySelector(".dropdown-menu");
+
+            if (parentItem.classList.contains("active")) {
+                parentItem.classList.remove("active");
+                dropdownMenu.style.display = "none";
             } else {
-                hamburger.classList.remove("active");
-                navMenu.classList.remove("active");
+                // Close other open dropdowns
+                document.querySelectorAll(".dropdown.active").forEach(openDropdown => {
+                    openDropdown.classList.remove("active");
+                    openDropdown.querySelector(".dropdown-menu").style.display = "none";
+                });
+
+                // Open the clicked dropdown
+                parentItem.classList.add("active");
+                dropdownMenu.style.display = "block";
             }
         });
     });
@@ -27,16 +36,12 @@ document.addEventListener("DOMContentLoaded", function() {
         link.addEventListener("click", () => {
             hamburger.classList.remove("active");
             navMenu.classList.remove("active");
-        });
-    });
-
-    // Functionality to close the dropdown menu when the parent is clicked again
-    dropdowns.forEach(dropdown => {
-        dropdown.addEventListener("click", (e) => {
-            if (dropdown.classList.contains("active")) {
-                e.preventDefault();
+            // Close any open dropdowns
+            dropdowns.forEach(dropdown => {
                 dropdown.classList.remove("active");
-            }
+                dropdown.querySelector(".dropdown-menu").style.display = "none";
+            });
         });
     });
 });
+

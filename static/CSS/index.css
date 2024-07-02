@@ -312,7 +312,7 @@ ul {
     .nav-list {
         position: fixed;
         left: -100%;
-        top: 100px;
+        top: 70px;
         gap: 0;
         flex-direction: column;
         background-color: #767D27;
@@ -348,4 +348,5 @@ ul {
         display: block;
     }
 }
+
 
