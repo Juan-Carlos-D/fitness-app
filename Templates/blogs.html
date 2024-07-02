@@ -1,16 +1,23 @@
 {% extends "base.html" %}
 
 {% block title %}
-    Blog Page
+    Blogs
 {% endblock %}
 
 {% block content %}
-    <h1>Blog Page</h1>
-    <ul>
+    <h1 class="blog-title">Blogs</h1>
+    <div class="blog-list">
         {% for blog in blogs %}
-        <li><a href="{{ url_for('blog', blog_id=blog['id']) }}">{{ blog['title'] }}</a></li>
+        <div class="blog-container">
+            <div class="blog-image">
+                <img src="{{ url_for('static', filename=blog['image']) }}" alt="{{ blog['title'] }}">
+            </div>
+            <div class="blog-details">
+                <h2 class="blog-heading"><a href="{{ url_for('blog', blog_id=blog['id']) }}">{{ blog['title'] }}</a></h2>
+            </div>
+        </div>
         {% endfor %}
-    </ul>
+    </div>
 {% endblock %}
 
 {% block body_style %}
