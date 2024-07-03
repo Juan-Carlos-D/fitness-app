@@ -11,6 +11,9 @@
         <div class="blog-content">
             {{ blog['content'] | safe }}
         </div>
+        <div class="back-to-blogs">
+            <a href="{{ url_for('all_blogs') }}" class="back-button">Back to Blogs</a>
+        </div>
     </div>
 {% endblock %}
 
