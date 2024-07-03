@@ -5,19 +5,26 @@ blogs = [
         'author': 'Juan Carlos Dominguez',
         'date': 'July 2, 2024',
         'content': '''
-            Calisthenics, a form of exercise consisting of various movements that rely on body weight for resistance, has gained popularity due to its simplicity and effectiveness. Here are some key benefits of incorporating calisthenics into your fitness routine:
-
-            1. **Improves Strength and Flexibility**: Calisthenics exercises, such as push-ups, pull-ups, and squats, target multiple muscle groups, enhancing both strength and flexibility. Unlike traditional weightlifting, calisthenics promotes functional strength, which is essential for everyday activities.
-
-            2. **No Equipment Needed**: One of the biggest advantages of calisthenics is that it requires little to no equipment. This makes it accessible to everyone, regardless of their location or financial situation. All you need is your body and some space to move.
-
-            3. **Enhances Coordination and Balance**: Many calisthenics exercises require coordination and balance, which can help improve your overall body control. Exercises like handstands and plank variations challenge your stability and proprioception.
-
-            4. **Adaptable to All Fitness Levels**: Calisthenics can be easily modified to suit any fitness level. Beginners can start with basic movements and gradually progress to more advanced exercises as they build strength and confidence.
-
-            5. **Promotes Mental Well-being**: Engaging in regular physical activity, such as calisthenics, has been shown to reduce stress, anxiety, and depression. The discipline and focus required for these exercises can also enhance mental resilience.
-
-            In conclusion, calisthenics is a versatile and effective way to improve your physical fitness and mental well-being. Whether you're a beginner or an experienced athlete, incorporating calisthenics into your workout routine can help you achieve a balanced and healthy lifestyle.
+            <p>Calisthenics, a form of exercise consisting of various movements that rely on body weight for resistance, has gained popularity due to its simplicity and effectiveness. Here are some key benefits of incorporating calisthenics into your fitness routine:</p>
+            
+            <h2>Improves Strength and Flexibility</h2>
+            <p>Calisthenics exercises, such as push-ups, pull-ups, and squats, target multiple muscle groups, enhancing both strength and flexibility. Unlike traditional weightlifting, calisthenics promotes functional strength, which is essential for everyday activities.</p>
+            <img src="{{ url_for('static', filename='Images/gymsetting.png') }}" alt="Strength and Flexibility">
+            
+            <h2>No Equipment Needed</h2>
+            <p>One of the biggest advantages of calisthenics is that it requires little to no equipment. This makes it accessible to everyone, regardless of their location or financial situation. All you need is your body and some space to move.</p>
+            
+            <h2>Enhances Coordination and Balance</h2>
+            <p>Many calisthenics exercises require coordination and balance, which can help improve your overall body control. Exercises like handstands and plank variations challenge your stability and proprioception.</p>
+            <img src="{{ url_for('static', filename='Images/gym_bg.png') }}" alt="Coordination and Balance">
+            
+            <h2>Adaptable to All Fitness Levels</h2>
+            <p>Calisthenics can be easily modified to suit any fitness level. Beginners can start with basic movements and gradually progress to more advanced exercises as they build strength and confidence.</p>
+            
+            <h2>Promotes Mental Well-being</h2>
+            <p>Engaging in regular physical activity, such as calisthenics, has been shown to reduce stress, anxiety, and depression. The discipline and focus required for these exercises can also enhance mental resilience.</p>
+            
+            <p>In conclusion, calisthenics is a versatile and effective way to improve your physical fitness and mental well-being. Whether you're a beginner or an experienced athlete, incorporating calisthenics into your workout routine can help you achieve a balanced and healthy lifestyle.</p>
         ''',
         'image': 'Images/gymnast.png'
     },
