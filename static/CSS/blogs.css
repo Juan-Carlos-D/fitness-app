@@ -20,7 +20,7 @@
     padding: 20px;
     position: relative;
     z-index: 0; /* Ensure content scrolls under the title */
-    margin-top: 400px; /* Ensure space between title and containers on large screens */
+    margin-top: 350px; /* Ensure space between title and containers on large screens */
     max-width: 1260px; /* Adjust the maximum width to fit 3 containers per row (300px each with gaps) */
 }
 
@@ -30,7 +30,7 @@
     border-radius: 10px;
     overflow: hidden;
     width: 300px;
-    height: 400px; /* Set a fixed height */
+    height: 350px; /* Set a fixed height */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
     display: flex;
@@ -87,8 +87,8 @@
     }
 
     .blog-list {
-        top: 30px; /* Adjust top position for smaller screens */
-        margin-top: 100px; /* Adjust margin-top for smaller screens */
+        top: 10px; /* Adjust top position for smaller screens */
+        margin-top: 50px; /* Adjust margin-top for smaller screens */
         max-height: calc(100vh - 200px); /* Adjust max-height for smaller screens */
         max-width: 100%; /* Ensure the width adjusts to fit smaller screens */
         gap: 10px; /* Adjust gap for smaller screens */

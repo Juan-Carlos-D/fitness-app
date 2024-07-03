@@ -2,6 +2,8 @@ blogs = [
     {
         'id': 1,
         'title': 'The Benefits of Calisthenics Training',
+        'author': 'Juan Carlos Dominguez',
+        'date': 'July 2, 2024',
         'content': '''
             Calisthenics, a form of exercise consisting of various movements that rely on body weight for resistance, has gained popularity due to its simplicity and effectiveness. Here are some key benefits of incorporating calisthenics into your fitness routine:
 
@@ -22,6 +24,8 @@ blogs = [
     {
         'id': 2,
         'title': 'The Importance of Nutrition in Calisthenics',
+        'author': 'Juan Carlos Dominguez',
+        'date': 'June 22, 2024',
         'content': '''
             Proper nutrition plays a crucial role in the success of any fitness program, and calisthenics is no exception. Here are some important nutritional tips to help you maximize your calisthenics training:
 
@@ -44,6 +48,8 @@ blogs = [
     {
         'id': 3,
         'title': 'Effective Bodyweight Exercises for Beginners',
+        'author': 'Juan Carlos Dominguez',
+        'date': 'May 3, 2024',
         'content': '''
             Bodyweight exercises are a great way to build strength and improve fitness without needing any equipment. If you're new to calisthenics, here are some effective exercises to get you started:
 
@@ -62,6 +68,8 @@ blogs = [
     {
         'id': 4,
         'title': 'Nutritional Supplements for Calisthenics Athletes',
+        'author': 'Juan Carlos Dominguez',
+        'date': 'April 6, 2024',
         'content': '''
             While a balanced diet should always come first, nutritional supplements can complement your calisthenics training and support overall performance. Here are some popular supplements for calisthenics athletes:
 
@@ -80,6 +88,8 @@ blogs = [
     {
         'id': 5,
         'title': 'Advanced Calisthenics Techniques: From Basics to Mastery',
+        'author': 'Juan Carlos Dominguez',
+        'date': 'March 11, 2024',
         'content': '''
             Ready to take your calisthenics training to the next level? Explore these advanced techniques to challenge your strength, flexibility, and coordination:
 
@@ -98,6 +108,8 @@ blogs = [
     {
         'id': 6,
         'title': 'The Role of Mental Conditioning in Calisthenics Success',
+        'author': 'Juan Carlos Dominguez',
+        'date': 'February 14, 2024',
         'content': '''
             Calisthenics isn't just about physical strength; mental conditioning plays a crucial role in achieving peak performance. Here's how to enhance your mental game:
 

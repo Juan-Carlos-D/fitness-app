@@ -1,0 +1,97 @@
+/* General blog post container */
+.blog-post {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Blog title */
+.blog-post .blog-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Blog meta information (e.g., author, date) */
+.blog-post .blog-meta {
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Blog content */
+.blog-post .blog-content {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #444;
+}
+
+/* Blog images */
+.blog-post .blog-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Blog headings */
+.blog-post .blog-content h2,
+.blog-post .blog-content h3 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Blog paragraphs */
+.blog-post .blog-content p {
+    margin-bottom: 20px;
+}
+
+/* Blog blockquotes */
+.blog-post .blog-content blockquote {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #007BFF;
+    color: #666;
+}
+
+/* Blog code blocks */
+.blog-post .blog-content pre {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    color: #333;
+}
+
+/* Blog links */
+.blog-post .blog-content a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.blog-post .blog-content a:hover {
+    text-decoration: underline;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .blog-post {
+        padding: 15px;
+    }
+
+    .blog-post .blog-title {
+        font-size: 2em;
+    }
+
+    .blog-post .blog-content {
+        font-size: 1em;
+    }
+}
