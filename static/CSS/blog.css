@@ -1,11 +1,12 @@
-body, html {
+/* Add padding to the body or a wrapper element to push the content below the navbar */
+body {
+    padding-top: 70px; /* Same value as the navbar height */
     overflow-y: auto; /* Enable vertical scrolling on the entire page */
     height: 100%; /* Ensure the height is set to 100% for the body and html */
 }
 
 /* General blog post container */
 .blog-post {
-    top: 750px; /* Adjust this value based on your navbar's height */
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
@@ -13,7 +14,7 @@ body, html {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    position: relative; /* Ensure the position is relative for top property to work */
+    position: relative;
 }
 
 /* Blog title */
@@ -92,6 +93,7 @@ body, html {
 @media screen and (max-width: 768px) {
     .blog-post {
         padding: 15px;
+        margin: 50px 10px;
     }
 
     .blog-post .blog-title {
