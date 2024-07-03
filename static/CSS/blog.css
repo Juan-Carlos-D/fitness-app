@@ -1,5 +1,11 @@
+body, html {
+    overflow-y: auto; /* Enable vertical scrolling on the entire page */
+    height: 100%; /* Ensure the height is set to 100% for the body and html */
+}
+
 /* General blog post container */
 .blog-post {
+    top: 100px;
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;

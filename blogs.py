@@ -9,7 +9,7 @@ blogs = [
             
             <h2>Improves Strength and Flexibility</h2>
             <p>Calisthenics exercises, such as push-ups, pull-ups, and squats, target multiple muscle groups, enhancing both strength and flexibility. Unlike traditional weightlifting, calisthenics promotes functional strength, which is essential for everyday activities.</p>
-            <img src="{{ url_for('static', filename='Images/gymsetting.png') }}" alt="Strength and Flexibility">
+            <img src="{{ url_for('static', filename='Images/gym_setting.png') }}" alt="Strength and Flexibility">
             
             <h2>No Equipment Needed</h2>
             <p>One of the biggest advantages of calisthenics is that it requires little to no equipment. This makes it accessible to everyone, regardless of their location or financial situation. All you need is your body and some space to move.</p>

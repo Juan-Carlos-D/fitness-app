@@ -1,9 +1,10 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, url_for
 from faq import faq_data 
 from macronutrients import macronutrients_data
 from macroscalc import calculate_macros
 from exercises import exercises
 from blogs import blogs
+import re
 
 app = Flask(__name__)
 
@@ -61,11 +62,21 @@ def faq():
 def all_blogs():
     return render_template('blogs.html', blogs=blogs)
 
-# Route to display a single blog post
+def process_content(content):
+    # Find all occurrences of {{ url_for(...)}}
+    matches = re.findall(r"\{\{\s*url_for\([^)]+\)\s*\}\}", content)
+    for match in matches:
+        # Evaluate the url_for expression
+        evaluated_url = eval(match.strip("{{}}"))
+        # Replace the url_for expression with the actual URL
+        content = content.replace(match, evaluated_url)
+    return content
+
 @app.route('/blog/<int:blog_id>')
 def blog(blog_id):
     blog = next((blog for blog in blogs if blog['id'] == blog_id), None)
     if blog:
+        blog['content'] = process_content(blog['content'])
         return render_template('blog.html', blog=blog)
     else:
         return 'Blog not found', 404
