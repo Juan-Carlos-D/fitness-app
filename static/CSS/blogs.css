@@ -1,4 +1,5 @@
 /* Center the title and style it */
+
 .blog-title {
     text-align: center;
     margin-top: 20px;
@@ -21,8 +22,9 @@
     position: relative;
     z-index: 0; /* Ensure content scrolls under the title */
     margin-top: 180px; /* Ensure space between title and containers on large screens */
-    overflow-y: auto; /* Enable vertical scrolling */
+    /* overflow-y: auto; Enable vertical scrolling */
     max-height: calc(100vh - 160px); /* Limit height to viewport height minus title height and margin */
+    max-width: 1260px; /* Adjust the maximum width to fit 3 containers per row (300px each with gaps) */
 }
 
 /* Each blog container */
@@ -82,6 +84,7 @@
     color: #007BFF;
 }
 
+
 /* Media Query for Small Screens */
 @media screen and (max-width: 768px) {
     .blog-title {
@@ -92,5 +95,16 @@
         top: 30px; /* Adjust top position for smaller screens */
         margin-top: 120px; /* Adjust margin-top for smaller screens */
         max-height: calc(100vh - 200px); /* Adjust max-height for smaller screens */
+        max-width: 100%; /* Ensure the width adjusts to fit smaller screens */
+        gap: 10px; /* Adjust gap for smaller screens */
     }
+
+    .blog-container {
+        width: 100%; /* Make containers take full width on smaller screens */
+    }
+}
+/* Ensure the body or html element allows scrolling */
+body, html {
+    overflow-y: auto; /* Enable vertical scrolling on the entire page */
+    height: 100%; /* Ensure the height is set to 100% for the body and html */
 }
