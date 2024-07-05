@@ -42,6 +42,7 @@ blogs = [
 
             <h2>Prioritize Protein</h2>
             <p>Protein is vital for muscle repair and growth. Include high-quality protein sources such as lean meats, eggs, dairy products, legumes, and nuts in your diet. Aim for a protein intake that supports your activity level and goals.</p>
+            <img src="{{ url_for('static', filename='Images/proteindishes.png') }}" alt="Protein Dishes">
 
             <h2>Stay Hydrated</h2>
             <p>Hydration is key to maintaining performance and preventing injuries. Drink plenty of water throughout the day, especially before, during, and after your workouts. Dehydration can lead to decreased performance and increased risk of muscle cramps.</p>
@@ -53,9 +54,11 @@ blogs = [
 
             <h2>Include Healthy Fats</h2> 
             <p>Healthy fats are essential for hormone production, joint health, and energy. Incorporate sources of healthy fats, such as avocados, olive oil, and fatty fish, into your diet to support overall health and performance.</p>
+            <img src="{{ url_for('static', filename='Images/salmon.png') }}" alt="salmon">
 
             <h2>Listen to Your Body</h2>
             <p>Everyone's nutritional needs are different. Pay attention to how your body responds to different foods and adjust your diet accordingly. If you're unsure about your nutritional needs, consider consulting with a registered dietitian or nutritionist.</p>
+            <img src="{{ url_for('static', filename='Images/listenbody.png') }}" alt="Listen to your Body">
 
             <p>By fueling your body with the right nutrients, you can enhance your calisthenics performance, recover faster, and achieve your fitness goals more effectively.</p>
         ''',
@@ -110,6 +113,7 @@ blogs = [
 
             <h2>BCAAs (Branched-Chain Amino Acids)</h2>
             <p>Essential amino acids that support muscle recovery and reduce muscle soreness. Can be consumed pre, intra (during), or post-workout.</p>
+            <img src="{{ url_for('static', filename='Images/bcaa.png') }}" alt="bcaa">
 
             <h2>Omega-3 Fish Oil</h2>
             <p>Provides anti-inflammatory benefits and supports joint health. Essential for overall cardiovascular health and brain function.</p>
