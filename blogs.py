@@ -42,7 +42,8 @@ blogs = [
             <h2>Prioritize Protein</h2>
             <p>Protein is vital for muscle repair and growth. Include high-quality protein sources such as lean meats, eggs, dairy products, legumes, and nuts in your diet. Aim for a protein intake that supports your activity level and goals.</p>
 
-            3. **Stay Hydrated**: Hydration is key to maintaining performance and preventing injuries. Drink plenty of water throughout the day, especially before, during, and after your workouts. Dehydration can lead to decreased performance and increased risk of muscle cramps.
+            <h2>Stay Hydrated</h2>
+            <p>Hydration is key to maintaining performance and preventing injuries. Drink plenty of water throughout the day, especially before, during, and after your workouts. Dehydration can lead to decreased performance and increased risk of muscle cramps.</p>
 
             4. **Timing Your Meals**: When and what you eat around your workouts can impact your performance and recovery. Consuming a balanced meal or snack with carbohydrates and protein about 1-2 hours before training can provide the energy needed for your calisthenics session. Post-workout, focus on replenishing glycogen stores and supporting muscle recovery with a protein-rich meal or snack.
 
