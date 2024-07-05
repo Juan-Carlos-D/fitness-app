@@ -125,17 +125,21 @@ blogs = [
         'author': 'Juan Carlos Dominguez',
         'date': 'March 11, 2024',
         'content': '''
-            Ready to take your calisthenics training to the next level? Explore these advanced techniques to challenge your strength, flexibility, and coordination:
+            <p>Ready to take your calisthenics training to the next level? Explore these advanced techniques to challenge your strength, flexibility, and coordination:</p>
 
-            1. **Muscle-Ups**: Combines a pull-up with a dip, requiring explosive upper body strength and coordination. Progress from assisted variations to strict muscle-ups.
+            <h2>Muscle-Ups</h2>
+            <p>Combines a pull-up with a dip, requiring explosive upper body strength and coordination. Progress from assisted variations to strict muscle-ups.</p>
 
-            2. **Handstand Push-Ups**: Inverted push-ups that target your shoulders, triceps, and core. Begin with wall-supported handstands and gradually work towards freestanding.
+            <h2>Handstand Push-Ups</h2>
+            <p>Inverted push-ups that target your shoulders, triceps, and core. Begin with wall-supported handstands and gradually work towards freestanding.</p>
 
-            3. **Pistol Squats**: Single-leg squats that develop lower body strength, balance, and flexibility. Master bodyweight squats first, then progress to pistol squats.
+            <h2>Pistol Squats</h2>
+            <p>Single-leg squats that develop lower body strength, balance, and flexibility. Master bodyweight squats first, then progress to pistol squats.</p>
 
-            4. **Front Lever**: A horizontal hold that challenges your core, back, and shoulder muscles. Progress through tuck, advanced tuck, and full front lever positions.
+            <h2>Front Lever</h2>
+            <p>A horizontal hold that challenges your core, back, and shoulder muscles. Progress through tuck, advanced tuck, and full front lever positions.</p>
 
-            These techniques require patience, consistency, and proper progression. Always prioritize technique and safety to avoid injury and maximize performance gains.
+            <p>These techniques require patience, consistency, and proper progression. Always prioritize technique and safety to avoid injury and maximize performance gains.</p>
         ''',
         'image': 'Images/advanced.png'
     },
