@@ -95,17 +95,21 @@ blogs = [
         'author': 'Juan Carlos Dominguez',
         'date': 'April 6, 2024',
         'content': '''
-            While a balanced diet should always come first, nutritional supplements can complement your calisthenics training and support overall performance. Here are some popular supplements for calisthenics athletes:
+            <p>While a balanced diet should always come first, nutritional supplements can complement your calisthenics training and support overall performance. Here are some popular supplements for calisthenics athletes:</p>
 
-            1. **Protein Powders**: Whey protein, casein, or plant-based protein powders can help meet your protein needs for muscle repair and growth. Ideal for post-workout recovery.
+            <h2>Protein Powders</h2>
+            <p>Whey protein, casein, or plant-based protein powders can help meet your protein needs for muscle repair and growth. Ideal for post-workout recovery.</p>
 
-            2. **Creatine**: Supports energy production during high-intensity exercises like sprinting and lifting. May improve strength and muscle mass over time.
+            <h2>Creatine</h2>
+            <p>Supports energy production during high-intensity exercises like sprinting and lifting. May improve strength and muscle mass over time.</p>
 
-            3. **BCAAs (Branched-Chain Amino Acids)**: Essential amino acids that support muscle recovery and reduce muscle soreness. Can be consumed pre, intra, or post-workout.
+            <h2>BCAAs (Branched-Chain Amino Acids)</h2>
+            <p>Essential amino acids that support muscle recovery and reduce muscle soreness. Can be consumed pre, intra (during), or post-workout.</p>
 
-            4. **Omega-3 Fish Oil**: Provides anti-inflammatory benefits and supports joint health. Essential for overall cardiovascular health and brain function.
+            <h2>Omega-3 Fish Oil</h2>
+            <p>Provides anti-inflammatory benefits and supports joint health. Essential for overall cardiovascular health and brain function.</p>
 
-            Before incorporating supplements, consult with a healthcare professional or nutritionist to ensure they align with your goals and health status. Remember, supplements are meant to supplement a healthy diet, not replace it.
+            <p>Before incorporating supplements, consult with a healthcare professional or nutritionist to ensure they align with your goals and health status. Remember, supplements are meant to supplement a healthy diet, not replace it.</p>
         ''',
         'image': 'Images/supplements.png'
     },
