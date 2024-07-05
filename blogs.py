@@ -153,17 +153,21 @@ blogs = [
         'author': 'Juan Carlos Dominguez',
         'date': 'February 14, 2024',
         'content': '''
-            Calisthenics isn't just about physical strength; mental conditioning plays a crucial role in achieving peak performance. Here's how to enhance your mental game:
+            <p>Calisthenics isn't just about physical strength; mental conditioning plays a crucial role in achieving peak performance. Here's how to enhance your mental game:</p>
 
-            1. **Goal Setting**: Establish clear, achievable goals for your calisthenics training. Short-term and long-term goals provide direction and motivation.
+            <h2>Goal Setting</h2>
+            <p>Establish clear, achievable goals for your calisthenics training. Short-term and long-term goals provide direction and motivation.</p>
 
-            2. **Visualization**: Mentally rehearse your workouts and visualize successful performance. Visualizing correct technique and overcoming challenges can improve confidence.
+            <h2>Visualization</h2>
+            <p>Mentally rehearse your workouts and visualize successful performance. Visualizing correct technique and overcoming challenges can improve confidence.</p>
 
-            3. **Mindfulness and Focus**: Practice mindfulness techniques such as deep breathing and meditation to stay present during training. Enhanced focus can improve performance and reduce stress.
+            <h2>Mindfulness and Focus</h2>
+            <p>Practice mindfulness techniques such as deep breathing and meditation to stay present during training. Enhanced focus can improve performance and reduce stress.</p>
 
-            4. **Positive Self-Talk**: Replace negative thoughts with positive affirmations. Encourage yourself during challenging workouts and celebrate small victories along the way.
+            <h2>Positive Self-Talk</h2>
+            <p>Replace negative thoughts with positive affirmations. Encourage yourself during challenging workouts and celebrate small victories along the way.</p>
 
-            By integrating mental conditioning strategies into your calisthenics routine, you can enhance resilience, improve concentration, and achieve optimal performance outcomes.
+            <p>By integrating mental conditioning strategies into your calisthenics routine, you can enhance resilience, improve concentration, and achieve optimal performance outcomes.</p>
         ''',
         'image': 'Images/yoga.png'
     }
