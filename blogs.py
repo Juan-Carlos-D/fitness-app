@@ -38,18 +38,18 @@ blogs = [
 
             <h2>Eat a Balanced Diet</h2> 
             <p>Ensure that your diet includes a variety of foods from all the major food groups. A balanced diet provides the essential nutrients your body needs to perform and recover from calisthenics workouts.</p>
-            <img src="{{ url_for('static', filename='Images/dietbalance.png') alt="Balanced Diet"}}>
+            <img src="{{ url_for('static', filename='Images/dietbalance.png') }}" alt="Balanced Diet">
 
             <h2>Prioritize Protein</h2>
             <p>Protein is vital for muscle repair and growth. Include high-quality protein sources such as lean meats, eggs, dairy products, legumes, and nuts in your diet. Aim for a protein intake that supports your activity level and goals.</p>
 
             <h2>Stay Hydrated</h2>
             <p>Hydration is key to maintaining performance and preventing injuries. Drink plenty of water throughout the day, especially before, during, and after your workouts. Dehydration can lead to decreased performance and increased risk of muscle cramps.</p>
-            <img src="{{ url_for('static', filename='Images/hydration.png') alt="Hydration"}}>
+            <img src="{{ url_for('static', filename='Images/hydration.png') }}" alt="Hydration">
             
             <h2>Timing Your Meals</h2>
             <p>When and what you eat around your workouts can impact your performance and recovery. Consuming a balanced meal or snack with carbohydrates and protein about 1-2 hours before training can provide the energy needed for your calisthenics session. Post-workout, focus on replenishing glycogen stores and supporting muscle recovery with a protein-rich meal or snack.</p>
-            <img src="{{ url_for('static', filename='Images/time.png') alt="Time"}}>
+            <img src="{{ url_for('static', filename='Images/time.png') }}" alt="Time">
 
             <h2>Include Healthy Fats</h2> 
             <p>Healthy fats are essential for hormone production, joint health, and energy. Incorporate sources of healthy fats, such as avocados, olive oil, and fatty fish, into your diet to support overall health and performance.</p>
