@@ -67,17 +67,21 @@ blogs = [
         'author': 'Juan Carlos Dominguez',
         'date': 'May 3, 2024',
         'content': '''
-            Bodyweight exercises are a great way to build strength and improve fitness without needing any equipment. If you're new to calisthenics, here are some effective exercises to get you started:
+            <p>Bodyweight exercises are a great way to build strength and improve fitness without needing any equipment. If you're new to calisthenics, here are some effective exercises to get you started:</p>
 
-            1. **Bodyweight Squats**: Targets your lower body muscles including quadriceps, hamstrings, and glutes. Helps improve lower body strength and endurance.
+            <h2>Bodyweight Squats</h2>
+            <p>Targets your lower body muscles including quadriceps, hamstrings, and glutes. Helps improve lower body strength and endurance.</p>
 
-            2. **Push-Ups**: Works your chest, shoulders, and triceps. Can be modified to suit different fitness levels, from incline push-ups for beginners to advanced variations like diamond push-ups.
+            <h2>Push-Ups</h2>
+            <p>Works your chest, shoulders, and triceps. Can be modified to suit different fitness levels, from incline push-ups for beginners to advanced variations like diamond push-ups.</p>
 
-            3. **Plank**: Strengthens your core muscles, including the abdominals, obliques, and lower back. Helps improve stability and posture.
+            <h2>Plank</h2>
+            <p>Strengthens your core muscles, including the abdominals, obliques, and lower back. Helps improve stability and posture.</p>
 
-            4. **Lunges**: Targets the legs and improves balance and coordination. Forward lunges, reverse lunges, and walking lunges are effective variations.
+            <h2>Lunges</h2>
+            <p>Targets the legs and improves balance and coordination. Forward lunges, reverse lunges, and walking lunges are effective variations.</p>
 
-            These exercises can be performed anywhere and adjusted to your fitness level. Start with proper form and gradually increase repetitions as you build strength and confidence.
+            <p>These exercises can be performed anywhere and adjusted to your fitness level. Start with proper form and gradually increase repetitions as you build strength and confidence.</p>
         ''',
         'image': 'Images/bodyweight.png'
     },
