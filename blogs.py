@@ -34,11 +34,13 @@ blogs = [
         'author': 'Juan Carlos Dominguez',
         'date': 'June 22, 2024',
         'content': '''
-            Proper nutrition plays a crucial role in the success of any fitness program, and calisthenics is no exception. Here are some important nutritional tips to help you maximize your calisthenics training:
+            <p>Proper nutrition plays a crucial role in the success of any fitness program, and calisthenics is no exception. Here are some important nutritional tips to help you maximize your calisthenics training:</p>
 
-            1. **Eat a Balanced Diet**: Ensure that your diet includes a variety of foods from all the major food groups. A balanced diet provides the essential nutrients your body needs to perform and recover from calisthenics workouts.
+            <h2>Eat a Balanced Diet</h2> 
+            <p>Ensure that your diet includes a variety of foods from all the major food groups. A balanced diet provides the essential nutrients your body needs to perform and recover from calisthenics workouts.</p>
 
-            2. **Prioritize Protein**: Protein is vital for muscle repair and growth. Include high-quality protein sources such as lean meats, eggs, dairy products, legumes, and nuts in your diet. Aim for a protein intake that supports your activity level and goals.
+            <h2>Prioritize Protein</h2>
+            <p>Protein is vital for muscle repair and growth. Include high-quality protein sources such as lean meats, eggs, dairy products, legumes, and nuts in your diet. Aim for a protein intake that supports your activity level and goals.</p>
 
             3. **Stay Hydrated**: Hydration is key to maintaining performance and preventing injuries. Drink plenty of water throughout the day, especially before, during, and after your workouts. Dehydration can lead to decreased performance and increased risk of muscle cramps.
 
