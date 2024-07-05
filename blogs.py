@@ -45,7 +45,8 @@ blogs = [
             <h2>Stay Hydrated</h2>
             <p>Hydration is key to maintaining performance and preventing injuries. Drink plenty of water throughout the day, especially before, during, and after your workouts. Dehydration can lead to decreased performance and increased risk of muscle cramps.</p>
 
-            4. **Timing Your Meals**: When and what you eat around your workouts can impact your performance and recovery. Consuming a balanced meal or snack with carbohydrates and protein about 1-2 hours before training can provide the energy needed for your calisthenics session. Post-workout, focus on replenishing glycogen stores and supporting muscle recovery with a protein-rich meal or snack.
+            <h2>Timing Your Meals</h2>
+            <p>When and what you eat around your workouts can impact your performance and recovery. Consuming a balanced meal or snack with carbohydrates and protein about 1-2 hours before training can provide the energy needed for your calisthenics session. Post-workout, focus on replenishing glycogen stores and supporting muscle recovery with a protein-rich meal or snack.</p>
 
             5. **Include Healthy Fats**: Healthy fats are essential for hormone production, joint health, and energy. Incorporate sources of healthy fats, such as avocados, olive oil, and fatty fish, into your diet to support overall health and performance.
 
