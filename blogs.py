@@ -99,9 +99,14 @@ blogs = [
 
             <h2>Protein Powders</h2>
             <p>Whey protein, casein, or plant-based protein powders can help meet your protein needs for muscle repair and growth. Ideal for post-workout recovery.</p>
+            <img src="{{ url_for('static', filename='Images/smoothie.png') }}" alt="smoothie">
+            <p>Pro tip: Make a smoothie with your protein powder using your favorite fruits to give it a yummy taste!</p>
+            
 
             <h2>Creatine</h2>
             <p>Supports energy production during high-intensity exercises like sprinting and lifting. May improve strength and muscle mass over time.</p>
+            <img src="{{ url_for('static', filename='Images/creatine.png') }}" alt="creatine">
+            <p>Pro tip: You can either mix creatine with a glass of water or add it to your smoothies!</p>
 
             <h2>BCAAs (Branched-Chain Amino Acids)</h2>
             <p>Essential amino acids that support muscle recovery and reduce muscle soreness. Can be consumed pre, intra (during), or post-workout.</p>
