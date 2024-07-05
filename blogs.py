@@ -129,15 +129,19 @@ blogs = [
 
             <h2>Muscle-Ups</h2>
             <p>Combines a pull-up with a dip, requiring explosive upper body strength and coordination. Progress from assisted variations to strict muscle-ups.</p>
+            <img src="{{ url_for('static', filename='Images/muscleup.png') }}" alt="muscleup">
 
             <h2>Handstand Push-Ups</h2>
             <p>Inverted push-ups that target your shoulders, triceps, and core. Begin with wall-supported handstands and gradually work towards freestanding.</p>
+            <img src="{{ url_for('static', filename='Images/handstandpushup.png') }}" alt="handstandpushup">
 
             <h2>Pistol Squats</h2>
             <p>Single-leg squats that develop lower body strength, balance, and flexibility. Master bodyweight squats first, then progress to pistol squats.</p>
+            <img src="{{ url_for('static', filename='Images/pistolsquat.png') }}" alt="pistolsquat">
 
-            <h2>Front Lever</h2>
-            <p>A horizontal hold that challenges your core, back, and shoulder muscles. Progress through tuck, advanced tuck, and full front lever positions.</p>
+            <h2>Back/Front Lever</h2>
+            <p>A horizontal hold that challenges your core, back, and shoulder muscles. Progress through tuck, advanced tuck, and full back/front lever positions.</p>
+            <img src="{{ url_for('static', filename='Images/levers.png') }}" alt="levers">
 
             <p>These techniques require patience, consistency, and proper progression. Always prioritize technique and safety to avoid injury and maximize performance gains.</p>
         ''',
