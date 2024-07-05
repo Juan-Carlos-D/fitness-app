@@ -71,15 +71,19 @@ blogs = [
 
             <h2>Bodyweight Squats</h2>
             <p>Targets your lower body muscles including quadriceps, hamstrings, and glutes. Helps improve lower body strength and endurance.</p>
+            <img src="{{ url_for('static', filename='Images/bwsquat.png') }}" alt="Bodyweight Squat">
 
             <h2>Push-Ups</h2>
             <p>Works your chest, shoulders, and triceps. Can be modified to suit different fitness levels, from incline push-ups for beginners to advanced variations like diamond push-ups.</p>
+            <img src="{{ url_for('static', filename='Images/bwpushup.png') }}" alt="Bodyweight PushUp">
 
             <h2>Plank</h2>
             <p>Strengthens your core muscles, including the abdominals, obliques, and lower back. Helps improve stability and posture.</p>
+            <img src="{{ url_for('static', filename='Images/bwplank.png') }}" alt="Bodyweight Plank">
 
             <h2>Lunges</h2>
             <p>Targets the legs and improves balance and coordination. Forward lunges, reverse lunges, and walking lunges are effective variations.</p>
+            <img src="{{ url_for('static', filename='Images/bwlunges.png') }}" alt="Bodyweight Lunges">
 
             <p>These exercises can be performed anywhere and adjusted to your fitness level. Start with proper form and gradually increase repetitions as you build strength and confidence.</p>
         ''',
