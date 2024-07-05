@@ -48,11 +48,13 @@ blogs = [
             <h2>Timing Your Meals</h2>
             <p>When and what you eat around your workouts can impact your performance and recovery. Consuming a balanced meal or snack with carbohydrates and protein about 1-2 hours before training can provide the energy needed for your calisthenics session. Post-workout, focus on replenishing glycogen stores and supporting muscle recovery with a protein-rich meal or snack.</p>
 
-            5. **Include Healthy Fats**: Healthy fats are essential for hormone production, joint health, and energy. Incorporate sources of healthy fats, such as avocados, olive oil, and fatty fish, into your diet to support overall health and performance.
+            <h2>Include Healthy Fats</h2> 
+            <p>Healthy fats are essential for hormone production, joint health, and energy. Incorporate sources of healthy fats, such as avocados, olive oil, and fatty fish, into your diet to support overall health and performance.</p>
 
-            6. **Listen to Your Body**: Everyone's nutritional needs are different. Pay attention to how your body responds to different foods and adjust your diet accordingly. If you're unsure about your nutritional needs, consider consulting with a registered dietitian or nutritionist.
+            <h2>Listen to Your Body</h2>
+            <p>Everyone's nutritional needs are different. Pay attention to how your body responds to different foods and adjust your diet accordingly. If you're unsure about your nutritional needs, consider consulting with a registered dietitian or nutritionist.</p>
 
-            By fueling your body with the right nutrients, you can enhance your calisthenics performance, recover faster, and achieve your fitness goals more effectively.
+            <p>By fueling your body with the right nutrients, you can enhance your calisthenics performance, recover faster, and achieve your fitness goals more effectively.</p>
         ''',
         'image': 'Images/healthy.png'
     },
