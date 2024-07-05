@@ -157,15 +157,19 @@ blogs = [
 
             <h2>Goal Setting</h2>
             <p>Establish clear, achievable goals for your calisthenics training. Short-term and long-term goals provide direction and motivation.</p>
+            <img src="{{ url_for('static', filename='Images/goals.png') }}" alt="goals">
 
             <h2>Visualization</h2>
             <p>Mentally rehearse your workouts and visualize successful performance. Visualizing correct technique and overcoming challenges can improve confidence.</p>
+            <img src="{{ url_for('static', filename='Images/visualization.png') }}" alt="visualization">
 
             <h2>Mindfulness and Focus</h2>
             <p>Practice mindfulness techniques such as deep breathing and meditation to stay present during training. Enhanced focus can improve performance and reduce stress.</p>
+            <img src="{{ url_for('static', filename='Images/focus.png') }}" alt="focus">
 
             <h2>Positive Self-Talk</h2>
             <p>Replace negative thoughts with positive affirmations. Encourage yourself during challenging workouts and celebrate small victories along the way.</p>
+            <img src="{{ url_for('static', filename='Images/positivetalk.png') }}" alt="positivetalk">
 
             <p>By integrating mental conditioning strategies into your calisthenics routine, you can enhance resilience, improve concentration, and achieve optimal performance outcomes.</p>
         ''',
