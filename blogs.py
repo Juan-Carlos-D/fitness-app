@@ -113,6 +113,7 @@ blogs = [
 
             <h2>Omega-3 Fish Oil</h2>
             <p>Provides anti-inflammatory benefits and supports joint health. Essential for overall cardiovascular health and brain function.</p>
+            <img src="{{ url_for('static', filename='Images/omega.png') }}" alt="omega">
 
             <p>Before incorporating supplements, consult with a healthcare professional or nutritionist to ensure they align with your goals and health status. Remember, supplements are meant to supplement a healthy diet, not replace it.</p>
         ''',
