@@ -13,6 +13,7 @@ blogs = [
             
             <h2>No Equipment Needed</h2>
             <p>One of the biggest advantages of calisthenics is that it requires little to no equipment. This makes it accessible to everyone, regardless of their location or financial situation. All you need is your body and some space to move.</p>
+            <img src="{{ url_for('static', filename='Images/noequipment.png') }}" alt="No Equipment">
             
             <h2>Enhances Coordination and Balance</h2>
             <p>Many calisthenics exercises require coordination and balance, which can help improve your overall body control. Exercises like handstands and plank variations challenge your stability and proprioception.</p>
