@@ -21,6 +21,7 @@ blogs = [
             
             <h2>Adaptable to All Fitness Levels</h2>
             <p>Calisthenics can be easily modified to suit any fitness level. Beginners can start with basic movements and gradually progress to more advanced exercises as they build strength and confidence.</p>
+            <img src="{{ url_for('static', filename='Images/alllevels.png') }}" alt="All Levels">
             
             <h2>Promotes Mental Well-being</h2>
             <p>Engaging in regular physical activity, such as calisthenics, has been shown to reduce stress, anxiety, and depression. The discipline and focus required for these exercises can also enhance mental resilience.</p>
