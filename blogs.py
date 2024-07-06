@@ -25,6 +25,7 @@ blogs = [
             
             <h2>Promotes Mental Well-being</h2>
             <p>Engaging in regular physical activity, such as calisthenics, has been shown to reduce stress, anxiety, and depression. The discipline and focus required for these exercises can also enhance mental resilience.</p>
+            <img src="{{ url_for('static', filename='Images/flexibility.png') }}" alt="Mental Well Being">
             
             <p>In conclusion, calisthenics is a versatile and effective way to improve your physical fitness and mental well-being. Whether you're a beginner or an experienced athlete, incorporating calisthenics into your workout routine can help you achieve a balanced and healthy lifestyle.</p>
         ''',
