@@ -70,33 +70,60 @@ blogs = [
         'author': 'Juan Carlos Dominguez',
         'date': 'June 22, 2024',
         'content': '''
-            <p>Proper nutrition plays a crucial role in the success of any fitness program, and calisthenics is no exception. Here are some important nutritional tips to help you maximize your calisthenics training:</p>
+            <p>Proper nutrition plays a crucial role in the success of any fitness program, and calisthenics is no exception. 
+            Here are some important nutritional tips to help you maximize your calisthenics training:</p>
 
             <h2>Eat a Balanced Diet</h2> 
-            <p>Ensure that your diet includes a variety of foods from all the major food groups. A balanced diet provides the essential nutrients your body needs to perform and recover from calisthenics workouts.</p>
+            <p>Ensure that your diet includes a variety of foods from all the major food groups. A balanced diet provides the 
+            essential nutrients your body needs to perform and recover from calisthenics workouts. This includes a good mix 
+            of carbohydrates, proteins, fats, vitamins, and minerals. Carbohydrates are your body's primary energy source 
+            and should come from whole grains, fruits, and vegetables. Proteins are vital for muscle repair and growth, while 
+            fats are necessary for hormone production and joint health.</p>
             <img src="{{ url_for('static', filename='Images/dietbalance.png') }}" alt="Balanced Diet">
 
             <h2>Prioritize Protein</h2>
-            <p>Protein is vital for muscle repair and growth. Include high-quality protein sources such as lean meats, eggs, dairy products, legumes, and nuts in your diet. Aim for a protein intake that supports your activity level and goals.</p>
+            <p>Protein is vital for muscle repair and growth. Include high-quality protein sources such as lean meats, eggs, 
+            dairy products, legumes, and nuts in your diet. Aim for a protein intake that supports your activity level and 
+            goals. For instance, athletes and those engaged in intense calisthenics might need more protein compared to 
+            sedentary individuals. Proteins are made up of amino acids, which are the building blocks of muscle tissue. 
+            Consuming adequate protein ensures that your muscles can recover and grow after strenuous workouts.</p>
             <img src="{{ url_for('static', filename='Images/proteindishes.png') }}" alt="Protein Dishes">
 
             <h2>Stay Hydrated</h2>
-            <p>Hydration is key to maintaining performance and preventing injuries. Drink plenty of water throughout the day, especially before, during, and after your workouts. Dehydration can lead to decreased performance and increased risk of muscle cramps.</p>
+            <p>Hydration is key to maintaining performance and preventing injuries. Drink plenty of water throughout the day, 
+            especially before, during, and after your workouts. Dehydration can lead to decreased performance, increased risk 
+            of muscle cramps, and prolonged recovery times. It's important to listen to your body and drink water regularly, 
+            even if you don't feel thirsty. Additionally, consuming water-rich foods like fruits and vegetables can also 
+            contribute to your hydration needs.</p>
             <img src="{{ url_for('static', filename='Images/hydration.png') }}" alt="Hydration">
             
             <h2>Timing Your Meals</h2>
-            <p>When and what you eat around your workouts can impact your performance and recovery. Consuming a balanced meal or snack with carbohydrates and protein about 1-2 hours before training can provide the energy needed for your calisthenics session. Post-workout, focus on replenishing glycogen stores and supporting muscle recovery with a protein-rich meal or snack.</p>
+            <p>When and what you eat around your workouts can impact your performance and recovery. Consuming a balanced meal 
+            or snack with carbohydrates and protein about 1-2 hours before training can provide the energy needed for your 
+            calisthenics session. Carbohydrates will fuel your muscles, while protein will support muscle maintenance. 
+            Post-workout, focus on replenishing glycogen stores and supporting muscle recovery with a protein-rich meal or 
+            snack. This can help minimize muscle soreness and prepare your body for the next workout session.</p>
             <img src="{{ url_for('static', filename='Images/time.png') }}" alt="Time">
 
             <h2>Include Healthy Fats</h2> 
-            <p>Healthy fats are essential for hormone production, joint health, and energy. Incorporate sources of healthy fats, such as avocados, olive oil, and fatty fish, into your diet to support overall health and performance.</p>
-            <img src="{{ url_for('static', filename='Images/salmon.png') }}" alt="salmon">
+            <p>Healthy fats are essential for hormone production, joint health, and energy. Incorporate sources of healthy 
+            fats, such as avocados, olive oil, and fatty fish, into your diet to support overall health and performance. 
+            These fats also aid in the absorption of fat-soluble vitamins (A, D, E, and K) and provide long-lasting energy. 
+            Additionally, omega-3 fatty acids found in fatty fish like salmon can reduce inflammation and support heart 
+            health, which is beneficial for those engaging in regular physical activity.</p>
+            <img src="{{ url_for('static', filename='Images/salmon.png') }}" alt="Salmon">
 
             <h2>Listen to Your Body</h2>
-            <p>Everyone's nutritional needs are different. Pay attention to how your body responds to different foods and adjust your diet accordingly. If you're unsure about your nutritional needs, consider consulting with a registered dietitian or nutritionist.</p>
+            <p>Everyone's nutritional needs are different. Pay attention to how your body responds to different foods and 
+            adjust your diet accordingly. If you're unsure about your nutritional needs, consider consulting with a registered 
+            dietitian or nutritionist. They can provide personalized advice based on your fitness goals, dietary preferences, 
+            and any medical conditions you may have. Listening to your body also means recognizing signs of hunger and fullness 
+            and eating mindfully to support both your physical and mental well-being.</p>
             <img src="{{ url_for('static', filename='Images/listenbody.png') }}" alt="Listen to your Body">
 
-            <p>By fueling your body with the right nutrients, you can enhance your calisthenics performance, recover faster, and achieve your fitness goals more effectively.</p>
+            <p>By fueling your body with the right nutrients, you can enhance your calisthenics performance, recover faster, 
+            and achieve your fitness goals more effectively. Proper nutrition not only supports your workouts but also promotes 
+            overall health, making it an integral part of any fitness regimen.</p>
         ''',
         'image': 'Images/healthy.png'
     },
