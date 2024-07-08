@@ -1,39 +1,107 @@
-/* beginner_program.css */
+body {
+    padding-top: 70px; /* Adjust for navbar height */
+    margin: 0; /* Reset default margin */
+    font-family: Arial, sans-serif; /* Adjust font family as needed */
+    background: url('your-image-url') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px; /* Adjust top margin as needed */
+    background-color: #0056b3;
+}
 
 .container {
-    text-align: center;
-    margin-top: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    padding: 20px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%; /* Adjust container width as needed */
+    margin-bottom: 30px; /* Add spacing between sections */
 }
 
-h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px; /* Adjust margin between sections */
+    background: purple;
 }
 
-p {
-    font-size: 18px;
-    margin-bottom: 20px;
+.intro-left {
+    width: 50%; /* Adjust width of left column */
 }
 
-.btn-download {
+.intro-left img {
+    width: 100%; /* Ensure image fills its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.intro-right {
+    width: 50%; /* Adjust width of right column */
+    padding: 0 20px; /* Add padding inside the container */
+    text-align: center; /* Center-align text */
+}
+
+.program-goals {
+    text-align: center; /* Center-align heading */
+    background-color: black;
+}
+
+.goals-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; /* Add space between goals */
+}
+
+.goal {
+    width: 30%; /* Adjust width of each goal item */
+    text-align: center; /* Center-align content */
+}
+
+.goal img {
+    width: 100%; /* Ensure image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add space below image */
+}
+
+.download-section {
+    text-align: center; /* Center-align content */
+    background-color: red;
+}
+
+.download-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download-section form label {
+    margin-bottom: 10px; /* Add space below labels */
+}
+
+.download-section form input,
+.download-section form button {
+    margin-bottom: 10px; /* Add space below inputs and button */
+    width: 80%; /* Adjust width of inputs and button */
+    padding: 10px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+}
+
+.btn-download,
+.btn-signup {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 18px;
+    margin-top: 10px; /* Add space above buttons */
+    background-color: #007bff;
     color: #fff;
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
     text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-.btn-download:hover {
+.btn-download:hover,
+.btn-signup:hover {
     background-color: #0056b3;
 }
