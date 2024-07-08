@@ -1,3 +1,9 @@
+/* Ensure the body or html element allows scrolling */
+body, html {
+    overflow-y: auto; /* Enable vertical scrolling on the entire page */
+    height: 100%; /* Ensure the height is set to 100% for the body and html */
+}
+
 /* Center the title and style it */
 .blog-title {
     text-align: center;
@@ -84,6 +90,7 @@
 @media screen and (max-width: 1024px) {
     .blog-title {
         top: 130px; /* Adjust top position for smaller screens */
+        font-size: 5em;
     }
 
     .blog-list {
@@ -114,8 +121,21 @@
     }
 }
 
-/* Ensure the body or html element allows scrolling */
-body, html {
-    overflow-y: auto; /* Enable vertical scrolling on the entire page */
-    height: 100%; /* Ensure the height is set to 100% for the body and html */
+@media screen and (max-width: 415px) {
+    .blog-title {
+        top: 100px; /* Adjust top position for smaller screens */
+        font-size: 2.3em;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .blog-title {
+        top: 100px; /* Adjust top position for smaller screens */
+        font-size: 2.2em;
+    }
+}
+
+/* Adjust scrollbar z-index */
+::-webkit-scrollbar {
+    z-index: 1001; /* Ensure scrollbar is above everything except navbar */
 }
