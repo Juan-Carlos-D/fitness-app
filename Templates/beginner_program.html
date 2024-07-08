@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Beginner Program{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Beginner Program</h1>
+        <p>Welcome to the Beginner Program! This program is designed to help you get started with calisthenics. It includes essential exercises and routines that will build your strength, flexibility, and endurance.</p>
+        <p>You can download the complete exercise program in PDF format by clicking the button below.</p>
+        <a href="#" class="btn-download" download>Download PDF</a>
+    </div>
+{% endblock %}
+
+{% block body_style %}
+    style="background: url('{{ url_for('static', filename='Images/gym_s2.png') }}') no-repeat center center fixed; background-size: cover;"
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/beginner_program.css') }}">
+{% endblock %}

@@ -12,6 +12,11 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
+@app.route('/beginner-program')
+def beginner_program():
+    return render_template('beginner_program.html')
+
+
 @app.route('/exercises/<int:exercise_id>')
 def exercise(exercise_id):
     if 1 <= exercise_id <= len(exercises):
