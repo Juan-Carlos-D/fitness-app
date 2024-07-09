@@ -1,7 +1,7 @@
 body {
-    padding-top: 70px; /* Adjust for navbar height */
+    padding-top: 80px; /* Adjust for navbar height */
     margin: 0; /* Reset default margin */
-    font-family: Arial, sans-serif; /* Adjust font family as needed */
+    font-family: Copperplate, Fantasy; /* Adjust font family as needed */
     overflow-y: auto; /* Ensure vertical overflow is handled */
 }
 
@@ -12,9 +12,12 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 680px; /* Adjust top margin as needed */
-    background-color: #0056b3;
+    /* background-color: #0056b3; */
 }
 
+.main-title {
+    color:#007bff;
+}
 
 .container {
     width: 80%; /* Adjust container width as needed */
@@ -41,11 +44,11 @@ body {
     border-radius: 10px;
 }
 
-
 .intro-right {
     width: 50%; /* Adjust width of right column */
     padding: 0 20px; /* Add padding inside the container */
-    text-align: center; /* Center-align text */
+    text-align: justify; /* Center-align text */
+    font-family: monospace, Lucida Console;
 }
 
 .program-goals {
