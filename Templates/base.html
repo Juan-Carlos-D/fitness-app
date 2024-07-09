@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
     {% block stylesheets %}{% endblock %}
 </head>
-<body {% block body_style %} style="background: url('{{ url_for('static', filename='Images/ringggs.png') }}') no-repeat center center fixed; background-size: cover;" {% endblock %}>
+<body {% block body_style %} style="background: url('{{ url_for('static', filename='Images/Home/ringggs.png') }}') no-repeat center center fixed; background-size: cover;" {% endblock %}>
 
     <nav class="navbar">
         <div class="logo">
             <a href="{{ url_for('home') }}">
-                <img src="{{ url_for('static', filename='Images/devcal.png') }}" alt="Logo">
+                <img src="{{ url_for('static', filename='Images/Home/devcal.png') }}" alt="Logo">
             </a>
         </div>
         <ul class="nav-list">

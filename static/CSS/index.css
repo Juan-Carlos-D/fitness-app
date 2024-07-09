@@ -316,7 +316,7 @@ ul {
         gap: 0;
         flex-direction: column;
         /* Add background image with transparency */
-        background: url('../Images/chalk.png') no-repeat center center;
+        background: url('../Images/Home/chalk.png') no-repeat center center;
         background-size: cover;
         background-color: rgba(209, 219, 94, 0.7); /* Use rgba for transparency */
         width: 100%;
