@@ -1,5 +1,5 @@
 body {
-    padding-top: 420px; /* Adjust for navbar height */
+    top: 250px; /* Adjust for navbar height */
     margin: 0; /* Reset default margin */
     font-family: Copperplate, Fantasy; /* Adjust font family as needed */
     overflow-y: auto; /* Ensure vertical overflow is handled */
@@ -83,7 +83,7 @@ h2 {
 .goal {
     width: 30%; /* Adjust width of each goal item */
     text-align: center; /* Center-align content */
-    background-color: rgb(73, 73, 16);
+    background-color: rgb(120, 120, 221);
     border-radius: 10px;
     margin: 20px 0;
 }
@@ -102,7 +102,7 @@ h2 {
 
 .download-section {
     text-align: center; /* Center-align content */
-    background-color: red;
+    /* background-color: red; */
 }
 
 .download-section form {
@@ -118,7 +118,7 @@ h2 {
 .download-section form input,
 .download-section form button {
     margin-bottom: 10px; /* Add space below inputs and button */
-    width: 80%; /* Adjust width of inputs and button */
+    width: 40%; /* Adjust width of inputs and button */
     padding: 10px; /* Add padding */
     border: 1px solid #ccc; /* Add border */
     border-radius: 5px; /* Add border radius */
@@ -197,11 +197,18 @@ h2 {
 
 
 /* RESPONSIVE */
-@media screen and (max-width: 1024px) {
-    .page-container {
-        margin-top: 20px;
+@media screen and (max-width: 1280px) {
+    body {
+        top: 350px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    body {
+        top: 150px;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
 
