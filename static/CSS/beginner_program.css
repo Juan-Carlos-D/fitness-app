@@ -2,7 +2,6 @@ body {
     padding-top: 70px; /* Adjust for navbar height */
     margin: 0; /* Reset default margin */
     font-family: Arial, sans-serif; /* Adjust font family as needed */
-    background: url('your-image-url') no-repeat center center fixed;
     background-size: cover;
     overflow-y: auto; /* Ensure vertical overflow is handled */
 }
