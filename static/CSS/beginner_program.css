@@ -5,7 +5,6 @@ body {
     overflow-y: auto; /* Ensure vertical overflow is handled */
 }
 
-
 .page-container {
     display: flex;
     flex-direction: column;
@@ -16,7 +15,8 @@ body {
 }
 
 .main-title {
-    color:#007bff;
+    color:rgb(120, 120, 221);
+    font-size: 3.0em;
 }
 
 .container {
@@ -29,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 50px; /* Adjust margin between sections */
-    background: purple;
+    /* background: purple; */
     padding: 20px; /* Add padding to create space */
 }
 
@@ -48,7 +48,19 @@ body {
     width: 50%; /* Adjust width of right column */
     padding: 0 20px; /* Add padding inside the container */
     text-align: justify; /* Center-align text */
-    font-family: monospace, Lucida Console;
+    font-family: Fantasy, Impact;
+}
+
+.program-name {
+    letter-spacing: 0.03em;
+    color: rgb(120, 120, 221);
+    font-size: 1.1em;
+}
+
+.span-words{
+    letter-spacing: 0.03em;
+    color: rgb(120, 120, 221);
+    /* font-weight: bold; */
 }
 
 .program-goals {
