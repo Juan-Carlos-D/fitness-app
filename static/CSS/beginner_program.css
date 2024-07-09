@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 680px; /* Adjust top margin as needed */
-    /* background-color: #0056b3; */
+    background-color: #0056b3;
 }
 
 
@@ -26,7 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 50px; /* Adjust margin between sections */
-    /* background: purple; */
+    background: purple;
     padding: 20px; /* Add padding to create space */
 }
 
@@ -50,14 +50,14 @@ body {
 
 .program-goals {
     text-align: center; /* Center-align heading */
-    /* background-color: black; */
+    background-color: black;
 }
 
 .goals-container {
     display: flex;
     justify-content: space-around;
     margin-top: 20px; /* Add space between goals */
-    /* background-color: red; */
+    background-color: red;
 }
 
 .goal {
@@ -82,7 +82,7 @@ body {
 
 .download-section {
     text-align: center; /* Center-align content */
-    /* background-color: red; */
+    background-color: red;
 }
 
 .download-section form {
@@ -119,4 +119,24 @@ body {
 .btn-download:hover,
 .btn-signup:hover {
     background-color: #0056b3;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 1024px) {
+    .page-container {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 415px) {
+
+}
+
+@media screen and (max-width: 390px) {
+
 }
