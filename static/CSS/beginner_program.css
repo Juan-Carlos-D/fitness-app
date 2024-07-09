@@ -1,8 +1,13 @@
 body {
-    padding-top: 80px; /* Adjust for navbar height */
+    padding-top: 420px; /* Adjust for navbar height */
     margin: 0; /* Reset default margin */
     font-family: Copperplate, Fantasy; /* Adjust font family as needed */
     overflow-y: auto; /* Ensure vertical overflow is handled */
+}
+
+h2 {
+    font-size: 2.5em;
+    letter-spacing: 0.02em;
 }
 
 .page-container {
@@ -65,14 +70,14 @@ body {
 
 .program-goals {
     text-align: center; /* Center-align heading */
-    background-color: black;
+    /* background-color: black; */
 }
 
 .goals-container {
     display: flex;
     justify-content: space-around;
     margin-top: 20px; /* Add space between goals */
-    background-color: red;
+    /* background-color: red; */
 }
 
 .goal {
@@ -135,6 +140,60 @@ body {
 .btn-signup:hover {
     background-color: #0056b3;
 }
+
+.program-equipment-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    /* background-color: white; */
+}
+
+.program-equipment-section .left-half {
+    /* background-color: aquamarine; */
+}
+
+.program-equipment-section .right-half {
+    /* background-color: rgb(223, 91, 212); */
+}
+
+.program-equipment-section .left-half,
+.program-equipment-section .right-half {
+    width: 50%; /* Adjust width as needed */
+}
+
+.program-equipment-section h2 {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.included-list,
+.equipment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.included-list li,
+.equipment-list li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.included-list li:before,
+.equipment-list li:before {
+    content: "\2022";
+    color: #007bff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.included-list li:first-child,
+.equipment-list li:first-child {
+    margin-top: 10px;
+}
+
 
 
 /* RESPONSIVE */
