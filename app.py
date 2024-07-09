@@ -85,6 +85,7 @@ def blog(blog_id):
         return render_template('blog.html', blog=blog)
     else:
         return 'Blog not found', 404
+    
 def render_program(title, main_title, intro_image, intro_text, intro_subtext, download_link, goals, goals_title, download_section_title, background_image):
     return render_template(
         'program_base.html',
