@@ -2,7 +2,6 @@ body {
     padding-top: 70px; /* Adjust for navbar height */
     margin: 0; /* Reset default margin */
     font-family: Arial, sans-serif; /* Adjust font family as needed */
-    background-size: cover;
     overflow-y: auto; /* Ensure vertical overflow is handled */
 }
 
@@ -12,7 +11,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 350px; /* Adjust top margin as needed */
+    margin-top: 680px; /* Adjust top margin as needed */
     background-color: #0056b3;
 }
 
@@ -57,18 +56,27 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 20px; /* Add space between goals */
+    background-color: red;
 }
 
 .goal {
     width: 30%; /* Adjust width of each goal item */
     text-align: center; /* Center-align content */
     background-color: rgb(73, 73, 16);
+    border-radius: 10px;
+    margin: 20px 0;
 }
 
 .goal img {
     width: 100%; /* Ensure image fills its container */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px; /* Add space below image */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.goal p {
+    margin-bottom: 20px;
 }
 
 .download-section {
