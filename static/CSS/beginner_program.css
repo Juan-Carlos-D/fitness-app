@@ -4,16 +4,19 @@ body {
     font-family: Arial, sans-serif; /* Adjust font family as needed */
     background: url('your-image-url') no-repeat center center fixed;
     background-size: cover;
+    overflow-y: auto; /* Ensure vertical overflow is handled */
 }
+
 
 .page-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px; /* Adjust top margin as needed */
+    margin-top: 350px; /* Adjust top margin as needed */
     background-color: #0056b3;
 }
+
 
 .container {
     width: 80%; /* Adjust container width as needed */
@@ -26,6 +29,7 @@ body {
     align-items: center;
     margin-bottom: 50px; /* Adjust margin between sections */
     background: purple;
+    padding: 20px; /* Add padding to create space */
 }
 
 .intro-left {
@@ -35,7 +39,9 @@ body {
 .intro-left img {
     width: 100%; /* Ensure image fills its container */
     height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure image does not exceed container width */
 }
+
 
 .intro-right {
     width: 50%; /* Adjust width of right column */
@@ -57,6 +63,7 @@ body {
 .goal {
     width: 30%; /* Adjust width of each goal item */
     text-align: center; /* Center-align content */
+    background-color: rgb(73, 73, 16);
 }
 
 .goal img {
