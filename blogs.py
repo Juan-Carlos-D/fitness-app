@@ -62,7 +62,7 @@ blogs = [
             So, the next time you're looking for a workout that can be done anywhere and tailored to your fitness level, 
             consider giving calisthenics a try.</p>
         ''',
-        'image': 'Images/gymnast.png'
+        'image': 'Images/Blogs/gymnast.png'
     },
     {
         'id': 2,
@@ -125,7 +125,7 @@ blogs = [
             and achieve your fitness goals more effectively. Proper nutrition not only supports your workouts but also promotes 
             overall health, making it an integral part of any fitness regimen.</p>
         ''',
-        'image': 'Images/healthy.png'
+        'image': 'Images/Blogs/healthy.png'
     },
     {
         'id': 3,
@@ -174,7 +174,7 @@ blogs = [
             and can be combined into a full-body workout routine. By consistently incorporating these exercises into your fitness 
             regimen, you'll see improvements in your strength, endurance, and overall health.</p>
         ''',
-        'image': 'Images/bodyweight.png'
+        'image': 'Images/Blogs/bodyweight.png'
     },
     {
         'id': 4,
@@ -221,7 +221,7 @@ blogs = [
             Proper nutrition, hydration, and rest are foundational for any successful fitness program. By using supplements 
             wisely, you can enhance your calisthenics performance and achieve your fitness goals more effectively.</p>
         ''',
-        'image': 'Images/supplements.png'
+        'image': 'Images/Blogs/supplements.png'
     },
     {
         'id': 5,
@@ -266,7 +266,7 @@ blogs = [
             technique and safety to avoid injury and maximize performance gains. Incorporate these moves into your training 
             routine to take your calisthenics practice to new heights and achieve mastery over your bodyweight movements.</p>
         ''',
-        'image': 'Images/advanced.png'
+        'image': 'Images/Blogs/advanced.png'
     },
     {
         'id': 6,
@@ -314,6 +314,6 @@ blogs = [
             physical strength in reaching your fitness goals, so invest time in developing both aspects to maximize your 
             success in calisthenics.</p>
         ''',
-        'image': 'Images/yoga.png'
+        'image': 'Images/Blogs/yoga.png'
     }
 ]

@@ -12,7 +12,7 @@ exercises = [
             "3. Bend your elbows to lower your chest towards the ground.",
             "4. Then push back up."        
         ],
-        "image_path": "Images/push-up.png"
+        "image_path": "Images/Exercises/push-up.png"
     },
     
     {
@@ -27,7 +27,7 @@ exercises = [
             "3. Keep your chest upright and your back straight.",
             "4. Return to the starting position by pushing through your heels."      
         ],
-        "image_path": "Images/squat.png"        
+        "image_path": "Images/Exercises/squat.png"        
     },
     
     {
@@ -44,7 +44,7 @@ exercises = [
             "5. Slowly pull your body upwards, using your back and arm muscles, until your chin is just above the bar.",
             "6. Lower yourself back down in a controlled manner until your arms are straight again."     
         ],
-        "image_path": "Images/pull-up.png"      
+        "image_path": "Images/Exercises/pull-up.png"      
     },
     
     {
@@ -59,7 +59,7 @@ exercises = [
             "3. Keep your chest upright and your back straight.", 
             "4. Return to the starting position by pushing with your hips."
         ],
-        "image_path": "Images/hip_hinge.png"    
+        "image_path": "Images/Exercises/hip_hinge.png"    
     },
     
     {
@@ -75,7 +75,7 @@ exercises = [
             "4. Hold the position for a moment, then rotate back to the center.",
             "5. Repeat the movement to the left side."
         ],
-        "image_path": "Images/rotation.png"    
+        "image_path": "Images/Exercises/rotation.png"    
     },
     
     {
@@ -90,7 +90,7 @@ exercises = [
             "3. Hold for 2-3 seconds, and the lower it back down.",
             "4. Repeat with the other leg."
         ],
-        "image_path": "Images/leg extension.png"            
+        "image_path": "Images/Exercises/leg extension.png"            
     },
     
     {
@@ -105,7 +105,7 @@ exercises = [
             "3. Make small circles with your arms.",
             "4. Gradually make the circles larger."
         ],
-        "image_path": "Images/arm_circles.png"         
+        "image_path": "Images/Exercises/arm_circles.png"         
     },
     
     {
@@ -120,7 +120,7 @@ exercises = [
             "3. Lower it back down and lift the other knee.",
             "4. Ensure you keep your body upright throughout."
         ],
-        "image_path": "Images/marching.png"         
+        "image_path": "Images/Exercises/marching.png"         
     },
     
     {
@@ -134,7 +134,7 @@ exercises = [
             "2. Raise your heels off the ground as high as possible.",
             "3. Lower them back down and repeat"
         ],
-        "image_path": "Images/heel raise.png"          
+        "image_path": "Images/Exercises/heel raise.png"          
     },
     
     {
@@ -149,7 +149,7 @@ exercises = [
             "3. Push your arms up towards the sky.",
             "4. Lower your arms back down and repeat."
         ],
-        "image_path": "Images/shoulder press.png"
+        "image_path": "Images/Exercises/shoulder press.png"
     },
     
     {
@@ -164,7 +164,7 @@ exercises = [
             "3. Give the object a firm squeeze and release.",
             "4. Repeat until time is up."
         ],
-        "image_path": "Images/ball_squeeze.png"
+        "image_path": "Images/Exercises/ball_squeeze.png"
     },
     
     {
@@ -180,7 +180,7 @@ exercises = [
             "4. Push your hips back down into the chair to sit back down.",
             "5. Use the handles of the chair for support if needed."
         ],
-        "image_path": "Images/sit_to_stand.png"
+        "image_path": "Images/Exercises/sit_to_stand.png"
     },
     
     {
@@ -197,7 +197,7 @@ exercises = [
             "5. Hold briefly before slowly relaxing your leg back to the starting position.",
             "6. Repeat and do the same on the left leg."
         ],
-        "image_path": "Images/side_lr.png"
+        "image_path": "Images/Exercises/side_lr.png"
     },
     
     {
@@ -216,7 +216,7 @@ exercises = [
             "7. Hold for 30 seconds.",
             "8. Repeat the same steps for the right arm now."
         ],
-        "image_path": "Images/wrist_strx.png"
+        "image_path": "Images/Exercises/wrist_strx.png"
     },
     
     {
@@ -232,7 +232,7 @@ exercises = [
             "4. Gradually make the circles bigger.",
             "5. Reverse the direction after doing 30."
         ],
-        "image_path": "Images/wrist_circ.png"
+        "image_path": "Images/Exercises/wrist_circ.png"
     },
     {
         "Name": "Seated Hamstring Stretch",
@@ -248,7 +248,7 @@ exercises = [
             "5. Hold for 30 seconds.",
             "6. Repeat on the other leg."
         ],
-        "image_path": "Images/hamstring_strx.png"
+        "image_path": "Images/Exercises/hamstring_strx.png"
     }
 ]
 
