@@ -18,7 +18,7 @@ blogs = [
             calisthenics promotes functional strength, which is essential for everyday activities. For example, exercises 
             like pull-ups not only strengthen your back and biceps but also improve your grip strength, which is beneficial 
             for tasks like carrying groceries or lifting objects.</p>
-            <img src="{{ url_for('static', filename='Images/flexibility.png') }}" alt="Strength and Flexibility">
+            <img src="{{ url_for('static', filename='Images/Blog_One/flexibility.png') }}" alt="Strength and Flexibility">
             
             <h2>No Equipment Needed</h2>
             <p>One of the biggest advantages of calisthenics is that it requires little to no equipment. This makes it 
@@ -26,7 +26,7 @@ blogs = [
             some space to move. This accessibility means you can work out at home, in a park, or even in your office 
             during a break. Additionally, because you don't need to rely on machines or weights, you can focus on mastering 
             your body movements and improving your form, which can lead to better overall fitness results.</p>
-            <img src="{{ url_for('static', filename='Images/noequipment.png') }}" alt="No Equipment">
+            <img src="{{ url_for('static', filename='Images/Blog_One/noequipment.png') }}" alt="No Equipment">
             
             <h2>Enhances Coordination and Balance</h2>
             <p>Many calisthenics exercises require coordination and balance, which can help improve your overall body control. 
@@ -35,7 +35,7 @@ blogs = [
             regularly practicing calisthenics, you can enhance your neuromuscular connections, leading to better balance 
             and coordination. This can translate into improved performance in other sports and activities, such as running, 
             cycling, or even daily tasks that require precise movements.</p>
-            <img src="{{ url_for('static', filename='Images/balance.png') }}" alt="Coordination and Balance">
+            <img src="{{ url_for('static', filename='Images/Blog_One/balance.png') }}" alt="Coordination and Balance">
             
             <h2>Adaptable to All Fitness Levels</h2>
             <p>Calisthenics can be easily modified to suit any fitness level. Beginners can start with basic movements and 
@@ -44,7 +44,7 @@ blogs = [
             can progress to standard push-ups and eventually to more challenging variations like diamond push-ups or clap 
             push-ups. This adaptability makes calisthenics a sustainable and progressive workout option, allowing you to 
             continue challenging yourself and making gains over time.</p>
-            <img src="{{ url_for('static', filename='Images/alllevels.png') }}" alt="All Levels">
+            <img src="{{ url_for('static', filename='Images/Blog_One/alllevels.png') }}" alt="All Levels">
             
             <h2>Promotes Mental Well-being</h2>
             <p>Engaging in regular physical activity, such as calisthenics, has been shown to reduce stress, anxiety, and 
@@ -53,7 +53,7 @@ blogs = [
             Moreover, the sense of accomplishment from mastering a new exercise or achieving a fitness goal can boost your 
             self-esteem and motivation. The meditative nature of repetitive movements in calisthenics can also provide a 
             mental break from daily stresses, helping you feel more centered and balanced.</p>
-            <img src="{{ url_for('static', filename='Images/wellbeing.png') }}" alt="Mental Well Being">
+            <img src="{{ url_for('static', filename='Images/Blog_One/wellbeing.png') }}" alt="Mental Well Being">
             
             <p>In conclusion, calisthenics is a versatile and effective way to improve your physical fitness and mental 
             well-being. Whether you're a beginner or an experienced athlete, incorporating calisthenics into your workout 
