@@ -18,7 +18,7 @@ blogs = [
             calisthenics promotes functional strength, which is essential for everyday activities. For example, exercises 
             like pull-ups not only strengthen your back and biceps but also improve your grip strength, which is beneficial 
             for tasks like carrying groceries or lifting objects.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_One/flexibility.png') }}" alt="Strength and Flexibility">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_One/flexibility.png') }}" alt="Strength and Flexibility">
             
             <h2>No Equipment Needed</h2>
             <p>One of the biggest advantages of calisthenics is that it requires little to no equipment. This makes it 
@@ -26,7 +26,7 @@ blogs = [
             some space to move. This accessibility means you can work out at home, in a park, or even in your office 
             during a break. Additionally, because you don't need to rely on machines or weights, you can focus on mastering 
             your body movements and improving your form, which can lead to better overall fitness results.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_One/noequipment.png') }}" alt="No Equipment">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_One/noequipment.png') }}" alt="No Equipment">
             
             <h2>Enhances Coordination and Balance</h2>
             <p>Many calisthenics exercises require coordination and balance, which can help improve your overall body control. 
@@ -35,7 +35,7 @@ blogs = [
             regularly practicing calisthenics, you can enhance your neuromuscular connections, leading to better balance 
             and coordination. This can translate into improved performance in other sports and activities, such as running, 
             cycling, or even daily tasks that require precise movements.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_One/balance.png') }}" alt="Coordination and Balance">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_One/balance.png') }}" alt="Coordination and Balance">
             
             <h2>Adaptable to All Fitness Levels</h2>
             <p>Calisthenics can be easily modified to suit any fitness level. Beginners can start with basic movements and 
@@ -44,7 +44,7 @@ blogs = [
             can progress to standard push-ups and eventually to more challenging variations like diamond push-ups or clap 
             push-ups. This adaptability makes calisthenics a sustainable and progressive workout option, allowing you to 
             continue challenging yourself and making gains over time.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_One/alllevels.png') }}" alt="All Levels">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_One/alllevels.png') }}" alt="All Levels">
             
             <h2>Promotes Mental Well-being</h2>
             <p>Engaging in regular physical activity, such as calisthenics, has been shown to reduce stress, anxiety, and 
@@ -53,7 +53,7 @@ blogs = [
             Moreover, the sense of accomplishment from mastering a new exercise or achieving a fitness goal can boost your 
             self-esteem and motivation. The meditative nature of repetitive movements in calisthenics can also provide a 
             mental break from daily stresses, helping you feel more centered and balanced.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_One/wellbeing.png') }}" alt="Mental Well Being">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_One/wellbeing.png') }}" alt="Mental Well Being">
             
             <p>In conclusion, calisthenics is a versatile and effective way to improve your physical fitness and mental 
             well-being. Whether you're a beginner or an experienced athlete, incorporating calisthenics into your workout 
@@ -79,7 +79,7 @@ blogs = [
             of carbohydrates, proteins, fats, vitamins, and minerals. Carbohydrates are your body's primary energy source 
             and should come from whole grains, fruits, and vegetables. Proteins are vital for muscle repair and growth, while 
             fats are necessary for hormone production and joint health.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Two/dietbalance.png') }}" alt="Balanced Diet">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Two/dietbalance.png') }}" alt="Balanced Diet">
 
             <h2>Prioritize Protein</h2>
             <p>Protein is vital for muscle repair and growth. Include high-quality protein sources such as lean meats, eggs, 
@@ -87,7 +87,7 @@ blogs = [
             goals. For instance, athletes and those engaged in intense calisthenics might need more protein compared to 
             sedentary individuals. Proteins are made up of amino acids, which are the building blocks of muscle tissue. 
             Consuming adequate protein ensures that your muscles can recover and grow after strenuous workouts.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Two/proteindishes.png') }}" alt="Protein Dishes">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Two/proteindishes.png') }}" alt="Protein Dishes">
 
             <h2>Stay Hydrated</h2>
             <p>Hydration is key to maintaining performance and preventing injuries. Drink plenty of water throughout the day, 
@@ -95,7 +95,7 @@ blogs = [
             of muscle cramps, and prolonged recovery times. It's important to listen to your body and drink water regularly, 
             even if you don't feel thirsty. Additionally, consuming water-rich foods like fruits and vegetables can also 
             contribute to your hydration needs.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Two/hydration.png') }}" alt="Hydration">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Two/hydration.png') }}" alt="Hydration">
             
             <h2>Timing Your Meals</h2>
             <p>When and what you eat around your workouts can impact your performance and recovery. Consuming a balanced meal 
@@ -103,7 +103,7 @@ blogs = [
             calisthenics session. Carbohydrates will fuel your muscles, while protein will support muscle maintenance. 
             Post-workout, focus on replenishing glycogen stores and supporting muscle recovery with a protein-rich meal or 
             snack. This can help minimize muscle soreness and prepare your body for the next workout session.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Two/time.png') }}" alt="Time">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Two/time.png') }}" alt="Time">
 
             <h2>Include Healthy Fats</h2> 
             <p>Healthy fats are essential for hormone production, joint health, and energy. Incorporate sources of healthy 
@@ -111,7 +111,7 @@ blogs = [
             These fats also aid in the absorption of fat-soluble vitamins (A, D, E, and K) and provide long-lasting energy. 
             Additionally, omega-3 fatty acids found in fatty fish like salmon can reduce inflammation and support heart 
             health, which is beneficial for those engaging in regular physical activity.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Two/salmon.png') }}" alt="Salmon">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Two/salmon.png') }}" alt="Salmon">
 
             <h2>Listen to Your Body</h2>
             <p>Everyone's nutritional needs are different. Pay attention to how your body responds to different foods and 
@@ -119,7 +119,7 @@ blogs = [
             dietitian or nutritionist. They can provide personalized advice based on your fitness goals, dietary preferences, 
             and any medical conditions you may have. Listening to your body also means recognizing signs of hunger and fullness 
             and eating mindfully to support both your physical and mental well-being.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Two/listenbody.png') }}" alt="Listen to your Body">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Two/listenbody.png') }}" alt="Listen to your Body">
 
             <p>By fueling your body with the right nutrients, you can enhance your calisthenics performance, recover faster, 
             and achieve your fitness goals more effectively. Proper nutrition not only supports your workouts but also promotes 
@@ -143,7 +143,7 @@ blogs = [
             apart, lower your body by bending your knees and hips as if you're sitting back into a chair, and then return 
             to the starting position. Focus on keeping your chest up and your weight on your heels. Squats not only build 
             muscle but also enhance your overall functional fitness, which is essential for daily activities.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Three/bwsquat.png') }}" alt="Bodyweight Squat">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Three/bwsquat.png') }}" alt="Bodyweight Squat">
 
             <h2>Push-Ups</h2>
             <p>Push-ups are a classic exercise that works your chest, shoulders, and triceps. They can be modified to suit 
@@ -151,7 +151,7 @@ blogs = [
             To perform a push-up, start in a plank position with your hands placed slightly wider than shoulder-width apart. 
             Lower your body until your chest nearly touches the floor, then push back up to the starting position. Push-ups 
             not only build upper body strength but also engage your core, promoting stability and balance.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Three/bwpushup.png') }}" alt="Bodyweight PushUp">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Three/bwpushup.png') }}" alt="Bodyweight PushUp">
 
             <h2>Plank</h2>
             <p>The plank is a highly effective exercise that strengthens your core muscles, including the abdominals, obliques, 
@@ -159,7 +159,7 @@ blogs = [
             of bending your arms, keep them straight. Your body should form a straight line from your head to your heels. Hold 
             this position while engaging your core, ensuring your hips don’t sag or lift too high. Planks are excellent for 
             building core strength, which is crucial for maintaining good posture and reducing the risk of back pain.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Three/bwplank.png') }}" alt="Bodyweight Plank">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Three/bwplank.png') }}" alt="Bodyweight Plank">
 
             <h2>Lunges</h2>
             <p>Lunges target the legs and improve balance and coordination. They work the quadriceps, hamstrings, and glutes. 
@@ -167,7 +167,7 @@ blogs = [
             a forward lunge, step forward with one leg and lower your hips until both knees are bent at a 90-degree angle. Ensure 
             your front knee is directly above your ankle, not pushed out too far. Lunges help improve lower body strength, enhance 
             joint flexibility, and are beneficial for functional movements.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Three/bwlunges.png') }}" alt="Bodyweight Lunges">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Three/bwlunges.png') }}" alt="Bodyweight Lunges">
 
             <p>These exercises can be performed anywhere and adjusted to your fitness level. Start with proper form to prevent 
             injuries and gradually increase repetitions as you build strength and confidence. Bodyweight exercises are versatile 
@@ -191,7 +191,7 @@ blogs = [
             They are especially useful for post-workout recovery when your muscles need amino acids for repair and rebuilding. 
             Protein powders can be easily incorporated into shakes, smoothies, or even baked goods. Choose a protein powder that 
             aligns with your dietary preferences and goals, whether it's whey for quick absorption or casein for slower digestion.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Four/smoothie.png') }}" alt="Protein Smoothie">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Four/smoothie.png') }}" alt="Protein Smoothie">
             <p>Pro tip: Make a smoothie with your protein powder using your favorite fruits to give it a yummy taste!</p>
 
             <h2>Creatine</h2>
@@ -199,7 +199,7 @@ blogs = [
             strength, power, and muscle mass over time. By replenishing ATP stores in your muscles, creatine allows you to push 
             harder during your workouts, leading to better performance and gains. Creatine is one of the most researched supplements 
             and has been shown to be safe and effective when used as directed.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Four/creatine.png') }}" alt="Creatine Supplement">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Four/creatine.png') }}" alt="Creatine Supplement">
             <p>Pro tip: You can either mix creatine with a glass of water or add it to your smoothies!</p>
 
             <h2>BCAAs (Branched-Chain Amino Acids)</h2>
@@ -207,14 +207,14 @@ blogs = [
             pre, intra (during), or post-workout to help maintain muscle mass and promote recovery. BCAAs include leucine, 
             isoleucine, and valine, which play a key role in muscle protein synthesis and energy production during exercise. 
             Supplementing with BCAAs can be particularly beneficial if you train fasted or have longer workout sessions.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Four/bcaa.png') }}" alt="BCAA Supplement">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Four/bcaa.png') }}" alt="BCAA Supplement">
 
             <h2>Omega-3 Fish Oil</h2>
             <p>Omega-3 fish oil provides anti-inflammatory benefits and supports joint health. It is essential for overall 
             cardiovascular health and brain function. Omega-3 fatty acids, such as EPA and DHA, help reduce inflammation, 
             which can be beneficial for recovery and reducing exercise-induced muscle damage. Including omega-3s in your 
             supplement regimen can also support mental health and cognitive function.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Four/omega.png') }}" alt="Omega-3 Fish Oil">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Four/omega.png') }}" alt="Omega-3 Fish Oil">
 
             <p>Before incorporating supplements, consult with a healthcare professional or nutritionist to ensure they align 
             with your goals and health status. Remember, supplements are meant to supplement a healthy diet, not replace it. 
@@ -238,21 +238,21 @@ blogs = [
             a muscle-up, you need to generate enough momentum to transition from a pull-up into a dip at the top of the bar. 
             Start with assisted variations using resistance bands or a spotter, and gradually progress to strict muscle-ups 
             as you build strength. Focus on developing a powerful pull and a smooth transition to master this impressive move.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Five/muscleup.png') }}" alt="Muscle-Up">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Five/muscleup.png') }}" alt="Muscle-Up">
 
             <h2>Handstand Push-Ups</h2>
             <p>Handstand push-ups are inverted push-ups that target your shoulders, triceps, and core. Begin with wall-supported 
             handstands to build the necessary balance and strength. Once comfortable, progress to performing handstand push-ups 
             against the wall. The ultimate goal is to achieve freestanding handstand push-ups, which require excellent balance 
             and control. Practicing regular handstands and pike push-ups can help prepare you for this challenging exercise.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Five/handstandpushup.png') }}" alt="Handstand Push-Up">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Five/handstandpushup.png') }}" alt="Handstand Push-Up">
 
             <h2>Pistol Squats</h2>
             <p>Pistol squats are single-leg squats that develop lower body strength, balance, and flexibility. Start by mastering 
             bodyweight squats and progressing to assisted pistol squats using a chair or resistance bands. Once you have built 
             enough strength and balance, attempt full pistol squats without assistance. This exercise not only challenges your 
             leg muscles but also improves your overall coordination and stability.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Five/pistolsquat.png') }}" alt="Pistol Squat">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Five/pistolsquat.png') }}" alt="Pistol Squat">
 
             <h2>Back/Front Lever</h2>
             <p>The back and front levers are horizontal holds that challenge your core, back, and shoulder muscles. To perform 
@@ -260,7 +260,7 @@ blogs = [
             to advanced tuck, straddle, and finally full lever positions as your strength improves. These exercises require 
             significant core stability and upper body strength, making them excellent for overall body control and muscle 
             endurance.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Five/levers.png') }}" alt="Back/Front Lever">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Five/levers.png') }}" alt="Back/Front Lever">
 
             <p>These advanced calisthenics techniques require patience, consistency, and proper progression. Always prioritize 
             technique and safety to avoid injury and maximize performance gains. Incorporate these moves into your training 
@@ -284,7 +284,7 @@ blogs = [
             variation, while long-term goals might focus on achieving a specific skill or improving overall fitness. Writing 
             down your goals and tracking your progress can help keep you accountable and motivated. Remember to celebrate 
             each milestone along the way, no matter how small, to maintain your enthusiasm and commitment.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Six/goals.png') }}" alt="Goal Setting">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Six/goals.png') }}" alt="Goal Setting">
 
             <h2>Visualization</h2>
             <p>Visualization is a powerful technique where you mentally rehearse your workouts and visualize successful 
@@ -292,7 +292,7 @@ blogs = [
             goals. This mental rehearsal can improve your confidence and readiness, making it easier to perform well during 
             actual training sessions. Visualization helps create a mental blueprint of success, which can be particularly 
             useful before attempting new or challenging exercises.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Six/visualization.png') }}" alt="Visualization">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Six/visualization.png') }}" alt="Visualization">
 
             <h2>Mindfulness and Focus</h2>
             <p>Practicing mindfulness techniques, such as deep breathing and meditation, can help you stay present during 
@@ -300,14 +300,14 @@ blogs = [
             precision and control. Mindfulness also helps reduce stress and anxiety, which can negatively impact performance. 
             Incorporate mindfulness practices into your daily routine to improve your mental clarity and overall well-being, 
             both in and out of your workouts.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Six/focus.png') }}" alt="Mindfulness and Focus">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Six/focus.png') }}" alt="Mindfulness and Focus">
 
             <h2>Positive Self-Talk</h2>
             <p>Positive self-talk involves replacing negative thoughts with positive affirmations. Encourage yourself during 
             challenging workouts and remind yourself of your capabilities and progress. This practice can boost your 
             self-confidence and resilience, helping you push through difficult moments. Positive self-talk also reinforces 
             a growth mindset, where you view challenges as opportunities to learn and improve rather than as setbacks.</p>
-            <img src="{{ url_for('static', filename='Images/Blog_Six/positivetalk.png') }}" alt="Positive Self-Talk">
+            <img src="{{ url_for('static', filename='Images/Blogs/Blog_Six/positivetalk.png') }}" alt="Positive Self-Talk">
 
             <p>By integrating mental conditioning strategies into your calisthenics routine, you can enhance your resilience, 
             improve your concentration, and achieve optimal performance outcomes. Mental strength is just as important as 
