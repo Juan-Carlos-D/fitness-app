@@ -143,7 +143,7 @@ blogs = [
             apart, lower your body by bending your knees and hips as if you're sitting back into a chair, and then return 
             to the starting position. Focus on keeping your chest up and your weight on your heels. Squats not only build 
             muscle but also enhance your overall functional fitness, which is essential for daily activities.</p>
-            <img src="{{ url_for('static', filename='Images/bwsquat.png') }}" alt="Bodyweight Squat">
+            <img src="{{ url_for('static', filename='Images/Blog_Three/bwsquat.png') }}" alt="Bodyweight Squat">
 
             <h2>Push-Ups</h2>
             <p>Push-ups are a classic exercise that works your chest, shoulders, and triceps. They can be modified to suit 
@@ -151,7 +151,7 @@ blogs = [
             To perform a push-up, start in a plank position with your hands placed slightly wider than shoulder-width apart. 
             Lower your body until your chest nearly touches the floor, then push back up to the starting position. Push-ups 
             not only build upper body strength but also engage your core, promoting stability and balance.</p>
-            <img src="{{ url_for('static', filename='Images/bwpushup.png') }}" alt="Bodyweight PushUp">
+            <img src="{{ url_for('static', filename='Images/Blog_Three/bwpushup.png') }}" alt="Bodyweight PushUp">
 
             <h2>Plank</h2>
             <p>The plank is a highly effective exercise that strengthens your core muscles, including the abdominals, obliques, 
@@ -159,7 +159,7 @@ blogs = [
             of bending your arms, keep them straight. Your body should form a straight line from your head to your heels. Hold 
             this position while engaging your core, ensuring your hips don’t sag or lift too high. Planks are excellent for 
             building core strength, which is crucial for maintaining good posture and reducing the risk of back pain.</p>
-            <img src="{{ url_for('static', filename='Images/bwplank.png') }}" alt="Bodyweight Plank">
+            <img src="{{ url_for('static', filename='Images/Blog_Three/bwplank.png') }}" alt="Bodyweight Plank">
 
             <h2>Lunges</h2>
             <p>Lunges target the legs and improve balance and coordination. They work the quadriceps, hamstrings, and glutes. 
@@ -167,7 +167,7 @@ blogs = [
             a forward lunge, step forward with one leg and lower your hips until both knees are bent at a 90-degree angle. Ensure 
             your front knee is directly above your ankle, not pushed out too far. Lunges help improve lower body strength, enhance 
             joint flexibility, and are beneficial for functional movements.</p>
-            <img src="{{ url_for('static', filename='Images/bwlunges.png') }}" alt="Bodyweight Lunges">
+            <img src="{{ url_for('static', filename='Images/Blog_Three/bwlunges.png') }}" alt="Bodyweight Lunges">
 
             <p>These exercises can be performed anywhere and adjusted to your fitness level. Start with proper form to prevent 
             injuries and gradually increase repetitions as you build strength and confidence. Bodyweight exercises are versatile 
