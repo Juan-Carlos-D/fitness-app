@@ -191,7 +191,7 @@ blogs = [
             They are especially useful for post-workout recovery when your muscles need amino acids for repair and rebuilding. 
             Protein powders can be easily incorporated into shakes, smoothies, or even baked goods. Choose a protein powder that 
             aligns with your dietary preferences and goals, whether it's whey for quick absorption or casein for slower digestion.</p>
-            <img src="{{ url_for('static', filename='Images/smoothie.png') }}" alt="Protein Smoothie">
+            <img src="{{ url_for('static', filename='Images/Blog_Four/smoothie.png') }}" alt="Protein Smoothie">
             <p>Pro tip: Make a smoothie with your protein powder using your favorite fruits to give it a yummy taste!</p>
 
             <h2>Creatine</h2>
@@ -199,7 +199,7 @@ blogs = [
             strength, power, and muscle mass over time. By replenishing ATP stores in your muscles, creatine allows you to push 
             harder during your workouts, leading to better performance and gains. Creatine is one of the most researched supplements 
             and has been shown to be safe and effective when used as directed.</p>
-            <img src="{{ url_for('static', filename='Images/creatine.png') }}" alt="Creatine Supplement">
+            <img src="{{ url_for('static', filename='Images/Blog_Four/creatine.png') }}" alt="Creatine Supplement">
             <p>Pro tip: You can either mix creatine with a glass of water or add it to your smoothies!</p>
 
             <h2>BCAAs (Branched-Chain Amino Acids)</h2>
@@ -207,14 +207,14 @@ blogs = [
             pre, intra (during), or post-workout to help maintain muscle mass and promote recovery. BCAAs include leucine, 
             isoleucine, and valine, which play a key role in muscle protein synthesis and energy production during exercise. 
             Supplementing with BCAAs can be particularly beneficial if you train fasted or have longer workout sessions.</p>
-            <img src="{{ url_for('static', filename='Images/bcaa.png') }}" alt="BCAA Supplement">
+            <img src="{{ url_for('static', filename='Images/Blog_Four/bcaa.png') }}" alt="BCAA Supplement">
 
             <h2>Omega-3 Fish Oil</h2>
             <p>Omega-3 fish oil provides anti-inflammatory benefits and supports joint health. It is essential for overall 
             cardiovascular health and brain function. Omega-3 fatty acids, such as EPA and DHA, help reduce inflammation, 
             which can be beneficial for recovery and reducing exercise-induced muscle damage. Including omega-3s in your 
             supplement regimen can also support mental health and cognitive function.</p>
-            <img src="{{ url_for('static', filename='Images/omega.png') }}" alt="Omega-3 Fish Oil">
+            <img src="{{ url_for('static', filename='Images/Blog_Four/omega.png') }}" alt="Omega-3 Fish Oil">
 
             <p>Before incorporating supplements, consult with a healthcare professional or nutritionist to ensure they align 
             with your goals and health status. Remember, supplements are meant to supplement a healthy diet, not replace it. 
