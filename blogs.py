@@ -238,21 +238,21 @@ blogs = [
             a muscle-up, you need to generate enough momentum to transition from a pull-up into a dip at the top of the bar. 
             Start with assisted variations using resistance bands or a spotter, and gradually progress to strict muscle-ups 
             as you build strength. Focus on developing a powerful pull and a smooth transition to master this impressive move.</p>
-            <img src="{{ url_for('static', filename='Images/muscleup.png') }}" alt="Muscle-Up">
+            <img src="{{ url_for('static', filename='Images/Blog_Five/muscleup.png') }}" alt="Muscle-Up">
 
             <h2>Handstand Push-Ups</h2>
             <p>Handstand push-ups are inverted push-ups that target your shoulders, triceps, and core. Begin with wall-supported 
             handstands to build the necessary balance and strength. Once comfortable, progress to performing handstand push-ups 
             against the wall. The ultimate goal is to achieve freestanding handstand push-ups, which require excellent balance 
             and control. Practicing regular handstands and pike push-ups can help prepare you for this challenging exercise.</p>
-            <img src="{{ url_for('static', filename='Images/handstandpushup.png') }}" alt="Handstand Push-Up">
+            <img src="{{ url_for('static', filename='Images/Blog_Five/handstandpushup.png') }}" alt="Handstand Push-Up">
 
             <h2>Pistol Squats</h2>
             <p>Pistol squats are single-leg squats that develop lower body strength, balance, and flexibility. Start by mastering 
             bodyweight squats and progressing to assisted pistol squats using a chair or resistance bands. Once you have built 
             enough strength and balance, attempt full pistol squats without assistance. This exercise not only challenges your 
             leg muscles but also improves your overall coordination and stability.</p>
-            <img src="{{ url_for('static', filename='Images/pistolsquat.png') }}" alt="Pistol Squat">
+            <img src="{{ url_for('static', filename='Images/Blog_Five/pistolsquat.png') }}" alt="Pistol Squat">
 
             <h2>Back/Front Lever</h2>
             <p>The back and front levers are horizontal holds that challenge your core, back, and shoulder muscles. To perform 
@@ -260,7 +260,7 @@ blogs = [
             to advanced tuck, straddle, and finally full lever positions as your strength improves. These exercises require 
             significant core stability and upper body strength, making them excellent for overall body control and muscle 
             endurance.</p>
-            <img src="{{ url_for('static', filename='Images/levers.png') }}" alt="Back/Front Lever">
+            <img src="{{ url_for('static', filename='Images/Blog_Five/levers.png') }}" alt="Back/Front Lever">
 
             <p>These advanced calisthenics techniques require patience, consistency, and proper progression. Always prioritize 
             technique and safety to avoid injury and maximize performance gains. Incorporate these moves into your training 
