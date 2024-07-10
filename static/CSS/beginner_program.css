@@ -1,5 +1,5 @@
 body {
-    top: 200px; /* Adjust for navbar height */
+    top: 280px; /* Adjust for navbar height */
     margin: 0; /* Reset default margin */
     font-family: Copperplate, Fantasy; /* Adjust font family as needed */
     overflow-y: auto; /* Ensure vertical overflow is handled */
@@ -107,6 +107,8 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* DOWNLOAD SECTION */
+
 .download-section {
     text-align: center; /* Center-align content */
     /* background-color: red; */
@@ -151,26 +153,27 @@ h2 {
 /* PROGRAM AND EQUIPMENT SECTION */
 
 .program-equipment-section {
-    display: flex;
-    justify-content: center;
-    align-items: stretch; /* Ensure sections stretch to same height */
-    padding: 0;
-    margin: 0;
-    gap: 5%; /* Add gap between the two sections */
+    text-align: center;
+    margin-bottom: 20px; /* Add space below the section */
+}
+
+.section-heading {
+    font-size: 2.5em;
+    margin-bottom: 20px; /* Add space below the heading */
 }
 
 .program-section,
 .equipment-section {
     width: 40%;
     background-color: rgb(120, 120, 221);
-    display: flex;
-    flex-direction: column; /* Ensure content inside stacks vertically */
-    justify-content: flex-start; /* Align items at the top */
     border-radius: 15px;
-    padding: 10px; /* Add padding inside the sections */
+    padding: 20px; /* Add padding inside the sections */
     box-sizing: border-box; /* Ensure padding is included in the width calculation */
     border: 1px solid white;
     transition: background-color 0.5s ease-in-out, border 0.5s ease-in-out; /* Apply transition to both states */
+    display: inline-block; /* Display inline-block to keep them side by side */
+    vertical-align: top; /* Align to the top of the container */
+    margin: 0 10px; /* Add margin between sections */
 }
 
 .program-section h2,
@@ -216,7 +219,6 @@ h2 {
 .equipment-section:hover {
     background-color: transparent;
     border: 1px solid rgb(120, 120, 221);
-    
 }
 
 
