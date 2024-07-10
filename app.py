@@ -12,9 +12,10 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/beginner-program')
-def beginner_program():
-    return render_template('beginner_program.html')
+@app.route('/program/<program_name>')
+def program(program_name):
+    template_name = f'Programs/{program_name}.html'
+    return render_template(template_name)
 
 
 @app.route('/exercises/<int:exercise_id>')
