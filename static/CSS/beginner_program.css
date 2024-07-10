@@ -1,5 +1,5 @@
 body {
-    top: 250px; /* Adjust for navbar height */
+    top: 200px; /* Adjust for navbar height */
     margin: 0; /* Reset default margin */
     font-family: Copperplate, Fantasy; /* Adjust font family as needed */
     overflow-y: auto; /* Ensure vertical overflow is handled */
@@ -26,7 +26,7 @@ h2 {
 
 .container {
     width: 80%; /* Adjust container width as needed */
-    margin-bottom: 30px; /* Add spacing between sections */
+    margin-bottom: 20px; /* Add spacing between sections */
 }
 
 .intro-section {
@@ -86,6 +86,13 @@ h2 {
     background-color: rgb(120, 120, 221);
     border-radius: 10px;
     margin: 20px 0;
+    border: 1px solid white;
+    transition: background-color 0.5s ease-in-out, border 0.5s ease-in-out; /* Apply transition to both states */
+}
+
+.goal:hover {
+    background-color: transparent;
+    border: 1px solid rgb(120, 120, 221);    
 }
 
 .goal img {
@@ -141,58 +148,77 @@ h2 {
     background-color: #0056b3;
 }
 
+/* PROGRAM AND EQUIPMENT SECTION */
+
 .program-equipment-section {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    /* background-color: white; */
-}
-
-.program-equipment-section .left-half {
-    /* background-color: aquamarine; */
-}
-
-.program-equipment-section .right-half {
-    /* background-color: rgb(223, 91, 212); */
-}
-
-.program-equipment-section .left-half,
-.program-equipment-section .right-half {
-    width: 50%; /* Adjust width as needed */
-}
-
-.program-equipment-section h2 {
-    font-size: 2.5em;
-    color: #ffffff;
-    margin-bottom: 15px;
-}
-
-.included-list,
-.equipment-list {
-    list-style-type: none;
+    justify-content: center;
+    align-items: stretch; /* Ensure sections stretch to same height */
     padding: 0;
+    margin: 0;
+    gap: 5%; /* Add gap between the two sections */
 }
 
-.included-list li,
-.equipment-list li {
+.program-section,
+.equipment-section {
+    width: 40%;
+    background-color: rgb(120, 120, 221);
+    display: flex;
+    flex-direction: column; /* Ensure content inside stacks vertically */
+    justify-content: flex-start; /* Align items at the top */
+    border-radius: 15px;
+    padding: 10px; /* Add padding inside the sections */
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    border: 1px solid white;
+    transition: background-color 0.5s ease-in-out, border 0.5s ease-in-out; /* Apply transition to both states */
+}
+
+.program-section h2,
+.equipment-section h2 {
+    font-size: 2em;
+    text-align: center; /* Center the titles */
+    margin-bottom: 20px; /* Add space below the titles */
+}
+
+.program-section .included-list,
+.equipment-section .equipment-list {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    padding-left: 1em; /* Adjust padding to align with the title */
+    width: 100%; /* Ensure the list takes full width */
+}
+
+.program-section .included-list li,
+.equipment-section .equipment-list li {
     font-size: 1.2em;
     margin-bottom: 10px;
     color: #ffffff;
+    display: flex;
+    align-items: center; /* Align items vertically */
 }
 
-.included-list li:before,
-.equipment-list li:before {
-    content: "\2022";
-    color: #007bff;
+.program-section .included-list li:before,
+.equipment-section .equipment-list li:before {
+    content: "\2022"; /* Unicode character for bullet */
+    color: #ffffff; /* Color of the bullet */
     display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+    width: 1em; /* Adjust spacing from text */
+    margin-right: 0.5em; /* Space between bullet and text */
 }
 
-.included-list li:first-child,
-.equipment-list li:first-child {
+.program-section .included-list li:first-child,
+.equipment-section .equipment-list li:first-child {
     margin-top: 10px;
 }
+
+.program-section:hover,
+.equipment-section:hover {
+    background-color: transparent;
+    border: 1px solid rgb(120, 120, 221);
+    
+}
+
 
 
 
