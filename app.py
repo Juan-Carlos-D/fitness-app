@@ -85,64 +85,7 @@ def blog(blog_id):
         return render_template('blog.html', blog=blog)
     else:
         return 'Blog not found', 404
-    
-def render_program(title, main_title, intro_image, intro_text, intro_subtext, download_link, goals, goals_title, download_section_title, background_image):
-    return render_template(
-        'program_base.html',
-        title=title,
-        main_title=main_title,
-        intro_image=intro_image,
-        intro_text=intro_text,
-        intro_subtext=intro_subtext,
-        download_link=download_link,
-        goals=goals,
-        goals_title=goals_title,
-        download_section_title=download_section_title,
-        background_image=background_image
-    )
-    
-@app.route('/program/<program_name>')
-def program(program_name):
-    program_data = {
-        "beginner_program": {
-            "title": "Beginner Program",
-            "main_title": "Welcome to the Beginner Program!",
-            "intro_image": url_for('static', filename='Images/gym_s2.png'),
-            "intro_text": "This program is designed to help you get started with calisthenics. It includes essential exercises and routines that will build your strength, flexibility, and endurance.",
-            "intro_subtext": "You can download the complete exercise program in PDF format by clicking the button below.",
-            "download_link": "#",
-            "goals": [
-                {"image": "#", "description": "Description of Goal 1"},
-                {"image": "#", "description": "Description of Goal 2"},
-                {"image": "#", "description": "Description of Goal 3"}
-            ],
-            "goals_title": "This program's goals are",
-            "download_section_title": "Download Section",
-            "background_image": url_for('static', filename='Images/gym_s2.png')
-        },
-        "muscleup_program": {
-            "title": "Muscle-Up Program",
-            "main_title": "Welcome to the Muscle-Up Program!",
-            "intro_image": "#",
-            "intro_text": "This program is designed to help you achieve your first muscle-up. It includes essential exercises and routines that will build your upper body strength and technique.",
-            "intro_subtext": "You can download the complete exercise program in PDF format by clicking the button below.",
-            "download_link": "#",
-            "goals": [
-                {"image": "#", "description": "Description of Muscle-Up Goal 1"},
-                {"image": "#", "description": "Description of Muscle-Up Goal 2"},
-                {"image": "#", "description": "Description of Muscle-Up Goal 3"}
-            ],
-            "goals_title": "This program's goals are",
-            "download_section_title": "Download Section",
-            "background_image": "#"
-        }
-        # Add more programs here as needed
-    }
 
-    if program_name in program_data:
-        return render_program(**program_data[program_name])
-    else:
-        return "Program not found", 404
 
 if __name__ == '__main__':
     app.run(debug=True)
