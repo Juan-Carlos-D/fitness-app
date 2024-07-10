@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, url_for
+from flask import Flask, render_template, request, redirect, url_for
 from faq import faq_data 
 from macronutrients import macronutrients_data
 from macroscalc import calculate_macros
@@ -12,10 +12,19 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/program/<program_name>')
+@app.route('/program/<program_name>', methods=['GET', 'POST'])
 def program(program_name):
+    thank_you_message = None
+    if request.method == 'POST':
+        name = request.form['name']
+        email = request.form['email']
+        # Process the data (e.g., save to a database, send an email, etc.)
+        print(f"Received submission: Name = {name}, Email = {email}")
+        thank_you_message = "Thank you for signing up!"
+    
     template_name = f'Programs/{program_name}.html'
-    return render_template(template_name)
+    return render_template(template_name, thank_you_message=thank_you_message)
+
 
 
 @app.route('/exercises/<int:exercise_id>')

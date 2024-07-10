@@ -23,7 +23,7 @@
                     setting the stage for long-term fitness and functional strength.
                 </p>
                 <br>
-                <p>You can download the complete <span class="span-words">beginner program</span> in PDF format by clicking the button below.</p>
+                <p>You can download the complete <span class="span-words">beginner program</span> in PDF format by clicking the button below or by scrolling to the bottom of the page to have it sent to your email.</p> 
                 <a href="#" class="btn-download" download>Download PDF</a>
             </div>
         </div>
@@ -77,15 +77,17 @@
         </div>
         
         <div class="download-section container">
-            <h2>Download Section</h2>
-            <form action="#">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+            <h2>DevCalisthenics <br> Beginner Program</h2>
+            <form action="{{ url_for('program', program_name='beginner_program') }}" method="post">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
                 <button type="submit" class="btn-signup">Sign Up</button>
             </form>
+            {% if thank_you_message %}
+                <p>{{ thank_you_message }}</p>
+            {% endif %}
         </div>
+        
     </div>
 {% endblock %}
 

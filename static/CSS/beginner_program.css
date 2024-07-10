@@ -114,20 +114,21 @@ h2 {
     /* background-color: red; */
 }
 
+
 .download-section form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.download-section form label {
-    margin-bottom: 10px; /* Add space below labels */
-}
+/* .download-section form label {
+    margin-bottom: 10px; 
+} */
 
 .download-section form input,
 .download-section form button {
     margin-bottom: 10px; /* Add space below inputs and button */
-    width: 40%; /* Adjust width of inputs and button */
+    width: 25%; /* Adjust width of inputs and button */
     padding: 10px; /* Add padding */
     border: 1px solid #ccc; /* Add border */
     border-radius: 5px; /* Add border radius */
@@ -203,7 +204,7 @@ h2 {
 
 .program-section .included-list li:before,
 .equipment-section .equipment-list li:before {
-    content: "\2022"; /* Unicode character for bullet */
+    content: "\2714"; /* Unicode character for bullet */
     color: #ffffff; /* Color of the bullet */
     display: inline-block;
     width: 1em; /* Adjust spacing from text */
