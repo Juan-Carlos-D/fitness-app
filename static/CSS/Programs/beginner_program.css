@@ -1,16 +1,19 @@
 body {
-    top: 280px; /* Adjust for navbar height */
-    margin: 0; /* Reset default margin */
+    display: flex;
+    flex-direction: column;
+    top: 380px;
+    min-height: 100vh; /* Ensure full viewport height */
+    margin: 0;
     font-family: Copperplate, Fantasy; /* Adjust font family as needed */
-    overflow-y: auto; /* Ensure vertical overflow is handled */
+    overflow-y: auto; /* Allow vertical scrolling */
 }
-
 h2 {
     font-size: 2.5em;
     letter-spacing: 0.02em;
 }
 
 .page-container {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,7 +225,65 @@ h2 {
     border: 1px solid rgb(120, 120, 221);
 }
 
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px; /* Adjust top padding */
+    padding-bottom: 10px; /* Adjust bottom padding */
+    position: relative; /* Ensure positioning context for absolute elements */
+}
 
+.footer-line {
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 0;
+    height: 5px; /* Adjust thickness of the line */
+    background-color: #fff; /* Color of the line */
+}
+
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-column {
+    width: 9%; /* Adjust width of each column */
+}
+
+.footer-column h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px; /* Adjust margin for title */
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgb(120, 120, 221);
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: rgb(120, 120, 221);
+}
 
 
 /* RESPONSIVE */
