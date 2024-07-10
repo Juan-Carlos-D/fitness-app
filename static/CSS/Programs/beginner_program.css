@@ -114,11 +114,11 @@ h2 {
     /* background-color: red; */
 }
 
-
 .download-section form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 25px;
 }
 
 /* .download-section form label {
