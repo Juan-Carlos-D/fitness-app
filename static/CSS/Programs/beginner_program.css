@@ -249,7 +249,7 @@ h2 {
     width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
-    border-top: 1px solid rgb(120, 120, 221);
+    border-top: 1px solid #444;
     padding: 10px 0;
 }
 
@@ -329,7 +329,7 @@ h2 {
     text-align: center; /* Center-align the text */
     padding: 10px 0; /* Add padding for spacing */
     font-size: 0.9em; /* Adjust font size */
-    border-top: 1px solid rgb(120, 120, 221); /* Optional: Add a top border for separation */
+    border-top: 1px solid #444; /* Optional: Add a top border for separation */
     position: relative;
     bottom: 0;
 }
