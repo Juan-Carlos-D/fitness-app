@@ -245,16 +245,19 @@ h2 {
     background-color: #fff; /* Color of the line */
 }
 
-
 .footer-columns {
     display: flex;
     justify-content: space-around;
     width: 100%;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .footer-column {
     width: 9%; /* Adjust width of each column */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) */
 }
 
 .footer-column h3 {
@@ -285,30 +288,36 @@ h2 {
     color: rgb(120, 120, 221);
 }
 
+.socials {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+}
+
 .social-links {
     list-style-type: none;
     padding: 0;
-    text-align: left;
+    display: flex;
+    gap: 10px; /* Space between icons */
+    justify-content: flex-start; /* Align items to the start (left) */
 }
 
 .social-links li {
-    margin-bottom: 10px;
+    margin-bottom: 0; /* Remove bottom margin for icons */
 }
 
 .social-links li a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
-    display: flex;
-    align-items: center;
-}
-
-.social-links li a i {
-    margin-right: 8px; /* Space between icon and text */
 }
 
 .social-links li a:hover {
     color: rgb(120, 120, 221);
+}
+
+.social-links li a i {
+    font-size: 1.5em; /* Adjust icon size */
 }
 
 
