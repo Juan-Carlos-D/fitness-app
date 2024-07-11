@@ -246,7 +246,7 @@ h2 {
 .footer-columns {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     flex-wrap: wrap;
     border-top: 1px solid #444;
@@ -262,7 +262,7 @@ h2 {
 }
 
 .footer-column h3 {
-    font-size: 1.5em;
+    font-size: 1.55em;
     margin-bottom: 15px; /* Adjust margin for title */
     letter-spacing: 0.03em;
     text-align: left;
@@ -277,6 +277,7 @@ h2 {
 
 .footer-column ul li {
     margin-bottom: 5px;
+    font-size: 0.85em;
 }
 
 .footer-column ul li a {
