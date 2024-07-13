@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    top: 380px;
+    top: 770px;
     min-height: 100vh; /* Ensure full viewport height */
     margin: 0;
     font-family: Copperplate, Fantasy; /* Adjust font family as needed */
@@ -230,7 +230,10 @@ h2 {
 .level-up-section {
     text-align: center; /* Center-align content */
     margin-top: 40px; /* Adjust top margin */
-    background-color: #40D3DC;
+    /* background-color: #40D3DC; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center all children horizontally */
 }
 
 .level-up-section h2,
@@ -243,6 +246,7 @@ h2 {
     height:500px;
     border-radius:10px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .slides {
@@ -316,7 +320,7 @@ h2 {
 }
 
 .navigation-auto div {
-    border: 2px solid #40D3DC;
+    border: 2px solid rgb(120, 120, 221);
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -327,78 +331,20 @@ h2 {
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
-    background: #40D3DC;
+    background: rgb(120, 120, 221);
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-    background: #40D3DC;
+    background: rgb(120, 120, 221);
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-    background: #40D3DC;
+    background: rgb(120, 120, 221);
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4 {
-    background: #40D3DC;
+    background: rgb(120, 120, 221);
 }
-
-/* Image Gallery Styles */
-
-/* .image-gallery {
-    margin-top: 20px; 
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.gallery-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.gallery-container img {
-    width: 50%; 
-    height: auto; 
-    opacity: 0.5; 
-    transition: opacity 0.3s ease, transform 0.3s ease; 
-}
-
-.gallery-container img.active {
-    opacity: 1; 
-    transform: scale(1.1); 
-}
-
-.gallery-navigation {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    pointer-events: none;
-}
-
-.nav-button {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff; 
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 1.5em;
-    transition: background-color 0.3s ease;
-    pointer-events: all; 
-}
-
-.nav-button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-} */
 
 
 .btn-level-up {

@@ -122,26 +122,9 @@
                     <label for="radio4" class="manual-btn"></label>
                 </div>
                 <!--Manual Navigation End-->
-
-
             </div>
             <!--Image Slider End-->
 
-            <!-- <div class="image-gallery">
-                <div class="gallery-container">
-                    <img src="{{ url_for('static', filename='Images/Blogs/gymnast.png') }}" alt="Image 1">
-                    <img src="{{ url_for('static', filename='Images/Blogs/gymnast.png') }}" alt="Image 2">
-                    <img src="{{ url_for('static', filename='Images/Blogs/gymnast.png') }}" alt="Image 3">
-                    <img src="{{ url_for('static', filename='Images/Blogs/bodyweight.png') }}" alt="Image 3">
-                    <img src="{{ url_for('static', filename='Images/Blogs/bodyweight.png') }}" alt="Image 3">
-                    <img src="{{ url_for('static', filename='Images/Blogs/bodyweight.png') }}" alt="Image 3">
-                </div>
-                <div class="gallery-navigation">
-                    <button class="nav-button prev" onclick="changeImage(-1)">❮</button>
-                    <button class="nav-button next" onclick="changeImage(1)">❯</button>
-                </div>
-            </div> -->
-            
             <a href="#" class="btn-level-up">Explore Programs</a>
         </div>
         
@@ -222,6 +205,8 @@
         </div>
     </footer>    
 
+    <script src="{{ url_for('static', filename='javascript/gallery.js') }}"></script>
+
 {% endblock %}
 
 {% block body_style %}
@@ -230,8 +215,4 @@
 
 {% block stylesheets %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/programs/beginner_program.css') }}">
-{% endblock %}
-
-{% block scripts %}
-    <script src="{{ url_for('static', filename='javascript/gallery.js') }}"></script>
 {% endblock %}
