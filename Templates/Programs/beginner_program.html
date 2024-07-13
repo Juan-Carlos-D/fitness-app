@@ -89,6 +89,7 @@
                     <input type="radio" name="radio-btn" id="radio3">
                     <input type="radio" name="radio-btn" id="radio4">
                     <!--Radio Btns End-->
+
                     <!--Slides Imgs Start-->
                     <div class="slide first">
                         <img src="{{ url_for('static', filename='Images/Blogs/skincat.png') }}" alt="Bodyweight Pullup">
@@ -103,10 +104,29 @@
                         <img src="{{ url_for('static', filename='Images/Blogs/outdoorworkout.png') }}" alt="Bodyweight Pullup">
                     </div>
                     <!--Slides Imgs End-->
+
+                    <!--Automatic Navigation Start-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    <!--Automatic Navigation End-->
                 </div>
+                <!--Manual Navigation Start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!--Manual Navigation End-->
+
 
             </div>
-            
+            <!--Image Slider End-->
+
             <!-- <div class="image-gallery">
                 <div class="gallery-container">
                     <img src="{{ url_for('static', filename='Images/Blogs/gymnast.png') }}" alt="Image 1">
