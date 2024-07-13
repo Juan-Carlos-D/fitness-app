@@ -78,7 +78,32 @@
 
         <div class="level-up-section container">
             <h2>Ready to Level Up?</h2>
-            <h2>Join the Community</h2>
+            <p>Join our community and explore more advanced programs to take your fitness journey further!</p>
+
+            <!--Image Slider Start-->
+            <div class="slider">
+                <div class="slides">
+                    <!--Radio Btns Start-->
+                </div>
+
+            </div>
+            
+            <!-- <div class="image-gallery">
+                <div class="gallery-container">
+                    <img src="{{ url_for('static', filename='Images/Blogs/gymnast.png') }}" alt="Image 1">
+                    <img src="{{ url_for('static', filename='Images/Blogs/gymnast.png') }}" alt="Image 2">
+                    <img src="{{ url_for('static', filename='Images/Blogs/gymnast.png') }}" alt="Image 3">
+                    <img src="{{ url_for('static', filename='Images/Blogs/bodyweight.png') }}" alt="Image 3">
+                    <img src="{{ url_for('static', filename='Images/Blogs/bodyweight.png') }}" alt="Image 3">
+                    <img src="{{ url_for('static', filename='Images/Blogs/bodyweight.png') }}" alt="Image 3">
+                </div>
+                <div class="gallery-navigation">
+                    <button class="nav-button prev" onclick="changeImage(-1)">❮</button>
+                    <button class="nav-button next" onclick="changeImage(1)">❯</button>
+                </div>
+            </div> -->
+            
+            <a href="#" class="btn-level-up">Explore Programs</a>
         </div>
         
         <div class="download-section container">
@@ -166,4 +191,8 @@
 
 {% block stylesheets %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/programs/beginner_program.css') }}">
+{% endblock %}
+
+{% block scripts %}
+    <script src="{{ url_for('static', filename='javascript/gallery.js') }}"></script>
 {% endblock %}
