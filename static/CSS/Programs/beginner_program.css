@@ -10,6 +10,7 @@ body {
 h2 {
     font-size: 2.5em;
     letter-spacing: 0.02em;
+    color: rgb(245, 245, 245);
 }
 
 .page-container {
@@ -279,7 +280,7 @@ h2 {
 }
 
 .manual-btn {
-    border: 2px solid rgb(120, 120, 221);
+    border: 2px solid #007BFF;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -291,7 +292,7 @@ h2 {
 }
 
 .manual-btn:hover {
-    background: rgb(120, 120, 221);
+    background: #007BFF;
 }
 
 #radio1:checked ~ .first {
@@ -320,7 +321,7 @@ h2 {
 }
 
 .navigation-auto div {
-    border: 2px solid rgb(120, 120, 221);
+    border: 2px solid #007BFF;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -331,19 +332,19 @@ h2 {
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
-    background: rgb(120, 120, 221);
+    background: #007BFF;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-    background: rgb(120, 120, 221);
+    background: #007BFF;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-    background: rgb(120, 120, 221);
+    background: #007BFF;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4 {
-    background: rgb(120, 120, 221);
+    background: #007BFF;
 }
 
 
