@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    top: 770px;
+    top: 750px;
     min-height: 100vh; /* Ensure full viewport height */
     margin: 0;
     font-family: Copperplate, Fantasy; /* Adjust font family as needed */
