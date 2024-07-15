@@ -477,7 +477,7 @@ h2 {
 /* RESPONSIVE */
 @media screen and (max-width: 1280px) {
     body {
-        top: 350px;
+        margin-top: 200px;
     }
 }
 
