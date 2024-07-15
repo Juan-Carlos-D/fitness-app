@@ -477,7 +477,7 @@ h2 {
 /* RESPONSIVE */
 @media screen and (max-width: 1280px) {
     body {
-        margin-top: 180px;
+        margin-top: 120px;
     }
     .intro-section {
         flex-direction: column;
@@ -640,7 +640,6 @@ h2 {
     #radio4:checked ~ .navigation-auto .auto-btn4 {
         background: #007BFF;
     }
-
 
 }
 
