@@ -477,13 +477,43 @@ h2 {
 /* RESPONSIVE */
 @media screen and (max-width: 1280px) {
     body {
-        margin-top: 200px;
+        margin-top: 300px;
+    }
+    .intro-section {
+        flex-direction: column;
+    }
+
+    .intro-left,
+    .intro-right {
+        width: 100%; /* Adjust to full width for smaller screens */
+    }
+
+    .intro-right {
+        order: 1; /* Display intro-right (text) first */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center-align the button horizontally */
+    }
+
+    .intro-left {
+        order: 2; /* Display intro-left (image) second */
+    }
+
+    .intro-left img {
+        max-width: 75%; /* Adjust the max-width as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the image */
+        display: block;
+    }
+
+    .btn-download {
+        margin: 20px 0;
     }
 }
 
 @media screen and (max-width: 1024px) {
     body {
-        top: 150px;
+        margin-top: 480px;
     }
 }
 
