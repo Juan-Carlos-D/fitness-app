@@ -477,7 +477,7 @@ h2 {
 /* RESPONSIVE */
 @media screen and (max-width: 1280px) {
     body {
-        margin-top: 300px;
+        margin-top: 180px;
     }
     .intro-section {
         flex-direction: column;
@@ -536,7 +536,7 @@ h2 {
         flex-direction: column;
         align-items: center; /* Center all children horizontally */
     }
-    
+
 
 }
 
