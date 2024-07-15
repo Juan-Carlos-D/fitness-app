@@ -679,9 +679,20 @@ h2 {
         margin: 10px 0 20px 0;
     }
 
+    .goal img {
+        margin-bottom: 0;
+    }
+
+    .goal p {
+        padding: 10px;
+        margin: 0;
+        font-size: 1em;
+    }
+
     .program-section,
     .equipment-section {
-        width: 40%;
+        width: 50%;
+        margin-bottom: 10px;
     }
     
     .program-section h2,
