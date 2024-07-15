@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    top: 750px;
+    top: 770px;
     min-height: 100vh; /* Ensure full viewport height */
     margin: 0;
     font-family: Copperplate, Fantasy; /* Adjust font family as needed */
@@ -19,7 +19,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 680px; /* Adjust top margin as needed */
+    padding-top: 680px; /* Adjust top margin as needed */
     /* background-color: #0056b3; */
 }
 
@@ -825,7 +825,7 @@ h2 {
 
 @media screen and (max-width: 820px) {
     body {
-        margin-top: 150px;
+        margin-top: 270px;
     }
     .intro-section {
         flex-direction: column;
@@ -1002,7 +1002,182 @@ h2 {
 
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 430px) {
+    body {
+        top: 1550px;
+    }
+    .intro-section {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .intro-left,
+    .intro-right {
+        width: 100%; /* Adjust to full width for smaller screens */
+    }
+
+    .intro-right {
+        order: 1; /* Display intro-right (text) first */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center-align the button horizontally */
+    }
+
+    .intro-left {
+        order: 2; /* Display intro-left (image) second */
+    }
+
+    .intro-left img {
+        max-width: 75%; /* Adjust the max-width as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the image */
+        display: block;
+    }
+
+    .btn-download {
+        margin: 10px 0 20px 0;
+    }
+
+    .goal img {
+        margin-bottom: 0;
+    }
+
+    .goal p {
+        padding: 10px;
+        margin: 0;
+        font-size: 1em;
+    }
+
+    .program-section,
+    .equipment-section {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    
+    .program-section h2,
+    .equipment-section h2 {
+        font-size: 1.5em;
+        text-align: center; /* Center the titles */
+        margin-bottom: 5px;
+    }
+
+    .program-section .included-list li,
+    .equipment-section .equipment-list li {
+        font-size: 1em;
+    }
+
+    /* LEVEL UP SECTION */
+
+    .level-up-section {
+        text-align: center; /* Center-align content */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center all children horizontally */
+        margin: 0;
+    }
+
+    .level-up-section h2,
+    .level-up-section p {
+        margin-bottom: 15px; /* Add space below title and paragraph */
+    }
+
+    .slider {
+        width: 600px; /* Adjust width to make it smaller */
+        height: 375px; /* Adjust height to maintain aspect ratio */
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        position: relative; /* Ensure positioning context for absolute elements */
+    }
+
+    .slides {
+        width: 500%;
+        height: 375px; /* Match slider height */
+        display: flex; 
+    }
+
+
+    .slide img {
+        width: 600px; /* Match slider width */
+        height: 375px; /* Maintain aspect ratio */
+    }
+
+    /* Manual Slide Nav */
+    .navigation-manual {
+        position: absolute;
+        width: 600px; /* Match slider width */
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .manual-btn {
+        border: 2px solid #007BFF;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .manual-btn:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .manual-btn:hover {
+        background: #007BFF;
+    }
+
+    #radio1:checked ~ .first {
+        margin-left: 0;
+    }
+
+    #radio2:checked ~ .first {
+        margin-left: -20%;
+    }
+
+    #radio3:checked ~ .first {
+        margin-left: -40%;
+    }
+
+    #radio4:checked ~ .first {
+        margin-left: -60%;
+    }
+
+    /* Automatic Nav */
+    .navigation-auto {
+        position: absolute;
+        display: flex;
+        width: 600px; /* Match slider width */
+        justify-content: center;
+        margin-top: 335px; /* Adjust position for new slider height */
+    }
+
+    .navigation-auto div {
+        border: 2px solid #007BFF;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 1s;
+    }
+
+    .navigation-auto div:not(:last-child){
+        margin-right: 40px;
+    }
+
+    #radio1:checked ~ .navigation-auto .auto-btn1 {
+        background: #007BFF;
+    }
+
+    #radio2:checked ~ .navigation-auto .auto-btn2 {
+        background: #007BFF;
+    }
+
+    #radio3:checked ~ .navigation-auto .auto-btn3 {
+        background: #007BFF;
+    }
+
+    #radio4:checked ~ .navigation-auto .auto-btn4 {
+        background: #007BFF;
+    }
 
 }
 
