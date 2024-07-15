@@ -481,6 +481,7 @@ h2 {
     }
     .intro-section {
         flex-direction: column;
+        margin-bottom: 0;
     }
 
     .intro-left,
