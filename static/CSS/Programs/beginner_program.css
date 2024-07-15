@@ -510,12 +510,30 @@ h2 {
     .btn-download {
         margin: 20px 0;
     }
+
+    .program-section,
+    .equipment-section {
+        width: 40%;
+    }
+    
+    .program-section h2,
+    .equipment-section h2 {
+        font-size: 1.5em;
+        text-align: center; /* Center the titles */
+        margin-bottom: 5px;
+    }
+
+    .program-section .included-list li,
+    .equipment-section .equipment-list li {
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     body {
         margin-top: 480px;
     }
+
 }
 
 
