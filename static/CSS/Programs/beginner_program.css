@@ -527,6 +527,17 @@ h2 {
     .equipment-section .equipment-list li {
         font-size: 1em;
     }
+
+    .level-up-section {
+        text-align: center; /* Center-align content */
+        margin: 0px;
+        /* background-color: #40D3DC; */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center all children horizontally */
+    }
+    
+
 }
 
 @media screen and (max-width: 1024px) {
