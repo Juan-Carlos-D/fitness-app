@@ -528,13 +528,124 @@ h2 {
         font-size: 1em;
     }
 
+    /* LEVEL UP SECTION */
+
     .level-up-section {
         text-align: center; /* Center-align content */
-        margin: 0px;
-        /* background-color: #40D3DC; */
         display: flex;
         flex-direction: column;
         align-items: center; /* Center all children horizontally */
+    }
+
+    .level-up-section h2,
+    .level-up-section p {
+        margin-bottom: 20px; /* Add space below title and paragraph */
+    }
+
+    .slider {
+        width: 600px; /* Adjust width to make it smaller */
+        height: 375px; /* Adjust height to maintain aspect ratio */
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        position: relative; /* Ensure positioning context for absolute elements */
+    }
+
+    .slides {
+        width: 500%;
+        height: 375px; /* Match slider height */
+        display: flex; 
+    }
+
+    .slides input {
+        display: none;
+    }
+
+    .slide {
+        width: 20%;
+        transition: 2s;
+    }
+
+    .slide img {
+        width: 600px; /* Match slider width */
+        height: 375px; /* Maintain aspect ratio */
+    }
+
+    /* Manual Slide Nav */
+    .navigation-manual {
+        position: absolute;
+        width: 600px; /* Match slider width */
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .manual-btn {
+        border: 2px solid #007BFF;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .manual-btn:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .manual-btn:hover {
+        background: #007BFF;
+    }
+
+    #radio1:checked ~ .first {
+        margin-left: 0;
+    }
+
+    #radio2:checked ~ .first {
+        margin-left: -20%;
+    }
+
+    #radio3:checked ~ .first {
+        margin-left: -40%;
+    }
+
+    #radio4:checked ~ .first {
+        margin-left: -60%;
+    }
+
+    /* Automatic Nav */
+    .navigation-auto {
+        position: absolute;
+        display: flex;
+        width: 600px; /* Match slider width */
+        justify-content: center;
+        margin-top: 335px; /* Adjust position for new slider height */
+    }
+
+    .navigation-auto div {
+        border: 2px solid #007BFF;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 1s;
+    }
+
+    .navigation-auto div:not(:last-child){
+        margin-right: 40px;
+    }
+
+    #radio1:checked ~ .navigation-auto .auto-btn1 {
+        background: #007BFF;
+    }
+
+    #radio2:checked ~ .navigation-auto .auto-btn2 {
+        background: #007BFF;
+    }
+
+    #radio3:checked ~ .navigation-auto .auto-btn3 {
+        background: #007BFF;
+    }
+
+    #radio4:checked ~ .navigation-auto .auto-btn4 {
+        background: #007BFF;
     }
 
 
