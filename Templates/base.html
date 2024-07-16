@@ -52,6 +52,16 @@
 
     </nav> #}
 
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="{{ url_for('home') }}" class="nav__logo">
+                    <img src="{{ url_for('static', filename='Images/Home/devcal.png') }}" alt="Logo">
+                </a>
+            </div>
+        </nav>
+    </header>
+
     {% block content %}{% endblock %}
 
     <script src="{{ url_for('static', filename='javascript/index.js') }}"></script>
