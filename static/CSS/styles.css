@@ -54,10 +54,6 @@
     margin-inline: 1.5rem;
   }
 
- .nav__logo img {
-    height: 150px; /* Adjust height to enlarge the logo */
-    width: auto; /* Maintain aspect ratio */
-}
 
 /*=============== HEADER ===============*/
 .header {
@@ -92,15 +88,15 @@
     display: inline-flex;
     align-items: center;
     column-gap: .25rem;
-    font-weight: var(--font-semi-bold);
     /* Color highlighting when pressed on mobile devices */
-    /*-webkit-tap-highlight-color: transparent;*/
+    /* -webkit-tap-highlight-color: transparent; */
   }
-  
-  .nav__logo i {
-    font-weight: initial;
-    font-size: 1.25rem;
-  }
+
+  .nav__logo img {
+    height: 150px; /* Adjust height to enlarge the logo */
+    width: auto; /* Maintain aspect ratio */
+}
+
   
   .nav__toggle {
     position: relative;
