@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}DevCalisthenics{% endblock %}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"/> <!--Change back to index.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"/> <!--Just testing-->
     {% block stylesheets %}{% endblock %}
 </head>
 <body {% block body_style %} style="background: url('{{ url_for('static', filename='Images/Home/ringggs.png') }}') no-repeat center center fixed; background-size: cover;" {% endblock %}>
 
-    <nav class="navbar">
+    {% comment %} <nav class="navbar">
         <div class="logo">
             <a href="{{ url_for('home') }}">
                 <img src="{{ url_for('static', filename='Images/Home/devcal.png') }}" alt="Logo">
@@ -49,7 +50,7 @@
             <span class="bar"></span>
         </div>
 
-    </nav>
+    </nav> {% endcomment %}
 
     {% block content %}{% endblock %}
 
