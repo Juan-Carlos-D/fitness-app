@@ -1,6 +1,6 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
-    --header-height: 3.5rem;
+    --header-height: 4.5rem;
   
     /*========== Colors ==========*/
     /*Color mode HSL(hue, saturation, lightness)*/
@@ -68,4 +68,58 @@
     background-color: var(--black-color);
     box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
     z-index: var(--z-fixed);
+}
+
+/*=============== NAV ===============*/
+.nav {
+    height: var(--header-height);
+  }
+  
+  .nav__logo, 
+  .nav__burger, 
+  .nav__close {
+    color: var(--white-color);
+  }
+  
+  .nav__data {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav__logo {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .25rem;
+    font-weight: var(--font-semi-bold);
+    /* Color highlighting when pressed on mobile devices */
+    /*-webkit-tap-highlight-color: transparent;*/
+  }
+  
+  .nav__logo i {
+    font-weight: initial;
+    font-size: 1.25rem;
+  }
+  
+  .nav__toggle {
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .nav__burger, 
+  .nav__close {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    inset: 0;
+    margin: auto;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: opacity .1s, transform .4s;
+  }
+  
+  .nav__close {
+    opacity: 0;
   }
