@@ -67,7 +67,7 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li><a href="#" class="nav__link">Home</a></li>
+                    <li><a href="{{ url_for('home') }}" class="nav__link">Home</a></li>
 
                     <li class="dropdown__item">
                         <div class="nav__link">
@@ -76,7 +76,7 @@
                         
                         <ul class="dropdown__menu">
                             <li>
-                                <a href="#" class="dropdown__link">Beginner Program</a>
+                                <a href="{{ url_for('program', program_name='beginner_program')}}" class="dropdown__link">Beginner Program</a>
                             </li>
                             <li>
                                 <a href="#" class="dropdown__link">Intermediate Program</a>
@@ -106,19 +106,19 @@
 
                         <ul class="dropdown__menu">
                             <li>
-                                <a href="#" class="dropdown__link">Macronutrients</a>
+                                <a href="{{ url_for('macronutrients')}}" class="dropdown__link">Macronutrients</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown__link">Macros Calculator</a>
+                                <a href="{{ url_for('macrocalculator')}}" class="dropdown__link">Macros Calculator</a>
                             </li>
                         </ul>
                     </li>
 
                     <li><a href="#" class="nav__link">Exercises</a></li>
 
-                    <li><a href="#" class="nav__link">FAQs</a></li>
+                    <li><a href="{{ url_for('faq') }}" class="nav__link">FAQs</a></li>
 
-                    <li><a href="#" class="nav__link">Blogs</a></li>
+                    <li><a href="{{ url_for('all_blogs') }}" class="nav__link">Blogs</a></li>
 
                     <li><a href="#" class="nav__link">Nova</a></li>
                 </ul>
