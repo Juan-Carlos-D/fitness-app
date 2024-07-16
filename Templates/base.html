@@ -11,7 +11,7 @@
 </head>
 <body {% block body_style %} style="background: url('{{ url_for('static', filename='Images/Home/ringggs.png') }}') no-repeat center center fixed; background-size: cover;" {% endblock %}>
 
-    {% comment %} <nav class="navbar">
+    {# <nav class="navbar">
         <div class="logo">
             <a href="{{ url_for('home') }}">
                 <img src="{{ url_for('static', filename='Images/Home/devcal.png') }}" alt="Logo">
@@ -50,7 +50,7 @@
             <span class="bar"></span>
         </div>
 
-    </nav> {% endcomment %}
+    </nav> #}
 
     {% block content %}{% endblock %}
 
