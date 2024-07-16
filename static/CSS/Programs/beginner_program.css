@@ -7,6 +7,7 @@ body {
     font-family: Copperplate, Fantasy; /* Adjust font family as needed */
     overflow-y: scroll; /* Allow vertical scrolling */
 }
+
 h2 {
     font-size: 2.5em;
     letter-spacing: 0.02em;
@@ -502,7 +503,7 @@ h2 {
     width: auto; /* Maintain aspect ratio */
 }
 
-.nav-list, .nav-list-right {
+.nav-list {
     display: flex; /* Use flexbox for horizontal layout */
     align-items: center; /* Center items vertically */
     list-style-type: none; /* Remove default list styles */
@@ -514,10 +515,6 @@ h2 {
     flex: 1; /* Allow the nav list to take available space */
     justify-content: center; /* Center items horizontally */
     height: 100%;
-}
-
-.nav-list-right {
-    display: none;
 }
 
 .nav-list-right .nav-link {
@@ -783,7 +780,7 @@ h2 {
 @media screen and (max-width: 1024px) {
     .hamburger {
         display: block;
-        margin-right: 130px;
+
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -809,8 +806,9 @@ h2 {
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        height: calc(100vh - 70px); /* Make the height of the nav-list fit within the viewport */
+        height: 100vh; /* Make the height of the nav-list fit within the viewport */
         overflow-y: auto; /* Add scroll if the content overflows */
+        margin: 0 auto;
     }
 
     .nav-item {
@@ -1201,8 +1199,73 @@ h2 {
 }
 
 @media screen and (max-width: 430px) {
+    .hamburger {
+        display: block;
+        margin-right: 140px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-list {
+        position: fixed;
+        left: -100%;
+        top: 100px;
+        gap: 0;
+        flex-direction: column;
+        /* Add background image with transparency */
+        background: url('../../Images/Home/chalk.png') no-repeat center center;
+        background-size: cover;
+        background-color: rgba(209, 219, 94, 0.7); /* Use rgba for transparency */
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        height: calc(100vh - 70px); /* Subtract the height of the navbar */
+        overflow-y: auto; /* Add scroll if the content overflows */
+        margin: 0 auto;
+
+    }
+
+    .nav-item {
+        width: 100%; /* Ensure the nav-item takes the full width */
+    }
+
+
+    .nav-link, .dropdown .nav-link {
+        display: block; /* Ensure the nav-link takes the full width */
+        padding: 10px 20px 10px 20px; /* Adjust padding to reduce height */
+        font-size: 1.8em; /* Adjust font size if needed */
+        border-bottom: 1px solid #2e3023; /* Add border between items */
+        width: 90%;
+        box-sizing: border-box; 
+    }
+
+    .dropdown-menu {
+        font-size: 1.2em;
+    }
+
+
+    .nav-list.active {
+        left: 0;
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+
+    .dropdown.active .dropdown-menu {
+        display: block;
+    }
+    
     body {
-        top: 1550px;
+        top: 850px;
     }
     .intro-section {
         flex-direction: column;
