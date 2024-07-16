@@ -5,7 +5,7 @@ body {
     min-height: 100vh; /* Ensure full viewport height */
     margin: 0;
     font-family: Copperplate, Fantasy; /* Adjust font family as needed */
-    overflow-y: auto; /* Allow vertical scrolling */
+    overflow-y: scroll; /* Allow vertical scrolling */
 }
 h2 {
     font-size: 2.5em;
@@ -473,6 +473,143 @@ h2 {
     bottom: 0;
 }
 
+/* NAV STYLE */
+
+.navbar {
+    width: 100%;
+    height: 102px;
+    background: rgba(0, 0, 0, 0.9);
+    /* background: linear-gradient(90deg,#777E27, rgba(0,0,0,0.6)); */
+    /* padding: 10px 20px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the navbar is above other elements */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Create space between logo and nav items */
+}
+
+.logo {
+    margin-left: 20px;
+    display: flex;
+    align-items: center; /* Center the logo vertically */
+    height: 100%; /* Make the height equal to the navbar */
+}
+
+.logo img {
+    height: 150px; /* Adjust height to enlarge the logo */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.nav-list, .nav-list-right {
+    display: flex; /* Use flexbox for horizontal layout */
+    align-items: center; /* Center items vertically */
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-list {
+    flex: 1; /* Allow the nav list to take available space */
+    justify-content: center; /* Center items horizontally */
+    height: 100%;
+}
+
+.nav-list-right {
+    display: none;
+}
+
+.nav-list-right .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 36px 50px; /* Adjust padding to reduce the total width */
+    transition: background-color 0.3s ease;
+    display: block; /* Ensure the anchor tag takes up full width by default */
+    white-space: nowrap; /* Prevent wrapping of text */
+}
+
+
+/* Other existing styles */
+
+.nav-item {
+    position: relative; /* Needed for dropdown positioning */
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 36px 46px;
+    transition: background-color 0.3s ease;
+    display: block; /* Ensure the anchor tag takes up full width by default */
+}
+
+.nav-link:hover {
+    background-color: #767D27;
+}
+
+/* DROPDOWN */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none; /* Hide dropdown by default */
+    position: absolute; /* Position dropdown relative to nav item */
+    top: 100%; /* Position below the nav item */
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Ensure dropdown is above other elements */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    opacity: 0; /* Initially hide items */
+    visibility: hidden; /* Hide visibility by default */
+    white-space: nowrap; /* Prevent wrapping of dropdown items */
+    border: 2px solid #8d9731;
+    min-width: 100%; /* Match dropdown menu width with parent nav item */
+    width: 100%; /* Adjust to fit content width */
+}
+
+.dropdown-item {
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    display: block; /* Ensure dropdown items take full width */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    border: 2px solid #8d9731; /* Add border around each dropdown item */
+    margin-bottom: -2px; /* Compensate for the border width to avoid double borders between items */
+    width: 100%; /* Ensure the dropdown item takes up full width of the dropdown menu */
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+}
+
+.dropdown-item:hover {
+    background-color: #767D27;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block; /* Show dropdown on hover */
+    opacity: 1; /* Make dropdown items visible */
+    visibility: visible; /* Ensure visibility */
+}
+
+/* HAMBURGER */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
 
 /* RESPONSIVE */
 @media screen and (max-width: 1280px) {
@@ -644,6 +781,67 @@ h2 {
 }
 
 @media screen and (max-width: 1024px) {
+    .hamburger {
+        display: block;
+        margin-right: 130px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-list {
+        position: fixed;
+        left: -100%;
+        top: 100px;
+        gap: 0;
+        flex-direction: column;
+        /* Add background image with transparency */
+        background: url('../../Images/Home/chalk.png') no-repeat center center;
+        background-size: cover;
+        background-color: rgba(209, 219, 94, 0.7); /* Use rgba for transparency */
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        height: calc(100vh - 70px); /* Make the height of the nav-list fit within the viewport */
+        overflow-y: auto; /* Add scroll if the content overflows */
+    }
+
+    .nav-item {
+        width: 100%; /* Ensure the nav-item takes the full width */
+    }
+
+    .nav-link, .dropdown .nav-link {
+        display: block; /* Ensure the nav-link takes the full width */
+        padding: 10px 20px; /* Adjust padding to reduce height */
+        font-size: 2.8em; /* Adjust font size if needed */
+        border-bottom: 1px solid #2e3023; /* Add border between items */
+        width: 100%;
+        box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+    }
+
+    .dropdown-menu {
+        font-size: 1.8em;
+    }
+
+    .nav-list.active {
+        left: 0;
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+
+    .dropdown.active .dropdown-menu {
+        display: block;
+    }
+    
     body {
         margin-top: 50px;
     }
