@@ -1,3 +1,5 @@
+
+
 /* General container styling */
 .container {
     padding: 20px;
@@ -5,7 +7,7 @@
     border-radius: 10px;
     color: #333;
     position: absolute;
-    top: 115px; /* Adjust this value to match the height of your navbar */
+    top: var(--header-height);
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
     width: 80%; /* Adjust width as needed */
@@ -29,7 +31,7 @@
     border-radius: 10px;
     color: #333;
     position: absolute;
-    top: calc(250px + 20px + 10px); /* Adjust top position based on .container height and spacing */
+    top: calc(var(--header-height) + 20px); /* Adjust accordingly */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
     width: 80%; /* Adjust width as needed */
