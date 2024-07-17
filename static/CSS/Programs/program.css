@@ -1,3 +1,5 @@
+/*================= PROGRAMS CONTAINER ==================*/
+
 .programs-container {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -14,6 +16,9 @@
     color: #007bff;
     word-wrap: normal; /* Ensure the text does not wrap */
 }
+
+/*================= INTRO SECTION CONTAINER ==================*/
+
 .intro-section-container {
     display: flex;
     justify-content: space-between; /* Ensure the items are spread out evenly */
@@ -74,6 +79,58 @@
     background-color: #0056b3;
 }
 
+/*================= PROGRAM GOALS CONTAINER ==================*/
+.program-goals-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border-radius: 10px;
+    color: #333;
+    width: 80%;
+    max-width: 1200px; /* Adjust width as needed */
+    margin: 50px auto; /* Center horizontally and add space below */
+}
+
+.program-goals-container h2 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 20px; /* Add space below heading */
+}
+
+.goals-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Ensure goals wrap on smaller screens */
+    margin-top: 20px; /* Add space between goals */
+}
+
+.goal {
+    width: 30%; /* Adjust width of each goal item */
+    text-align: center; /* Center-align content */
+    background-color: rgb(120, 120, 221);
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 1px solid white;
+    transition: background-color 0.5s ease-in-out, border 0.5s ease-in-out; /* Apply transition to both states */
+}
+
+.goal:hover {
+    background-color: transparent;
+    border: 1px solid rgb(120, 120, 221);    
+}
+
+.goal img {
+    width: 100%; /* Ensure image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add space below image */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.goal p {
+    margin-bottom: 20px;
+}
+
 /* Media query for responsiveness */
 @media (max-width: 768px) {
     .intro-section-container {
@@ -89,5 +146,14 @@
 
     .intro-left img {
         margin-bottom: 20px; /* Add space below the image */
+    }
+
+    .goals-container {
+        flex-direction: column; /* Stack goals vertically on small screens */
+        align-items: center; /* Center-align goals */
+    }
+
+    .goal {
+        width: 80%; /* Ensure goals take up more width on small screens */
     }
 }
