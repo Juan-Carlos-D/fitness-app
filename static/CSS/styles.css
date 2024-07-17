@@ -70,6 +70,7 @@
 .nav {
     height: var(--header-height);
     margin: 0;
+
   }
   
   .nav__logo, 
@@ -115,6 +116,8 @@
     font-size: 1.25rem;
     cursor: pointer;
     transition: opacity .1s, transform .4s;
+
+    
   }
   
   .nav__close {
