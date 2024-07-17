@@ -135,6 +135,9 @@ html {
     margin-bottom: 20px;
 }
 
+/*================= PROGRAM EQUIPMENT SECTION CONTAINER ==================*/
+
+
 /* Media query for responsiveness */
 @media (max-width: 768px) {
     .intro-section-container {
