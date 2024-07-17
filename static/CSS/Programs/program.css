@@ -1,0 +1,18 @@
+.programs-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border-radius: 10px;
+    color: #333;
+    position: absolute;
+    top: 110px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Limit maximum width for responsiveness */
+}
+
+.programs-container h1 {
+    font-size: 3em;
+    color: #007bff;
+}
