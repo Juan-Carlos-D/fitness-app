@@ -1,3 +1,7 @@
+html {
+    scrollbar-width: none;
+}
+
 /*================= PROGRAMS CONTAINER ==================*/
 
 .programs-container {
