@@ -5,12 +5,14 @@
 {% block content %}
 <div class="macronutrients-container">
     <h1>Understanding Macronutrients</h1>
+
     {% for macronutrient in macronutrients %}
     <div class="macronutrient-section">
         <h2>{{ macronutrient.name }}</h2>
         <p>{{ macronutrient.description }}</p>
     </div>
     {% endfor %}
+    
 </div>
 {% endblock %}
 
