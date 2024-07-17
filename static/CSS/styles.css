@@ -1,6 +1,6 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
-    --header-height: 4.5rem;
+    --header-height: 4.7rem;
   
     /*========== Colors ==========*/
     /*Color mode HSL(hue, saturation, lightness)*/
@@ -47,10 +47,9 @@
   a {
     text-decoration: none;
   }
-  
 
   /*=============== REUSABLE CSS CLASSES ===============*/
-.container {
+.nav-container {
     max-width: 1120px;
     margin-inline: 1.5rem;
   }
@@ -70,6 +69,7 @@
 /*=============== NAV ===============*/
 .nav {
     height: var(--header-height);
+    margin: 0;
   }
   
   .nav__logo, 
@@ -205,8 +205,7 @@
     font-weight: initial;
   }
   
-  .dropdown__link:hover, 
-  .dropdown__sublink:hover {
+  .dropdown__link:hover {
     background-color: var(--black-color);
   }
   
@@ -218,8 +217,7 @@
   }
   
   /* Show dropdown menu & submenu */
-  .dropdown__item:hover .dropdown__menu, 
-  .dropdown__subitem:hover > .dropdown__submenu {
+  .dropdown__item:hover .dropdown__menu {
     max-height: 1000px;
     transition: max-height .4s ease-in;
   }
@@ -232,7 +230,7 @@
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 340px) {
-    .container {
+    .nav-container {
       margin-inline: 1rem;
     }
   
@@ -243,7 +241,7 @@
   
   /* For large devices */
   @media screen and (min-width: 1118px) {
-    .container {
+    .nav-container {
       margin-inline: auto;
     }
   

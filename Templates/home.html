@@ -9,3 +9,8 @@
     <a href="{{ url_for('exercise', exercise_id=1) }}" class="start-button">Start Now</a>
 </div> 
 {% endblock %} 
+
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
