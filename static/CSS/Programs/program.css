@@ -137,20 +137,27 @@ html {
 
 /*================= PROGRAM EQUIPMENT SECTION CONTAINER ==================*/
 .program-equipment-section-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    margin-bottom: 20px; /* Add space below the section */
+    border-radius: 10px;
+    color: #333;
+    width: 80%;
+    max-width: 1200px; /* Adjust width as needed */
+    margin: 50px auto; /* Center horizontally and add space below */
 }
 
-.section-heading {
+.program-equipment-section-container .section-heading {
     font-size: 2.5em;
+    color: #007bff;
     margin-bottom: 20px; /* Add space below the heading */
 }
 
 .program-section,
 .equipment-section {
-    width: 40%;
+    width: 45%; /* Adjust width to fit within the container */
     background-color: rgb(120, 120, 221);
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 20px; /* Add padding inside the sections */
     box-sizing: border-box; /* Ensure padding is included in the width calculation */
     border: 1px solid white;
@@ -158,6 +165,7 @@ html {
     display: inline-block; /* Display inline-block to keep them side by side */
     vertical-align: top; /* Align to the top of the container */
     margin: 0 10px; /* Add margin between sections */
+    text-align: left;
 }
 
 .program-section h2,
@@ -229,5 +237,15 @@ html {
 
     .goal {
         width: 80%; /* Ensure goals take up more width on small screens */
+    }
+
+    .program-equipment-section-container {
+        flex-direction: column; /* Stack sections vertically on small screens */
+        text-align: center; /* Center-align text */
+    }
+
+    .program-section, .equipment-section {
+        width: 100%; /* Ensure full width on small screens */
+        margin: 10px 0; /* Add margin between sections */
     }
 }
