@@ -420,21 +420,9 @@ html {
 
     /* Manual Slide Nav */
     .navigation-manual {
-        position: absolute;
-        width: 100%; /* Adjust navigation width to full width */
-        bottom: 10px; /* Position navigation at the bottom of the slider */
-        display: flex;
-        justify-content: center;
+        display: none
     }
 
-    .manual-btn {
-        border: 2px solid #007BFF;
-        padding: 5px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 0.3s;
-        margin: 0 5px; /* Adjust margin for spacing between buttons */
-    }
 
     #radio1:checked ~ .first {
         margin-left: 0;
