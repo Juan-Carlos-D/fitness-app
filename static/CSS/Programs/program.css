@@ -215,17 +215,27 @@ html {
 
 /*================= LEVEL UP SECTION CONTAINER ==================*/
 .level-up-section-container {
-    text-align: center; /* Center-align content */
-    margin-top: 40px; /* Adjust top margin */
-    /* background-color: #40D3DC; */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border-radius: 10px;
+    color: #333;
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     align-items: center; /* Center all children horizontally */
 }
 
-.level-up-section-container h2,
+.level-up-section-container h2 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
 .level-up-section-container p {
-    margin-bottom: 20px; /* Add space below title and paragraph */
+    margin-bottom: 20px;
 }
 
 .slider {
@@ -334,7 +344,7 @@ html {
 }
 
 /* Media query for responsiveness */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .intro-section-container {
         flex-direction: column; /* Stack sections vertically on small screens */
         text-align: center; /* Center-align text */
@@ -367,5 +377,111 @@ html {
     .program-section, .equipment-section {
         width: 100%; /* Ensure full width on small screens */
         margin: 10px 0; /* Add margin between sections */
+    }
+
+    .level-up-section-container {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+
+    .level-up-section-container h2,
+    .level-up-section-container p {
+        margin-bottom: 15px; /* Add space below title and paragraph */
+    }
+
+    .slider {
+        width: 100%; /* Adjust slider width to full width */
+        max-width: 400px; /* Limit slider width for smaller screens */
+        height: auto; /* Allow slider height to adjust */
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        position: relative; /* Ensure positioning context for absolute elements */
+    }
+
+    .slides {
+        width: 400%; /* Adjust width of slides for smaller screens */
+        height: auto; /* Allow slider height to adjust */
+        display: flex;
+        overflow: hidden; /* Hide overflow to prevent content overflow */
+    }
+
+    .slide {
+        width: 25%; /* Adjust slide width for smaller screens */
+        transition: 2s;
+    }
+
+    .slide img {
+        width: 100%; /* Ensure images within slides take full width */
+        height: auto; /* Allow images to adjust height */
+        object-fit: cover; /* Ensure images cover the entire slide */
+        border-radius: 10px; /* Maintain rounded corners for images */
+    }
+
+    /* Manual Slide Nav */
+    .navigation-manual {
+        position: absolute;
+        width: 100%; /* Adjust navigation width to full width */
+        bottom: 10px; /* Position navigation at the bottom of the slider */
+        display: flex;
+        justify-content: center;
+    }
+
+    .manual-btn {
+        border: 2px solid #007BFF;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin: 0 5px; /* Adjust margin for spacing between buttons */
+    }
+
+    #radio1:checked ~ .first {
+        margin-left: 0;
+    }
+
+    #radio2:checked ~ .first {
+        margin-left: -25%;
+    }
+
+    #radio3:checked ~ .first {
+        margin-left: -50%;
+    }
+
+    #radio4:checked ~ .first {
+        margin-left: -75%;
+    }
+
+    /* Automatic Nav */
+    .navigation-auto {
+        position: absolute;
+        width: 100%; /* Adjust navigation width to full width */
+        bottom: 20px; /* Position navigation at the bottom of the slider */
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation-auto div {
+        border: 2px solid #007BFF;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 0.3s;
+        margin: 0 5px; /* Adjust margin for spacing between buttons */
+    }
+
+    #radio1:checked ~ .navigation-auto .auto-btn1 {
+        background: #007BFF;
+    }
+
+    #radio2:checked ~ .navigation-auto .auto-btn2 {
+        background: #007BFF;
+    }
+
+    #radio3:checked ~ .navigation-auto .auto-btn3 {
+        background: #007BFF;
+    }
+
+    #radio4:checked ~ .navigation-auto .auto-btn4 {
+        background: #007BFF;
     }
 }
