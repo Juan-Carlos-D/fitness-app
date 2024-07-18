@@ -380,7 +380,7 @@ html {
     }
 
     .level-up-section-container {
-        width: 90%; /* Adjust width for smaller screens */
+        width: 80%; /* Adjust width for smaller screens */
         padding: 15px; /* Reduce padding for smaller screens */
     }
 
@@ -420,8 +420,9 @@ html {
 
     /* Manual Slide Nav */
     .navigation-manual {
-        display: none
+        display: none;
     }
+
 
 
     #radio1:checked ~ .first {
