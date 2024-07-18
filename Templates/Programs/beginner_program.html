@@ -282,6 +282,58 @@
         </div>
     </div>
 
+    <div class="level-up-section-container">
+        <h2>Ready to Level Up?</h2>
+        <p>Join our <strong class="program-name">DevCalisthenics community</strong> and take your <span class="span-words">fitness journey</span> to the next level!</p>
+
+        <!--Image Slider Start-->
+        <div class="slider">
+            <div class="slides">
+                <!--Radio Btns Start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--Radio Btns End-->
+
+                <!--Slides Imgs Start-->
+                <div class="slide first">
+                    <img src="{{ url_for('static', filename='Images/Programs/planche.png') }}" alt="Bodyweight Pullup">
+                </div>
+                <div class="slide">
+                    <img src="{{ url_for('static', filename='Images/Programs/dipsoutdoor.png') }}" alt="Bodyweight Pullup">
+                </div>
+                <div class="slide">
+                    <img src="{{ url_for('static', filename='Images/Programs/pullupgroup.png') }}" alt="Bodyweight Pullup">
+                </div>
+                <div class="slide">
+                    <img src="{{ url_for('static', filename='Images/Programs/streetworkout.png') }}" alt="Bodyweight Pullup">
+                </div>
+                <!--Slides Imgs End-->
+
+                <!--Automatic Navigation Start-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!--Automatic Navigation End-->
+            </div>
+            <!--Manual Navigation Start-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--Manual Navigation End-->
+        </div>
+        <!--Image Slider End-->
+
+        <!-- <a href="#" class="btn-level-up">Explore Programs</a> -->
+    </div>
+
 {% endblock %}
 
 {% block body_style %}
