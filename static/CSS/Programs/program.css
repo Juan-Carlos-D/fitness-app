@@ -343,6 +343,118 @@ html {
     background: #007BFF;
 }
 
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    position: relative; /* Ensure positioning context for absolute elements */
+}
+
+/* .footer-line {
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 0;
+    height: 5px; 
+    background-color: #fff;
+} */
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    border-top: 1px solid #444;
+    padding: 10px 0;
+}
+
+
+.footer-column {
+    width: 9%; /* Adjust width of each column */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) */
+}
+
+.footer-column h3 {
+    font-size: 1.55em;
+    margin-bottom: 15px; /* Adjust margin for title */
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgb(120, 120, 221);
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+    font-size: 0.85em;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: rgb(120, 120, 221);
+}
+
+.socials {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px; /* Space between icons */
+    justify-content: flex-start; /* Align items to the start (left) */
+}
+
+.social-links li {
+    margin-bottom: 0; /* Remove bottom margin for icons */
+}
+
+.social-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links li a:hover {
+    color: rgb(120, 120, 221);
+}
+
+.social-links li a i {
+    font-size: 1.5em; /* Adjust icon size */
+}
+
+/* Footer Copyright Styles */
+.footer-copyright {
+    width: 100%;
+    background-color: #333; /* Match the background color of the footer */
+    color: #fff; /* White text color */
+    text-align: center; /* Center-align the text */
+    padding: 10px 0; /* Add padding for spacing */
+    font-size: 0.9em; /* Adjust font size */
+    border-top: 1px solid #444; /* Optional: Add a top border for separation */
+    position: relative;
+    bottom: 0;
+}
+
+
+
 /* Media query for responsiveness */
 @media screen and (max-width: 768px) {
     .intro-section-container {
