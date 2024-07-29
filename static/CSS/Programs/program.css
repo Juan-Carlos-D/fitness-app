@@ -585,4 +585,26 @@ html {
     #radio4:checked ~ .navigation-auto .auto-btn4 {
         background: #007BFF;
     }
+    .footer-columns {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center-align columns */
+    }
+
+    .footer-column {
+        width: 100%; /* Full width for each column */
+        margin-bottom: 20px; /* Add space between columns */
+        text-align: center; /* Center-align text */
+    }
+
+    .social-links {
+        justify-content: center; /* Center-align social icons */
+    }
+
+    .footer-column h3 {
+        text-align: center; /* Center-align headings */
+    }
+
+    .footer-column ul li {
+        text-align: center; /* Center-align list items */
+    }
 }
